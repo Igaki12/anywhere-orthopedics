@@ -101,7 +101,7 @@ function App() {
             loadLog(appName).logs &&
             loadLog(appName).logs.filter((log) => {
               return (
-                log.startTime && (log.review !== [] || log.remaining !== [])
+                log.startTime
               )
             }).length > 10 ? (
               <WrapItem w={'xs'}>
@@ -141,7 +141,7 @@ function App() {
             mt={2}
             mb={0}
           >
-            Pictures: Y.Kobayashi
+            CoWriter: Y.Kobayashi
           </Text>
           <Text
             fontSize="xs"
