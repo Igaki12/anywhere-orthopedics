@@ -1,3 +1,7 @@
+import OCDTreatment2 from './img/answer/OCDTreatment2.png';
+import OCDTreatment1 from './img/answer/OCDTreatment1.png';
+import pitchersElbow from './img/answer/pitchersElbow.png';
+import OCD from './img/answer/OCD.png';
 import Kienbock from './img/answer/Kienbock.png';
 import Preiser from './img/answer/Preiser.png';
 import survey from './img/answer/survey.png';
@@ -56,17 +60,17 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '外側型野球肘について誤っているのはどれか。',
                     choices: ['10~16歳に好発する','外側靭帯損傷が病因である', '繰り返す外反力により生じる', '局所安静により治癒する', '修復不良例には手術が行われる'],
-                    answerImg: [],
-                    answer: '局所安静により治癒する',
-                    commentary: '外側型野球肘は、10~16歳に好発し、外側靭帯損傷が病因であり、繰り返す外反力により生じる。局所安静により治癒することはない。修復不良例には手術が行われる。',
+                    answerImg: [pitchersElbow,OCD,OCDTreatment1,OCDTreatment2],
+                    answer: '外側靭帯損傷が病因である',
+                    commentary: '外側型野球肘は、10~16歳に好発し、繰り返す投球動作（肘の外反）によって成長途上の上腕骨小頭が圧迫され、軟骨化骨の壊死を生じる：離断性骨軟骨炎OCD。外反なので外側は圧迫、内側が伸展。',
                 },{
                     detailInfo: '6.',
                     questionImg: [],
                     questionSentence: '骨軟部腫瘍について正しいのはどれか。',
                     choices: ['全悪性腫瘍に占める骨軟部悪性腫瘍の割合は、約25%と1/4を占める。','悪性骨腫瘍においては、転移性骨腫瘍が原発性のものより多い', '軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴う', '原発性悪性軟部腫瘍では、ほとんどに化学療法が有用である', '多くはMRIで診断がおおむね可能であり、生検を要するのは限られた症例である'],
                     answerImg: [],
-                    answer: '軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴う',
-                    commentary: '軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴うことはない。軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴うことはない。軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴うことはない。軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴うことはない。',
+                    answer: '多くはMRIで診断がおおむね可能であり、生検を要するのは限られた症例である',
+                    commentary: '我が国の悪性軟部腫瘍発生率は2/100000で、全癌に占める割合は1%未満と稀である。軟部腫瘍とは、軟部組織(筋・脂肪・血管など)から発生する腫瘍であり、中胚葉由来のものが多い。良性は全身に好発し、大きさは小さい(<5cm)、緩徐に発育する、浅在性に局在する、比較的弾性が軟、一部をのぞいて無痛性などの特徴がある一方で、悪性は大腿での発生が多く、大きさは>5cmのものが多い、急速に増大する、深在性に局在する、弾性が硬、無痛性が多いなどの特徴がある。検査はMRIが最も有用であり、必要に応じてエコー・X線・CT・生検が行われる。治療は良性なら経過観察となることがあるが、悪性なら手術による除去が基本となり、必要に応じて化学療法や放射線療法を併用する。',
                 },{
                     detailInfo: '7.',
                     questionImg: [],

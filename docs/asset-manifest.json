@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.537576f6.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.596d3a19.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/Bouchard.png": "/anywhere-orthopedics/static/media/Bouchard.8e161b37df86c8e7a4b4.png",
     "static/media/osteoarthritis.png": "/anywhere-orthopedics/static/media/osteoarthritis.1e1ab8e7818e52213072.png",
+    "static/media/OCDTreatment2.png": "/anywhere-orthopedics/static/media/OCDTreatment2.cad9ba8b887ec6a85af3.png",
+    "static/media/OCDTreatment1.png": "/anywhere-orthopedics/static/media/OCDTreatment1.0ab4dc4d552c03eb8f05.png",
     "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
     "static/media/titleImg.jpg": "/anywhere-orthopedics/static/media/titleImg.de569f2e84f038079dc4.jpg",
+    "static/media/OCD.png": "/anywhere-orthopedics/static/media/OCD.593107c9010bf6b8bf38.png",
+    "static/media/pitchersElbow.png": "/anywhere-orthopedics/static/media/pitchersElbow.0c45fa50fe3c91bef94a.png",
     "static/media/survey.png": "/anywhere-orthopedics/static/media/survey.eb0320b04eab91298bc6.png",
     "static/media/Preiser.png": "/anywhere-orthopedics/static/media/Preiser.8dfc746cdb2ca49f2704.png",
     "static/media/Kienbock.png": "/anywhere-orthopedics/static/media/Kienbock.0c35d7c17efaaed01d28.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.537576f6.js.map": "/anywhere-orthopedics/static/js/main.537576f6.js.map"
+    "main.596d3a19.js.map": "/anywhere-orthopedics/static/js/main.596d3a19.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.537576f6.js"
+    "static/js/main.596d3a19.js"
   ]
 }
