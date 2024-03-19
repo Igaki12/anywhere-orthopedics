@@ -1,3 +1,10 @@
+import Kienbock from './img/answer/Kienbock.png';
+import Preiser from './img/answer/Preiser.png';
+import survey from './img/answer/survey.png';
+import Heberden from './img/answer/Heberden.png';
+import Bouchard from './img/answer/Bouchard.png';
+import anatomyHand from './img/answer/anatomyHand.png';
+import osteoarthritis from './img/answer/osteoarthritis.png';
 import {
     useState
 } from 'react'
@@ -25,25 +32,25 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '直近の国民生活基礎調査における女性での有訴者率の高い症状を示す。最も高いものから2つ選べ。',
                     choices: ['頭痛','腰痛', '肩こり', '鼻がつまる', 'せきやたんが出る'],
-                    answerImg: [],
+                    answerImg: [survey],
                     answer: '腰痛,肩こり',
-                    commentary: '直近の国民生活基礎調査における女性での有訴者率の高い症状は、腰痛が最も高く、次いで肩こりが高い。他、頭痛、鼻がつまる、せきやたんが出るの順に高い。',
+                    commentary: '直近の国民生活基礎調査における女性での有訴者率の高い症状は、腰痛が最も高く、次いで肩こりが高い。他、頭痛、鼻がつまる、せきやたんが出るの順に高い。女性では腰痛と肩こりが拮抗していて、年度によっては肩こりの方が高いこともある。',
                 },{
                     detailInfo: '3.',
-                    questionImg: [],
+                    questionImg: [anatomyHand,osteoarthritis,Heberden,Bouchard],
                     questionSentence: '手の変形性関節症の好発部位はどれか。3つ選べ。',
                     choices: ['母指手根中手関節','示指遠位指節間関節', '中指手根中手関節', '環指近位指節間関節', '小指中手指節関節'],
                     answerImg: [],
                     answer: '母指手根中手関節,示指遠位指節間関節,小指中手指節関節',
-                    commentary: '手の変形性関節症の好発部位は、母指手根中手関節、示指遠位指節間関節、小指中手指節関節である。',
+                    commentary: '変形性関節症(Osteoarthritis)とは、加齢などを基盤として生じ、関節の機能障害をきたす疾患である。手の変形性関節症の好発部位は、母指手根中手関節、示指遠位指節間関節などである。DIP関節の関節症はHeberden結節と呼ばれ、関節リウマチで認められるPIPボタン穴変形とは区別される。また小指PIP関節の関節症はBouchard結節と呼ばれる。これらは中年以降の女性に多く、複数の指で同時に発生する。母指CM関節症も使いすぎの高齢女性に多く、治療として人工関節手術・骨切り術・関節固定術などが行われる。遠位指節間関節/DIP:Distal Interphalangeal Joint、中指手根中手関節/CMC:Carpometacarpal Joint、中手指節関節/MCP:Metacarpophalangeal Joint、近位指節間関節/PIP:Proximal Interphalangeal Joint。',
                 },{
                     detailInfo: '4.',
                     questionImg: [],
                     questionSentence: '手根骨壊死の好発部位はどれか。2つ選べ。',
                     choices: ['月状骨','有鈎骨', '豆状骨', '三角骨', '舟状骨'],
-                    answerImg: [],
+                    answerImg: [Kienbock,Preiser],
                     answer: '月状骨,舟状骨',
-                    commentary: '手根骨壊死の好発部位は、月状骨、舟状骨である。',
+                    commentary: 'Kienbock(キーンベック)病は、月状骨への血行障害による無腐性壊死である。月状骨は、橈骨と尺骨の間に位置する手根骨の骨である。男性に多く、慢性外力による栄養動脈の遮断が原因とされる。Preiser(プライザー)病は、舟状骨への血行障害による無腐性壊死である。舟状骨は、橈骨と尺骨の間に位置する手根骨の骨である。Preiser病はそれほどメジャーな病気ではないが。他、有鈎骨、豆状骨、三角骨は手根骨壊死の好発部位ではない。',
                 },{
                     detailInfo: '5.',
                     questionImg: [],
