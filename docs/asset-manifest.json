@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.596d3a19.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.30a8005d.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/Bouchard.png": "/anywhere-orthopedics/static/media/Bouchard.8e161b37df86c8e7a4b4.png",
@@ -17,10 +17,10 @@
     "static/media/Kienbock.png": "/anywhere-orthopedics/static/media/Kienbock.0c35d7c17efaaed01d28.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.596d3a19.js.map": "/anywhere-orthopedics/static/js/main.596d3a19.js.map"
+    "main.30a8005d.js.map": "/anywhere-orthopedics/static/js/main.30a8005d.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.596d3a19.js"
+    "static/js/main.30a8005d.js"
   ]
 }
