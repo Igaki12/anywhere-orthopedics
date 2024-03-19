@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.00667285.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.b7bc4b19.js",
+    "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
     "static/media/titleImg.jpg": "/anywhere-orthopedics/static/media/titleImg.de569f2e84f038079dc4.jpg",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.00667285.js.map": "/anywhere-orthopedics/static/js/main.00667285.js.map"
+    "main.b7bc4b19.js.map": "/anywhere-orthopedics/static/js/main.b7bc4b19.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.00667285.js"
+    "static/js/main.b7bc4b19.js"
   ]
 }
