@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.30a8005d.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.14dd4227.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/Bouchard.png": "/anywhere-orthopedics/static/media/Bouchard.8e161b37df86c8e7a4b4.png",
@@ -9,18 +9,32 @@
     "static/media/OCDTreatment2.png": "/anywhere-orthopedics/static/media/OCDTreatment2.cad9ba8b887ec6a85af3.png",
     "static/media/OCDTreatment1.png": "/anywhere-orthopedics/static/media/OCDTreatment1.0ab4dc4d552c03eb8f05.png",
     "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
+    "static/media/halluxValgusSole.png": "/anywhere-orthopedics/static/media/halluxValgusSole.7cb3742dad7a1c626ce9.png",
     "static/media/titleImg.jpg": "/anywhere-orthopedics/static/media/titleImg.de569f2e84f038079dc4.jpg",
+    "static/media/artificialJointReplacement.png": "/anywhere-orthopedics/static/media/artificialJointReplacement.6555977225476eed2429.png",
+    "static/media/tibialOsteotomy.png": "/anywhere-orthopedics/static/media/tibialOsteotomy.f844f858c36896b94640.png",
     "static/media/OCD.png": "/anywhere-orthopedics/static/media/OCD.593107c9010bf6b8bf38.png",
     "static/media/pitchersElbow.png": "/anywhere-orthopedics/static/media/pitchersElbow.0c45fa50fe3c91bef94a.png",
+    "static/media/rehabilitation2.png": "/anywhere-orthopedics/static/media/rehabilitation2.a4d654d4d5db0cc005cc.png",
+    "static/media/rehabilitation1.png": "/anywhere-orthopedics/static/media/rehabilitation1.fc9477f8da631abd365d.png",
     "static/media/survey.png": "/anywhere-orthopedics/static/media/survey.eb0320b04eab91298bc6.png",
+    "static/media/footStretch.png": "/anywhere-orthopedics/static/media/footStretch.e2a6874d46b52da7e9de.png",
+    "static/media/guidelineOfSoftTissueTumor.png": "/anywhere-orthopedics/static/media/guidelineOfSoftTissueTumor.152badd878bd68581d4e.png",
+    "static/media/venousThrombolismFactor.png": "/anywhere-orthopedics/static/media/venousThrombolismFactor.0aec8c881e74ed40f2ab.png",
+    "static/media/pagetBone.png": "/anywhere-orthopedics/static/media/pagetBone.e753245cd90d831bfb36.png",
     "static/media/Preiser.png": "/anywhere-orthopedics/static/media/Preiser.8dfc746cdb2ca49f2704.png",
     "static/media/Kienbock.png": "/anywhere-orthopedics/static/media/Kienbock.0c35d7c17efaaed01d28.png",
+    "static/media/halluxValgusTreatment2.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment2.112d263687e6693d8a12.png",
+    "static/media/halluxValgusArthrodesis.png": "/anywhere-orthopedics/static/media/halluxValgusArthrodesis.025c6d6b77877914ea1f.png",
+    "static/media/osteoChondrosisName.png": "/anywhere-orthopedics/static/media/osteoChondrosisName.ee3f88636f099670621c.png",
+    "static/media/halluxValgusTreatment1.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment1.50ee42390fdad840a2b4.png",
+    "static/media/venousThrombolism.png": "/anywhere-orthopedics/static/media/venousThrombolism.5ef3ceba821f914e79eb.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.30a8005d.js.map": "/anywhere-orthopedics/static/js/main.30a8005d.js.map"
+    "main.14dd4227.js.map": "/anywhere-orthopedics/static/js/main.14dd4227.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.30a8005d.js"
+    "static/js/main.14dd4227.js"
   ]
 }
