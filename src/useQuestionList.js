@@ -1,3 +1,14 @@
+import lithotomyPosition from './img/answer/lithotomyPosition.png';
+import TrendelenburgSign from './img/answer/TrendelenburgSign.png';
+import carpalTunnelSyndrome1 from './img/answer/carpalTunnelSyndrome1.png';
+import carpalTunnelSyndrome2 from './img/answer/carpalTunnelSyndrome2.png';
+import childAbuse3 from './img/answer/childAbuse3.png';
+import question23 from './img/answer/question23.png';
+import dysplasiaOfHip2 from './img/answer/dysplasiaOfHip2.png';
+import dysplasiaOfHip3 from './img/answer/dysplasiaOfHip3.png';
+import childAbuse2 from './img/answer/childAbuse2.png';
+import dysplasiaOfHip1 from './img/answer/dysplasiaOfHip1.png';
+import childAbuse1 from './img/answer/childAbuse1.png';
 import lumbarDiscHerniation from './img/answer/lumbarDiscHerniation.png';
 import locomotiveSyndrome from './img/answer/locomotiveSyndrome.png';
 import locoCheck from './img/answer/locoCheck.png';
@@ -202,53 +213,53 @@ export const useQuestionList = () => {
                     answer: '排尿障害',
                     commentary: '椎間板ヘルニアは、腰椎の椎間板が損傷し、内部のゲル状の核が椎間板の外側に突出する状態を指す。椎間板ヘルニアが脊髄や神経根を圧迫することで、腰痛や下肢痛、しびれ、筋力低下などの症状が生じる。緊急手術の適応として、巨大ヘルニアによって足が動かなくなったり、排尿障害が生じたりする場合がある。他の選択肢もヘルニアによる症状であるが、緊急手術の適応としては排尿障害が最も重要である。'
                 },{
-                    detailInfo: '21.',
+                    detailInfo: '21. AI正解',
                     questionImg: [],
                     questionSentence: '先天性股関節脱臼の特徴で誤っているのはどれか。',
                     choices: ['家族内発生は少ない。','第1子に多く発症する。', '骨盤位分娩に多く発症する。', 'ここ数年、発生率が増加している。', '患側股関節の皮膚溝が健側に比べ深く、 多くなる。'],
-                    answerImg: [],
+                    answerImg: [dysplasiaOfHip1,dysplasiaOfHip2,dysplasiaOfHip3],
                     answer: '家族内発生は少ない。',
-                    commentary: '先天性股関節脱臼の特徴で家族内発生は少ないことはない。先天性股関節脱臼の特徴で家族内発生は少ないことはない。',
+                    commentary: '先天性股関節脱臼は女児、骨盤位分娩、冬季の出生に多いとされている。近年出生後の脱臼予防活動が徹底されるようになり、発生率が減少して現在では0.1~0.3%程度である。つまり多くは先天疾患ではなく抱え方の問題であったりするので発育性股関節形成不全:Developmental dysplasia of the hipとも呼ばれ、最初の第１子で多く見られるが、一方で最近の傾向として家族歴(血のつながった家族に先天性股関節脱臼や変形性股関節症など股関節の悪い人が存在する)のある赤ちゃんが多くなってきている。股関節が脱臼した場合は、関節包内で、大腿骨が後ろ外方に変異し、寛骨臼の外に位置するので、皮膚溝が健常側に比べて深く、多くなる。'
                 },{
                     detailInfo: '22.',
                     questionImg: [],
                     questionSentence: '小児虐待について正しいのはどれか。',
                     choices: ['児童虐待の発生はほとんどが小学生以上の児童である。','1歳未満の重度頭部外傷の10%は虐待である。', '児童虐待を疑った場合は通告の義務があり、これは医師の守秘義務違反には当たらない。', '新旧織り交ぜた多発骨折を見た場合でも虐待の可能性は低い。', '児童虐待の相談・処理件数はここ10年で年々減っている。'],
-                    answerImg: [],
+                    answerImg: [childAbuse1,childAbuse2,childAbuse3],
                     answer: '1歳未満の重度頭部外傷の10%は虐待である。',
-                    commentary: '小児虐待について1歳未満の重度頭部外傷の10%は虐待であることはない。小児虐待について1歳未満の重度頭部外傷の10%は虐待であることはない。',
+                    commentary: '児童虐待のおよそ半数が小学生以上であるが、ほとんどとは言えない。児童虐待の相談件数は年々増加してきている。解答保留',
                 },{
-                    detailInfo: '23.',
+                    detailInfo: '23. AI正解',
                     questionImg: [],
                     questionSentence: '88歳の女性。室内で転倒し動けなくなり搬入された。右大腿骨転子部骨折と診断され、翌日に骨接合術を受けた。 10年前から Alzheimer 型認知症で内服治療を受けている。 手術当日に起こりうる合併症はどれか。 3つ選べ。',
                     choices: ['褥瘡','せん妄', '偽関節', '関節拘縮', '深部靜脈血栓症'],
-                    answerImg: [],
+                    answerImg: [question23],
                     answer: '褥瘡,せん妄,深部靜脈血栓症',
-                    commentary: '88歳の女性。室内で転倒し動けなくなり搬入された。右大腿骨転子部骨折と診断され、翌日に骨接合術を受けた。 10年前から Alzheimer 型認知症で内服治療を受けている。 手術当日に起こりうる合併症は褥瘡、せん妄、深部靜脈血栓症である。',
+                    commentary: '褥瘡は床ずれとも呼ばれ、患者が長時間同じ体勢でいることにより、皮膚が圧迫されることで皮膚の血行が悪くなり、皮膚が壊死する病態である。せん妄は、急性の意識障害であり、病気や薬の副作用、環境の変化などが原因となる。深部静脈血栓症は、下肢の静脈に血栓ができる病態であり、術後に発生することがある。'
                 },{
-                    detailInfo: '24.',
+                    detailInfo: '24. AI正解',
                     questionImg: [],
                     questionSentence: '右中殿筋不全患者の歩行時にみられるのはどれか。',
                     choices: ['体幹を前に傾ける。','右下肢を分回しする。', '右大腿骨遠位に手を当てる。', '左右の下肢を側方に広げる。', '右立脚時に骨盤を左側に傾ける。'],
-                    answerImg: [],
+                    answerImg: [TrendelenburgSign],
                     answer: '右立脚時に骨盤を左側に傾ける。',
-                    commentary: '右中殿筋不全患者の歩行時には、右立脚時に骨盤を左側に傾けることがある。右中殿筋不全患者の歩行時には、右立脚時に骨盤を左側に傾けることがある。',
+                    commentary: 'Trendenburg sign(トレンデレンブルグ徴候)は、骨盤が立脚側に傾く徴候であり、右中殿筋不全の場合は右立脚時に骨盤が左側に傾く。中臀筋は骨盤を安定させる筋肉であり、中臀筋の不全により骨盤が立脚側に傾く。'
                 },{
-                    detailInfo: '25.',
+                    detailInfo: '25. AI正解',
                     questionImg: [],
                     questionSentence: '手根管症候群について正しいのはどれか。3つ選べ。',
                     choices: ['女性に多い。','長期血液透析患者に発症しやすい。', '重症例では母指の対立運動が障害される。', '日中に増悪する疼痛が特徴である。', '保存療法は無効である。'],
-                    answerImg: [],
+                    answerImg: [carpalTunnelSyndrome1,carpalTunnelSyndrome2],
                     answer: '女性に多い,長期血液透析患者に発症しやすい,重症例では母指の対立運動が障害される。',
-                    commentary: '手根管症候群については、日中に増悪する疼痛が特徴であることはない。手根管症候群については、日中に増悪する疼痛が特徴であることはない。',
+                    commentary: '手根管症候群は、妊娠・出産期や更年期の女性や、骨折などの怪我、仕事などによる酷使、透析をしている人に好発する原因不明の疾患。重症例では母指球が痩せて対立運動が障害される。疼痛は夜中や明け方に増悪する（夜間痛）ことが多く、日中に増悪することは少ない。治療としてはまず日常生活指導や装具固定、ステロイド局所注射などの保存療法が行われるが、無効な場合は手根管解放術などの手術が行われる。'
                 },{
                     detailInfo: '26.',
                     questionImg: [],
                     questionSentence: '腓骨神経麻痺について正しいのはどれか。3つ選べ。',
                     choices: ['下肢における神経麻痺の中で最も頻度が高い。','足関節の底屈が障害される。', '砕石位の手術の際に起こりやすい合併症のひとつである。', '神経の連続性が保たれている場合は自然回復する可能性がある。', '腓骨神経麻痺による足関節の底屈が障害される。'],
-                    answerImg: [],
-                    answer: '下肢における神経麻痺の中で最も頻度が高い,足関節の底屈が障害される,神経の連続性が保たれている場合は自然回復する可能性がある。',
-                    commentary: '腓骨神経麻痺については、腓骨神経麻痺による足関節の底屈が障害されることはない。腓骨神経麻痺については、腓骨神経麻痺による足関節の底屈が障害されることはない。',
+                    answerImg: [lithotomyPosition],
+                    answer: '下肢における神経麻痺の中で最も頻度が高い,砕石位の手術の際に起こりやすい合併症のひとつである,神経の連続性が保たれている場合は自然回復する可能性がある。',
+                    commentary: '腓骨神経麻痺とは、総腓骨神経などが主に腓骨頚部で圧迫されることにより、総腓骨神経の支配する前脛骨筋や長趾伸筋など足趾・足関節の背屈運動が障害される病態である。下肢における神経麻痺の中で最も頻度が高い。長時間足組みをした後や、骨折・脱臼などの外傷後、ギプス固定後などに好発する。図のような砕石位の手術の際に起こりやすい合併症の一つである。末梢神経伝導検査や超音波検査などが行われ、回復が見込める場合は装具固定や薬物療法などの保存療法が行われる。腫瘤などの圧迫や神経断裂があったり、陳旧例などで回復が見込めない場合は後脛骨筋腱移植術などの手術が行われる。'
                 },{
                     detailInfo: '27.',
                     questionImg: [],
