@@ -1,3 +1,6 @@
+import kneeOsteoarthritis from './img/answer/kneeOsteoarthritis.png';
+import question202115 from './img/answer/question202115.png';
+import ankleLigament from './img/answer/ankleLigament.png';
 import osteosarcoma from './img/answer/osteosarcoma.png';
 import SoftTissueTumorRI from './img/answer/SoftTissueTumorRI.png';
 import halluxValgusCause2 from './img/answer/halluxValgusCause2.png';
@@ -206,7 +209,7 @@ export const useQuestionList = () => {
                     choices: ['ペルテス病は女児に多い。','キーンベック病は手をよく使用する男性に多い。', '第1ケーラー病は中足骨に発症する。', 'オスグッド・シュラッター病の両側発症はみられない。', 'パンナー病は局所安静で自然治癒が期待できる。'],
                     answerImg: [osteoChondrosisName],
                     answer: 'キーンベック病は手をよく使用する男性に多い,パンナー病は局所安静で自然治癒が期待できる',
-                    commentary: '骨端症：osteochondrosisは、骨端に発生する阻血性骨壊死のことで、主として成長期の骨端に発生し、40種類以上報告され発見者の名前が付けられている。ペルテス病:Perthesは大腿骨頭の骨端症で、5-8歳の男児に発症することが多い。キーンベック病:Kienbockは手の月状骨の骨端症で、20-40歳の手をよく使う男性に好発する。第1ケーラー病:Kohlerは足の舟状骨の骨端症で、3-7歳の男児に好発する。オスグッド・シュラッター病:Ogood-Schlatterは脛骨粗面の骨端症で、12-15歳の男児に好発する。パンナー病:Pannerは肘の内側上顆上腕骨小頭の骨端症で、4-10歳の男児の利き腕に好発し、局所安静で自然修復する。'
+                    commentary: '骨端症：osteochondrosisは、骨端に発生する阻血性骨壊死のことで、主として成長期の骨端に発生し、40種類以上報告され発見者の名前が付けられている。ペルテス病:Perthesは大腿骨頭の骨端症で、5-8歳の男児に発症することが多い。キーンベック病:Kienbockは手の月状骨の骨端症で、20-40歳の手をよく使う男性に好発する。第1ケーラー病:Kohlerは足の舟状骨の骨端症で、3-7歳の男児に好発する。オスグッド・シュラッター病:Ogood-Schlatterは脛骨粗面の骨端症で、12-15歳の男児に好発する。筋より骨の成長が早いことが原因のため、多くは両側性に発症する。パンナー病:Pannerは肘の内側上顆上腕骨小頭の骨端症で、4-10歳の男児の利き腕に好発し、局所安静で自然修復する。'
                 },{
                     detailInfo: '18.',
                     questionImg: [],
@@ -412,7 +415,6 @@ export const useQuestionList = () => {
             answer: 'パラミクソウイルスの関与が指摘されている。 アルカリフォスファターゼは増加を示す。 ビスフォスフォネート製剤の有効性がある。',
             commentary: '骨Paget病は単純X線では骨吸収と硬化(修復ではない)が混在するモザイク像が見られ、白人に多くアジア人には稀の疾患。パラミクソウイルスの関与が示唆されていて、ALP(アルカリホスファターゼ)は増加を示す。治療には、鎮痛薬や骨吸収に対してビスフォスフォネート剤が用いられる。',
         },{
-        },{
             detailInfo: '12.',
             questionImg: [],
             questionSentence: '外反母趾に成因について誤っているのはどれか。2つ選べ。',
@@ -426,24 +428,24 @@ export const useQuestionList = () => {
             questionSentence: '成人期扁平足において陽性となる徴候もしくはテストを2つ選べ。',
             choices: ['too many toes sign','single heel rise test', 'Thompson test', 'Jackson test', 'Spuling test'],
             answerImg: [],
-            answer: 'too many toes sign,Thompson test',
-            commentary: '成人期扁平足において陽性となる徴候もしくはテストは、too many toes sign, Thompson testである。成人期扁平足において陽性となる徴候もしくはテストは、too many toes sign, Thompson testである。',
+            answer: 'too many toes sign,single heel rise test',
+            commentary: '成人期扁平足はtoo many toes signといって、立位をとらせて後方から観察すると、踵が外反し前足部が外転することにより、健側に比べて患趾が多く見えるのが特徴です。他にもsingle heel rise testといって片脚で爪先立ちができなくなったり、荷重時のX線で異常所見が観察できたり、MRI検査で腱の断裂が確認できたりすると診断が確定します。',
         },{
             detailInfo: '14.',
             questionImg: [],
             questionSentence: '足関節外側靭帯として不適切なのはどれか。2つ選べ。',
             choices: ['前距腓靭帯','踵腓靭帯', '後距腓靭帯', '前十字靭帯', '後十字韌帶'],
-            answerImg: [],
-            answer: '前距腓靭帯,後十字韌帶',
-            commentary: '足関節外側靭帯として不適切なのは、前距腓靭帯, 後十字韌帶である。足関節外側靭帯として不適切なのは、前距腓靭帯, 後十字韌帶である。',
+            answerImg: [ankleLigament],
+            answer: '前十字靭帯,後十字韌帶',
+            commentary: '足関節外側靭帯は、足首の外側にあり安定性を支持するための靱帯で、前距腓靱帯、踵腓靱帯、後距腓靱帯の3つの靭帯の総称です。これらの靱帯と周囲の筋肉が協働して足首の外側の安定性を保ちます。前十字靭帯・後十字靭帯は膝関節に存在する靭帯であり、足関節には存在しません。',
         },{
             detailInfo: '15.',
-            questionImg: [],
+            questionImg: [question202115],
             questionSentence: '76歳の女性。右膝関節痛を主訴に来院した。2年前に歩行時の右膝関節痛を自覚し徐々に悪化している。最近歩行が困難になったため受診した。右膝関節の外傷歴はない。身長156cm、体重70kg。体温36.3°C。脈拍64/分、整。右膝関節に膝蓋跳動と内反変形とを認めるが発赤と熱感はない。右膝関節エックス線写真を別に示す。今後の対応の説明で誤っているのはどれか。',
             choices: ['「大腿部の筋力を強くしましょう」','「杖の使用は避けてください」', '「関節を保温するようにしましょう」', '「体重を減らしましょう」', '「手術を検討しましょう」'],
-            answerImg: [],
-            answer: '「大腿部の筋力を強くしましょう」',
-            commentary: '今後の対応の説明で、大腿部の筋力を強くしましょうと説明することはない。今後の対応の説明で、大腿部の筋力を強くしましょうと説明することはない。',
+            answerImg: [kneeOsteoarthritis],
+            answer: '「杖の使用は避けてください」',
+            commentary: '40歳以上で「膝の痛み」でお悩みの方は全国で800万人（推定）。その大部分は、変形性膝関節症によるものです。  変形性膝関節症とは、膝の関節の軟骨の質が低下し、少しずつすり減り、歩行時に膝の痛みが出現する病気です。平地での歩行は大丈夫でも、階段で膝が痛いために困っている、歩行時の膝の痛みはないけれど、正座は膝が痛くてできない、などが初期の変形性膝関節症の症状です。変形性膝関節症の治療には、（1）手術以外の方法(保存療法)と、（2）手術による治療(手術療法)、に分けることができます。 （1）手術以外の治療の原則は、①運動療法その他の薬以外の治療法と、②炎症や痛みを抑えるための薬による治療、の2つを併用します。 まず痛みを早く取り除くことが一番ですが、それとともに一度擦り減った軟骨は再生しないため、如何に進行を抑えるかも治療の目的となります。大腿四頭筋を鍛える・正座を避ける・減量する・膝の血行を良くすることは予防として重要であり、また重症の場合は手術治療も選択肢の一つとなる。'
         },{
             detailInfo: '16.',
             questionImg: [],

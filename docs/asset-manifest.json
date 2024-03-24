@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.d6e0ac72.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.c4c0c755.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/locomotiveSyndrome.png": "/anywhere-orthopedics/static/media/locomotiveSyndrome.080bad20de21ac7945a9.png",
@@ -18,6 +18,7 @@
     "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
     "static/media/clubFeet.png": "/anywhere-orthopedics/static/media/clubFeet.d8233905c2c3d96076c2.png",
     "static/media/carpalTunnelSyndrome1.png": "/anywhere-orthopedics/static/media/carpalTunnelSyndrome1.3b512aaf75e3bb467c24.png",
+    "static/media/kneeOsteoarthritis.png": "/anywhere-orthopedics/static/media/kneeOsteoarthritis.cee22a2eb60797f28777.png",
     "static/media/halluxValgusSole.png": "/anywhere-orthopedics/static/media/halluxValgusSole.7cb3742dad7a1c626ce9.png",
     "static/media/titleImg.jpg": "/anywhere-orthopedics/static/media/titleImg.de569f2e84f038079dc4.jpg",
     "static/media/guyonCanal.png": "/anywhere-orthopedics/static/media/guyonCanal.bc7109809d8d6eadf334.png",
@@ -34,11 +35,13 @@
     "static/media/rehabilitation1.png": "/anywhere-orthopedics/static/media/rehabilitation1.fc9477f8da631abd365d.png",
     "static/media/survey.png": "/anywhere-orthopedics/static/media/survey.eb0320b04eab91298bc6.png",
     "static/media/halluxValgusCause1.png": "/anywhere-orthopedics/static/media/halluxValgusCause1.c0cf71a087ff40b052ea.png",
+    "static/media/question202115.png": "/anywhere-orthopedics/static/media/question202115.fd2c6dc70c4078c8fde3.png",
     "static/media/artificialJointData.png": "/anywhere-orthopedics/static/media/artificialJointData.31aa25cc3dad8934dcec.png",
     "static/media/guyonCanalSyndrome1.png": "/anywhere-orthopedics/static/media/guyonCanalSyndrome1.13b30d308810f52825d7.png",
     "static/media/footStretch.png": "/anywhere-orthopedics/static/media/footStretch.e2a6874d46b52da7e9de.png",
     "static/media/childAbuse1.png": "/anywhere-orthopedics/static/media/childAbuse1.046995c07db45b94f781.png",
     "static/media/guidelineOfSoftTissueTumor.png": "/anywhere-orthopedics/static/media/guidelineOfSoftTissueTumor.152badd878bd68581d4e.png",
+    "static/media/ankleLigament.png": "/anywhere-orthopedics/static/media/ankleLigament.7b05f51f8c956b84f8cb.png",
     "static/media/dysplasiaOfHip2.png": "/anywhere-orthopedics/static/media/dysplasiaOfHip2.646d56adb80cc54defa3.png",
     "static/media/TrendelenburgSign.png": "/anywhere-orthopedics/static/media/TrendelenburgSign.b96800f603255e57391f.png",
     "static/media/venousThrombolismFactor.png": "/anywhere-orthopedics/static/media/venousThrombolismFactor.0aec8c881e74ed40f2ab.png",
@@ -65,10 +68,10 @@
     "static/media/ankleOsteoarthritisComparingTreatments.png": "/anywhere-orthopedics/static/media/ankleOsteoarthritisComparingTreatments.0b9aa8e195e686da3950.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.d6e0ac72.js.map": "/anywhere-orthopedics/static/js/main.d6e0ac72.js.map"
+    "main.c4c0c755.js.map": "/anywhere-orthopedics/static/js/main.c4c0c755.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.d6e0ac72.js"
+    "static/js/main.c4c0c755.js"
   ]
 }
