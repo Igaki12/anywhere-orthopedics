@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.a9cd7175.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.d6e0ac72.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/locomotiveSyndrome.png": "/anywhere-orthopedics/static/media/locomotiveSyndrome.080bad20de21ac7945a9.png",
@@ -14,6 +14,7 @@
     "static/media/locoCheck.png": "/anywhere-orthopedics/static/media/locoCheck.53aa9d59ae86b2ff18c1.png",
     "static/media/lumbarDiscHerniation.png": "/anywhere-orthopedics/static/media/lumbarDiscHerniation.b7719e7c8833d3841e83.png",
     "static/media/adolescentIdiopathicScoliosis.png": "/anywhere-orthopedics/static/media/adolescentIdiopathicScoliosis.a9f137000102e4228b51.png",
+    "static/media/halluxValgusCause2.png": "/anywhere-orthopedics/static/media/halluxValgusCause2.7eaeaad61618800eeaed.png",
     "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
     "static/media/clubFeet.png": "/anywhere-orthopedics/static/media/clubFeet.d8233905c2c3d96076c2.png",
     "static/media/carpalTunnelSyndrome1.png": "/anywhere-orthopedics/static/media/carpalTunnelSyndrome1.3b512aaf75e3bb467c24.png",
@@ -32,6 +33,7 @@
     "static/media/fracture2.png": "/anywhere-orthopedics/static/media/fracture2.788db5b7e22a8a7f872a.png",
     "static/media/rehabilitation1.png": "/anywhere-orthopedics/static/media/rehabilitation1.fc9477f8da631abd365d.png",
     "static/media/survey.png": "/anywhere-orthopedics/static/media/survey.eb0320b04eab91298bc6.png",
+    "static/media/halluxValgusCause1.png": "/anywhere-orthopedics/static/media/halluxValgusCause1.c0cf71a087ff40b052ea.png",
     "static/media/artificialJointData.png": "/anywhere-orthopedics/static/media/artificialJointData.31aa25cc3dad8934dcec.png",
     "static/media/guyonCanalSyndrome1.png": "/anywhere-orthopedics/static/media/guyonCanalSyndrome1.13b30d308810f52825d7.png",
     "static/media/footStretch.png": "/anywhere-orthopedics/static/media/footStretch.e2a6874d46b52da7e9de.png",
@@ -49,6 +51,7 @@
     "static/media/nonarticulationSymptomsOfRA.png": "/anywhere-orthopedics/static/media/nonarticulationSymptomsOfRA.5f70b03d987b42bab591.png",
     "static/media/childAbuse2.png": "/anywhere-orthopedics/static/media/childAbuse2.e94fd4e66f02b2daaa05.png",
     "static/media/ankleOsteoarthritis.png": "/anywhere-orthopedics/static/media/ankleOsteoarthritis.89a4700ab5bb9b1a564b.png",
+    "static/media/osteosarcoma.png": "/anywhere-orthopedics/static/media/osteosarcoma.ff274fe1d14297422fbf.png",
     "static/media/guyonCanalSyndrome2.png": "/anywhere-orthopedics/static/media/guyonCanalSyndrome2.010ae90d7825dfd8e84f.png",
     "static/media/Kienbock.png": "/anywhere-orthopedics/static/media/Kienbock.0c35d7c17efaaed01d28.png",
     "static/media/halluxValgusTreatment2.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment2.112d263687e6693d8a12.png",
@@ -57,14 +60,15 @@
     "static/media/halluxValgusTreatment1.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment1.50ee42390fdad840a2b4.png",
     "static/media/question23.png": "/anywhere-orthopedics/static/media/question23.16e0a156ef0e6762dbf7.png",
     "static/media/venousThrombolism.png": "/anywhere-orthopedics/static/media/venousThrombolism.5ef3ceba821f914e79eb.png",
+    "static/media/SoftTissueTumorRI.png": "/anywhere-orthopedics/static/media/SoftTissueTumorRI.fb1ba77dddd7289c77d4.png",
     "static/media/lithotomyPosition.png": "/anywhere-orthopedics/static/media/lithotomyPosition.741c544f10919f26ef0b.png",
     "static/media/ankleOsteoarthritisComparingTreatments.png": "/anywhere-orthopedics/static/media/ankleOsteoarthritisComparingTreatments.0b9aa8e195e686da3950.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.a9cd7175.js.map": "/anywhere-orthopedics/static/js/main.a9cd7175.js.map"
+    "main.d6e0ac72.js.map": "/anywhere-orthopedics/static/js/main.d6e0ac72.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.a9cd7175.js"
+    "static/js/main.d6e0ac72.js"
   ]
 }
