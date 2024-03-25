@@ -305,7 +305,7 @@ export const useQuestionList = () => {
                     detailInfo: '29. AI正解?',
                     questionImg: [],
                     questionSentence: '関節リウマチの2010年ACR/EULAR 分類基準の評価項目に含まれないものはどれか。',
-                    choices: ['CRP','リウマトイド因子', '罹病期間', '抗 CCP 抗体'],
+                    choices: ['CRP','リウマトイド因子', '罹病期間', '抗CCP抗体'],
                     answerImg: [RA2010],
                     answer: 'CRP',
                     commentary: '関節リウマチの分類基準はいくつかあるが、ACR/EULAR分類基準では、主に炎症関節の数・血清中抗体(リウマトイド因子/抗CCP抗体)・罹患期間(6週)・炎症反応(CRPやESR)についての評価が行われる。選択肢の項目は全て含まれているが、試験中に選択肢の誤りについてアナウンスがあったらしく、何らかの不備があるのではないかと思われる。ちなみに、1987米国リウマチ学会の分類基準では、CPRは含まれていない。そのほか、関節リウマチの検査では軟骨破壊に関連するMMP-3なども有用である。'
@@ -557,7 +557,7 @@ export const useQuestionList = () => {
             detailInfo: '29. AI正解',
             questionImg: [],
             questionSentence: '関節リウマチの2010年ACR/EULAR 分類基準の評価項目に含まれないものはどれか。',
-            choices: ['CRP','単純X線', '罹病期間', '腫脹関節', '抗 CCP 抗体'],
+            choices: ['CRP','単純X線', '罹病期間', '腫脹関節', '抗CCP抗体'],
             answerImg: [RA2010],
             answer: '単純X線',
             commentary: '関節リウマチの分類基準として、2010年にACR/EULARによって新たに提唱された基準がある。この基準では、腫脹関節の数・血清反応(リウマトイド因子/抗CCP抗体)・急性炎症反応(CRP/ESR)・関節リウマチの病期間の4つの項目が評価され、これらの項目によってスコアが算出される。'
