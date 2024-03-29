@@ -72,7 +72,7 @@ function App() {
           px="2"
           colorScheme="red"
         >
-          {jpName}
+          運動器
         </Badge>
         <Badge
           variant='outline'
@@ -82,8 +82,18 @@ function App() {
           px="2"
           colorScheme="red"
         >
-          眼疾患対策
+          眼疾患
         </Badge>
+        <Badge
+          variant='outline'
+          m={1}
+          mt="-0.5"
+          borderRadius="full"
+          px="2"
+          colorScheme="red"
+        >
+          移植再生医療
+          </Badge>
       </Flex>
 
       {log.startTime !== '' ? (
