@@ -74,6 +74,16 @@ function App() {
         >
           {jpName}
         </Badge>
+        <Badge
+          variant='outline'
+          m={1}
+          mt="-0.5"
+          borderRadius="full"
+          px="2"
+          colorScheme="red"
+        >
+          眼疾患対策
+        </Badge>
       </Flex>
 
       {log.startTime !== '' ? (
