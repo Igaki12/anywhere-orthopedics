@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.8e7b6312.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.5926d3be.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/locomotiveSyndrome.png": "/anywhere-orthopedics/static/media/locomotiveSyndrome.080bad20de21ac7945a9.png",
@@ -11,11 +11,14 @@
     "static/media/OCDTreatment2.png": "/anywhere-orthopedics/static/media/OCDTreatment2.cad9ba8b887ec6a85af3.png",
     "static/media/OCDTreatment1.png": "/anywhere-orthopedics/static/media/OCDTreatment1.0ab4dc4d552c03eb8f05.png",
     "static/media/carpalTunnelSyndrome2.png": "/anywhere-orthopedics/static/media/carpalTunnelSyndrome2.006dc60ef316978d2b33.png",
+    "static/media/eyeAnatomy.png": "/anywhere-orthopedics/static/media/eyeAnatomy.61f085c73bd6cc7033a8.png",
+    "static/media/cataractSurgerySteps.png": "/anywhere-orthopedics/static/media/cataractSurgerySteps.337e5603e879dff5c575.png",
     "static/media/lumbarDiscHerniation.png": "/anywhere-orthopedics/static/media/lumbarDiscHerniation.b7719e7c8833d3841e83.png",
     "static/media/adolescentIdiopathicScoliosis.png": "/anywhere-orthopedics/static/media/adolescentIdiopathicScoliosis.a9f137000102e4228b51.png",
     "static/media/halluxValgusCause2.png": "/anywhere-orthopedics/static/media/halluxValgusCause2.7eaeaad61618800eeaed.png",
     "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
     "static/media/clubFeet.png": "/anywhere-orthopedics/static/media/clubFeet.d8233905c2c3d96076c2.png",
+    "static/media/colorVisionDeficiencyTest.png": "/anywhere-orthopedics/static/media/colorVisionDeficiencyTest.14248dd09e14aa3531f9.png",
     "static/media/carpalTunnelSyndrome1.png": "/anywhere-orthopedics/static/media/carpalTunnelSyndrome1.3b512aaf75e3bb467c24.png",
     "static/media/kneeOsteoarthritis.png": "/anywhere-orthopedics/static/media/kneeOsteoarthritis.cee22a2eb60797f28777.png",
     "static/media/halluxValgusSole.png": "/anywhere-orthopedics/static/media/halluxValgusSole.7cb3742dad7a1c626ce9.png",
@@ -29,7 +32,9 @@
     "static/media/pitchersElbow.png": "/anywhere-orthopedics/static/media/pitchersElbow.0c45fa50fe3c91bef94a.png",
     "static/media/rehabilitation2.png": "/anywhere-orthopedics/static/media/rehabilitation2.a4d654d4d5db0cc005cc.png",
     "static/media/carpalTunnelSyndrome3.png": "/anywhere-orthopedics/static/media/carpalTunnelSyndrome3.98d043f6837c8b045256.png",
+    "static/media/myastheniaGravis.png": "/anywhere-orthopedics/static/media/myastheniaGravis.e0ef2a445e6c15e0b50a.png",
     "static/media/totalHipArthroplasty.png": "/anywhere-orthopedics/static/media/totalHipArthroplasty.c9b421e8f3880681ea46.png",
+    "static/media/retinalDegenerationVisualField.png": "/anywhere-orthopedics/static/media/retinalDegenerationVisualField.9284abbc885cb00a89c8.png",
     "static/media/fracture2.png": "/anywhere-orthopedics/static/media/fracture2.788db5b7e22a8a7f872a.png",
     "static/media/rehabilitation1.png": "/anywhere-orthopedics/static/media/rehabilitation1.fc9477f8da631abd365d.png",
     "static/media/survey.png": "/anywhere-orthopedics/static/media/survey.eb0320b04eab91298bc6.png",
@@ -52,6 +57,7 @@
     "static/media/pagetBone.png": "/anywhere-orthopedics/static/media/pagetBone.e753245cd90d831bfb36.png",
     "static/media/Preiser.png": "/anywhere-orthopedics/static/media/Preiser.8dfc746cdb2ca49f2704.png",
     "static/media/extraArticularSymptoms.png": "/anywhere-orthopedics/static/media/extraArticularSymptoms.10440c87046d69204d59.png",
+    "static/media/cataract.png": "/anywhere-orthopedics/static/media/cataract.47ebb25b164d592f9759.png",
     "static/media/nonarticulationSymptomsOfRA.png": "/anywhere-orthopedics/static/media/nonarticulationSymptomsOfRA.5f70b03d987b42bab591.png",
     "static/media/childAbuse2.png": "/anywhere-orthopedics/static/media/childAbuse2.e94fd4e66f02b2daaa05.png",
     "static/media/ankleOsteoarthritis.png": "/anywhere-orthopedics/static/media/ankleOsteoarthritis.89a4700ab5bb9b1a564b.png",
@@ -63,6 +69,7 @@
     "static/media/osteoChondrosisName.png": "/anywhere-orthopedics/static/media/osteoChondrosisName.ee3f88636f099670621c.png",
     "static/media/innervationLowerLimb.png": "/anywhere-orthopedics/static/media/innervationLowerLimb.84b2e22c2ada16c0add5.png",
     "static/media/halluxValgusTreatment1.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment1.50ee42390fdad840a2b4.png",
+    "static/media/congenitalColorVisionDeficiency.png": "/anywhere-orthopedics/static/media/congenitalColorVisionDeficiency.76e16ec47a203211616c.png",
     "static/media/question23.png": "/anywhere-orthopedics/static/media/question23.16e0a156ef0e6762dbf7.png",
     "static/media/deepTendonReflex.png": "/anywhere-orthopedics/static/media/deepTendonReflex.7dad2c76acbd7dcd48cf.png",
     "static/media/venousThrombolism.png": "/anywhere-orthopedics/static/media/venousThrombolism.5ef3ceba821f914e79eb.png",
@@ -71,10 +78,10 @@
     "static/media/ankleOsteoarthritisComparingTreatments.png": "/anywhere-orthopedics/static/media/ankleOsteoarthritisComparingTreatments.0b9aa8e195e686da3950.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.8e7b6312.js.map": "/anywhere-orthopedics/static/js/main.8e7b6312.js.map"
+    "main.5926d3be.js.map": "/anywhere-orthopedics/static/js/main.5926d3be.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.8e7b6312.js"
+    "static/js/main.5926d3be.js"
   ]
 }

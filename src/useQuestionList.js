@@ -1,3 +1,10 @@
+import retinalDegenerationVisualField from './img/answer/retinalDegenerationVisualField.png';
+import myastheniaGravis from './img/answer/myastheniaGravis.png';
+import colorVisionDeficiencyTest from './img/answer/colorVisionDeficiencyTest.png';
+import cataractSurgerySteps from './img/answer/cataractSurgerySteps.png';
+import cataract from './img/answer/cataract.png';
+import congenitalColorVisionDeficiency from './img/answer/congenitalColorVisionDeficiency.png';
+import eyeAnatomy from './img/answer/eyeAnatomy.png';
 import extraArticularSymptoms from './img/answer/extraArticularSymptoms.png';
 import innervationLowerLimb from './img/answer/innervationLowerLimb.png';
 import deepTendonReflex from './img/answer/deepTendonReflex.png';
@@ -577,41 +584,41 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: 'Which is the appropriate order of the cataract operation?',
             choices:['前囊切開(CCC)→水流皮質核分離→超音波水晶体乳化吸引→皮質吸引→眼内レンズ(IOL) 挿入','水流皮質核分離→前嚢切開(CCC)→超音波水晶体乳化吸引→皮質吸引→眼内レンズ(IOL) 挿入','前嚢切開(CCC)→超音波水晶体乳化吸引→皮質吸引→眼内レンズ(IOL) 挿入→水流皮質核分離','皮質吸引→前嚢切開(CCC)→超音波水晶体乳化吸引→眼内レンズ(IOL) 挿入→水流皮質核分離','超音波水晶体乳化吸引→水流皮質核分離→前嚢切開(CCC)→眼内レンズ(IOL) 挿入→皮質吸引'],
-            answerImg: [],
+            answerImg: [cataractSurgerySteps],
             answer: '前囊切開(CCC)→水流皮質核分離→超音波水晶体乳化吸引→皮質吸引→眼内レンズ(IOL) 挿入',
-            commentary: '白内障手術の適切な順序は、前囊切開(CCC)→水流皮質核分離→超音波水晶体乳化吸引→皮質吸引→眼内レンズ(IOL) 挿入です。'
+            commentary: '白内障手術の適切な順序は、前囊切開(CCC)→水流皮質核分離→超音波水晶体乳化吸引→皮質吸引→眼内レンズ(IOL) 挿入です。*水晶体嚢の中身を吸引することを水晶体吸引といい、その後水晶体嚢のこびりついた残存部分をストローのような構造で吸引することを(水晶体)皮質吸引という。 進行した白内障に対して、混濁した水晶体を手術で取り除き、眼内レンズを挿入する手術を行うのが一般的です。手術は基本的に局所麻酔で行います。最近の手術では2 mm前後の切開創から超音波を発生する吸引器具を眼の中に挿入し、眼の中に水を灌流しながら混濁した水晶体の中身を吸引し、残した水晶体の薄い膜（水晶体嚢）の中に眼内レンズを挿入する方法で行われています。ただし非常に進行した白内障やもともと水晶体嚢を支える組織が弱い眼では、最初から、または術中に別の手術方法が選択されることもあります。',
         },{
             detailInfo: '2.',
             questionImg: [],
             questionSentence: 'Which is the characteristic antibody of the myasthenia gravis?',
             choices:['抗SS-A抗体','抗アクアポリン4抗体','抗アセチルコリン受容体抗体','抗甲状腺ペルオキシダーゼ抗体','抗核抗体'],
-            answerImg: [],
+            answerImg: [myastheniaGravis],
             answer: '抗アセチルコリン受容体抗体',
-            commentary: 'Myasthenia gravisの特徴的な抗体は、抗アセチルコリン受容体抗体です。'
+            commentary: '重症筋無力症（myasthenia gravis：MG）とは、眼球や手足の筋肉を繰り返し動かしていると筋肉がすぐに疲れて、力が入らなくなる病気です。 筋肉は、神経筋接合部（運動神経の末端と筋肉が結合するすきまの部分）の神経終末から筋肉へアセチルコリンが放出されることで、脳からの指令が筋肉へ伝わり運動を開始します。 重症筋無力症では筋肉の表面にあるアセチルコリンの受け皿（アセチルコリン受容体）に対する抗体が免疫の異常によりつくられ、この抗体がアセチルコリンと受け皿（アセチルコリン受容体）の結合をブロックしてしまいます。この抗体を抗アセチルコリン受容体抗体と呼びます。このようにして神経筋接合部での伝達が障害されると、脳の指令が運動神経から筋肉へうまく伝わらなくなり、筋肉が十分に収縮せず、筋力の低下がおこります。 近年では、抗アセチルコリン受容体抗体とは別に、抗MuSK抗体や抗Lrp4抗体などの抗体も重症筋無力症に関連していることがわかってきました。',
         },{
             detailInfo: '3.',
             questionImg: [],
             questionSentence: 'Which of these diseases is the most appropriate cause of the cataract?',
             choices:['中心性漿液性網脈絡膜症','眼外傷','斜視','加齢黄斑変性','緑内障'],
-            answerImg: [],
+            answerImg: [cataract],
             answer: '眼外傷',
-            commentary: '白内障の最も適切な原因は眼外傷です。'
+            commentary: '白内障(cataract)の最も適切な原因は眼外傷です。後天性白内障には、加齢性白内障、併発白内障（糖尿病白内障、アトピー白内障、ぶどう膜炎、網膜色素変性症など）、ステロイド白内障、外傷性白内障（強い衝撃・眼に物が刺さる）、などにわけられます。また、水晶体の濁り方にも違いがあります。'
         },{
             detailInfo: '4.',
             questionImg: [],
             questionSentence: '先天色覚異常について正しいものを選べ。',
             choices:['赤緑色覚異常は常染色体劣性遺伝であることが多い。','日本人男性の約5%にみられる。','色覚は1つの検査でスクリーニング、型・程度分類を全て施行可能である。','3型2色覚の場合が最も多い。','杆体の機能異常である。'],
-            answerImg: [],
-            answer: '3型2色覚の場合が最も多い。',
-            commentary: '先天性色覚異常において、3型2色覚の場合が最も多い。'
+            answerImg: [congenitalColorVisionDeficiency,colorVisionDeficiencyTest],
+            answer: '日本人男性の約5%にみられる。',
+            commentary: '色覚異常は先天色覚異常と後天色覚異常とに大別されます。先天色覚異常は殆どが1型と2型色覚と呼ばれるもので、これは赤と緑錐体の異常で性染色体であるX染色 体上での劣性遺伝をします。男性はX染色体1本とY染色体1本ずつ、女性は2本のX染 色体をもっていますので先天色覚異常に性差が生じ、我国では男性の4.5%、女性の 0.2%です。白人では男性8%以上との報告があります。この男子4.5%の頻度は40歳以上での緑内障有病率と同じです。この1型および2型色覚者では色覚以外の視力その他の視機能の異常は全くありません。先天色覚異常には他に3型および1色覚がありますが稀なものです。 仮性同色表（色覚検査表）には石原色覚検査表や標準色覚検査表（SPP-1）などがあり、スクリーニングに広く用いられています。ただしこれらの表のみでは、色覚異常があるらしいことは判定できても、確定診断まではできません。診断を確定するためには、アノマロスコープという特殊な検査機器を用いなければなりませんが、この検査は熟練を要し、一般の眼科には備えてありません。色覚異常の程度判定にはパネルD-15という検査が用いられ、生活上の支障や職業適性を大まかに判断します。',
         },{
             detailInfo: '5.',
             questionImg: [],
             questionSentence: '網膜色素変性症について正しいものを選べ。',
             choices:['X染色体性遺伝はない。','主に錐体細胞が障害される。','網膜電図では異常を示さない。','中心視力は発症早期から障害される。','聾や精神遅滞などを伴うことがある。'],
-            answerImg: [],
-            answer: '中心視力は発症早期から障害される。',
-            commentary: '網膜色素変性症において、中心視力は発症早期から障害されます。'
+            answerImg: [eyeAnatomy,retinalDegenerationVisualField],
+            answer: '聾や精神遅滞などを伴うことがある。',
+            commentary: '網膜色素変性では普通、杆体細胞から障害されるために、夜盲が最初に現れることが多く、進行すると周辺の視野が狭くなって、物にぶつかりやすくなったり、物が見えたり消えたりするという症状が現れます。さらに病気が進行すると錐体細胞も障害され、視力低下を自覚するようになります。　基本的には進行性の病気ですが、その進行はとても緩やかで、数年あるいは数十年をかけて進行します。また病状の進行速度には個人差がみられ、症状の起こる順序にも個人差があり、最初に視力が低下してから夜盲を自覚する人もいます。 網膜に光が当たると電気的な信号が生じて、視神経を通して脳に伝わります。この電気信号を角膜上に載せた電極で調べる検査を網膜電図(electroretinogram:ERG)と言います。網膜色素変性の初期では反応が小さくなり、中期以降は反応がみられなくなります。　遺伝形式は、常染色体優性遺伝、常染色体劣性遺伝、X染色体劣性遺伝のすべての遺伝形式をとりますが、日本での頻度は、常染色体優性17％、常染色体劣性25％、X染色体劣性2％と報告されており、家系内に他に患者がおらず遺伝形式が明らかではない弧発例が多く存在します。しかしこのような弧発例の中には、遺伝が隠れていることがあり、詳細な家系調査が欠かせません。難聴(聾)に網膜色素変性症が合併する疾患として、アッシャー（Usher）症候群が挙げられる。アッシャー（Usher）症候群は常染色体劣性遺伝形式をとる疾患である。原因遺伝子としては現在までに９つが同定されている。',
         },{
             detailInfo: '6.',
             questionImg: [],
