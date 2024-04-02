@@ -68,6 +68,7 @@ function App() {
           variant={'outline'}
           m={1}
           mt="-0.5"
+          mr={0}
           borderRadius="full"
           px="2"
           colorScheme="red"
@@ -78,6 +79,7 @@ function App() {
           variant='outline'
           m={1}
           mt="-0.5"
+          mr={0}
           borderRadius="full"
           px="2"
           colorScheme="red"
@@ -88,6 +90,7 @@ function App() {
           variant='outline'
           m={1}
           mt="-0.5"
+          mr={0}
           borderRadius="full"
           px="2"
           colorScheme="red"
