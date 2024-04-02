@@ -1,3 +1,15 @@
+import acuteGlaucoma6 from './img/answer/acuteGlaucoma6.png';
+import acuteGlaucoma5 from './img/answer/acuteGlaucoma5.png';
+import strabismus3 from './img/answer/strabismus3.png';
+import corneaHistology from './img/answer/corneaHistology.png';
+import strabismus2 from './img/answer/strabismus2.png';
+import strabismus1 from './img/answer/strabismus1.png';
+import corneaInflammation from './img/answer/corneaInflammation.png';
+import acuteGlaucoma4 from './img/answer/acuteGlaucoma4.png';
+import acuteGlaucoma1 from './img/answer/acuteGlaucoma1.png';
+import neuroMyelitisOptica from './img/answer/neuroMyelitisOptica.png';
+import acuteGlaucoma3 from './img/answer/acuteGlaucoma3.png';
+import acuteGlaucoma2 from './img/answer/acuteGlaucoma2.png';
 import howToReadEyeSight from './img/answer/howToReadEyeSight.png';
 import question202320 from './img/answer/question202320.png';
 import fundusFindings from './img/answer/fundusFindings.png';
@@ -598,7 +610,7 @@ export const useQuestionList = () => {
             choices: ['1分','2分', '3分', '5分', '10分'],
             answerImg: [],
             answer: '2分',
-            commentary: '視力が0.5のときの視角は2分である。'
+            commentary: '視力が0.5のときの視角は2分(視力 = 1/視角)である。'
         },{
             detailInfo: '2.',
             questionImg: [],
@@ -628,17 +640,17 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: 'Which is the characteristic antibody of the neuromyelitis optica?',
             choices: ['抗 SS-A 抗体','抗アクアポリン4抗体', '抗甲状腺ペルオキシダーゼ抗体', '抗核抗体', '抗アセチルコリン受容体抗体'],
-            answerImg: [],
+            answerImg: [neuroMyelitisOptica],
             answer: '抗アクアポリン4抗体',
-            commentary: 'The characteristic antibody of the neuromyelitis optica is anti-aquaporin 4 antibody.'
+            commentary: '視神経脊髄炎(neuromyelitis optica:NMO)とは、視神経や脊髄を中心とした中枢神経に炎症性の病変が生じる、自己免疫性疾患です。日本では、視神経脊髄型の多発性硬化症（MS）として診療されてきましたが、MSよりも視神経障害が高度だったり、脊髄病変が縦に長いといった、MSとは異なる特徴を有していることが報告されるようになりました。2004年にこれらの患者さんの血清には、NMO-IgGとよばれる、中枢神経組織を標的とした自己抗体が存在することがわかりました。そしてこの抗体は、古くから欧米で報告されてきたNeuromyelitis Optica(NMO)という病気でもみられることから、日本で視神経脊髄型MSとされてきた病気は実はNMOであったということがわかったのです。2005年には、NMO-IgGは、アストロサイトに発現しているアクアポリン４（AQP4）という分子に対する抗体だということが判明し、NMOはMSとは似て非なる病気だということがわかったのです。その後数回の診断基準改定をうけて、現在はNMOSD Neuromyelitis Optica Spectrum Disorders)とよばれています。病名のとおり、視神経と脊髄に障害をきたしやすく、いずれも非常に重篤になりうることが特徴です。すなわち、1回の発作で失明したり、歩行不能になったりすることもある、非常におそろしい病気です。一方で、一部の例外を除いて、MSのような緩徐な進行はみられないとされています。',
         },{
             detailInfo: '6.',
             questionImg: [],
             questionSentence: '動脈硬化を示唆する所見として最も適当なものを選べ。',
             choices: ['硝子体混濁','視神経乳頭陥凹拡大', '動静脈交叉現象', '黄斑萎縮', '角膜後面沈着物'],
-            answerImg: [],
+            answerImg: [fundusFindings,fundusFindingsForAtherosclerosis],
             answer: '動静脈交叉現象',
-            commentary: 'The most appropriate finding suggesting arteriosclerosis is the arteriovenous crossing phenomenon.'
+            commentary: '動脈硬化による網膜異常所見の中に、動静脈交 叉現象がある。ごく薄い組織である網膜内では、 動脈と静脈が交叉している。動静脈交叉現象は、 高血圧が持続することで動脈が硬化し、隣接する 静脈が狭窄する現象である。交叉現象は、動脈硬 化の程度によって様々なパターンが存在する。'
         },{
             detailInfo: '7.',
             questionImg: [],
@@ -646,15 +658,15 @@ export const useQuestionList = () => {
             choices: ['眼球突出','斜視', '視力低下', '飛蚊症', '眼球運動障害'],
             answerImg: [],
             answer: '飛蚊症',
-            commentary: '飛蚊症とは、目の前に小さな虫が飛んでいるような感じがする症状であり、眼窩内に病変がある場合には起こりません。'
+            commentary: '眼窩疾患には、炎症性疾患・腫瘍性疾患・血管病変・眼窩周辺病変による圧迫/進展などがあり、眼窩疾患によって主に眼球突出/陥凹・眼球偏位・眼窩痛/眼痛・眼窩部の異物感・眼球運動障害/複視/斜視・視力低下・視野障害などがみられる。眼窩疾患には、眼窩を構成する頭蓋骨の他、眼窩に存在する外眼筋(内直筋・外直筋など)、涙腺、眼窩脂肪組織、血管、海綿静脈洞、上眼窩裂の疾患が含まれるが、硝子体や網膜の疾患である飛蚊症は含まれないので、誤り。',
         },{
             detailInfo: '8.',
             questionImg: [],
             questionSentence: '神経外胚葉由来の組織を選べ。',
             choices: ['角膜実質','水晶体', '脈絡膜', '涙腺', '網膜'],
-            answerImg: [],
-            answer: '脈絡膜',
-            commentary: '脈絡層は、眼球の中で最も外側に位置し、神経外胚葉由来の組織である。',
+            answerImg: [eyeDevelopment1,eyeDevelopment2,eyeDevelopment3],
+            answer: '網膜',
+            commentary: '視覚系組織は神経外胚葉・表皮外胚葉・中胚葉・神経堤などから発達し、神経外胚葉からは網膜や視神経、表皮外胚葉からは水晶体や角膜上皮や結膜、中胚葉からは眼球の結合組織・血管系、神経堤からは脈絡膜や強膜や角膜実質が発達します。',
         },{
             detailInfo: '9.',
             questionImg: [],
@@ -662,55 +674,54 @@ export const useQuestionList = () => {
             choices: ['眼球突出','縮瞳', '視力低下', '眼瞼腫脹', '眼球運動障害'],
             answerImg: [],
             answer: '縮瞳',
-            commentary: '縮瞳とは、瞳孔が収縮して小さくなる症状であり、眼窩蜂窩織炎の時には起こりません。',
+            commentary: '眼窩隔膜前蜂窩織炎（眼窩周囲蜂窩織炎）とは，眼瞼，および眼瞼を取り囲み眼窩隔膜より前方にある皮膚の感染症である。眼窩蜂窩織炎とは，眼窩隔膜より後方の組織の感染症である。いずれも外部の感染巣（例，創傷），鼻腔または歯から波及した感染症，または他の部位の感染症の転移によって起こりうる。症状としては眼瞼痛，変色，腫脹などがあり，眼窩蜂窩織炎では発熱，倦怠感，眼球突出，眼球運動制限，および視覚障害も起こる。診断は病歴聴取，診察，およびCTまたはMRIに基づく。治療は抗菌薬およびときに外科的ドレナージによる。',
         },{
             detailInfo: '10.',
             questionImg: [],
             questionSentence: '眼の解剖について正しいものを選べ。',
             choices: ['眼窩で最も骨折しやすいのは上壁である。','視細胞の数について、 錐体細胞 桿体細胞=1:3である。', '中心窩網膜に動脈は存在する。', '眼輪筋は顔面神経によって支配されている。', '角膜内皮は障害されても再生する。'],
-            answerImg: [],
+            answerImg: [eyeAnatomy],
             answer: '眼輪筋は顔面神経によって支配されている。',
-            commentary: '眼輪筋は外転筋であり、外転神経によって支配されている。',
+            commentary: '眼窩で最も骨折しやすいのは底壁である(→吹き抜け骨折)。暗い所でも眼が見えるのは、稈体細胞が働いているためで、明るい所での視力確保や色の検知には錐体細胞が働いています。 ちなみに人間の網膜には約650万の錐体細胞と約1億2,000万の桿体細胞があります。→比は1:20。網膜の中心窩は視力を出すために動脈が分布していない。眼輪筋は顔面神経支配で、閉眼に関与する(開眼には動眼神経支配の眼瞼鋸筋が働く)。角膜内皮は再生しないので、重症の角膜内皮障害は角膜移植が必要になることがある。',
         },{
             detailInfo: '11.',
             questionImg: [],
             questionSentence: '角膜上皮について、誤っているものを選べ。',
             choices: ['角膜全体の厚さの約10%を占める。','重層扁平上皮から構成されている。', '一度障害されると原則再生されない。', 'タイトジャンクションにより、 細胞間結合が強固である。', '角膜知覚神経が豊富に存在する'],
-            answerImg: [],
-            answer: '一度障害されると原則再生されない。',
-            commentary: '角膜上皮は、角膜全体の厚さの約10%を占め、重層扁平上皮から構成されており、一度障害されると再生されない特徴がある。',
+            answerImg: [corneaAnatomy,corneaHistology],
+            answer: '重層扁平上皮から構成されている。',
+            commentary: 'およそ10%程度であることが断面解剖図↑からわかる。　角膜内皮細胞は６角形の単層上皮から成り、角膜の透明性を保つのに大事な役割を果たしています。角膜内皮細胞は、上皮細胞とは異なり、一度障害されると再生できません。障害された細胞の周囲の細胞の面積が大きくなって、傷んだ細胞の面積分を補います。角膜上皮はタイトジャンクションであり、眼のバリア機能を担っている。角膜には三叉神経由来の角膜知覚神経が豊富に存在し、角膜の知覚を担っている。',
         },{
             detailInfo: '12.',
             questionImg: [],
             questionSentence: '以下の組み合わせのうち、正しいものを選べ。',
-            choices: ['Fabry 病-Kayser-Fleischer Ring','Wilson 病ｰ渦状角膜', '水疱性角膜症ｰ樹枝状角膜炎', '角膜ヘルペス-輪状潰瘍', 'Fuchs 内皮ジストロフィー滴状角膜'],
-            answerImg: [],
-            answer: '角膜ヘルペス-輪状潰瘍',
-            commentary: '角膜ヘルペスは、輪状潰瘍を引き起こす疾患である。',
+            choices: ['Fabry 病-Kayser-Fleischer Ring','Wilson 病ｰ渦状角膜', '水疱性角膜症ｰ樹枝状角膜炎', '角膜ヘルペス-輪状潰瘍', 'Fuchs内皮ジストロフィ-滴状角膜'],
+            answerImg: [corneaInflammation],
+            answer: 'Fuchs内皮ジストロフィ-滴状角膜',
+            commentary: 'ファブリー病はライソゾームに存在する加水分解酵素の一つであるα-ガラクトシダーゼ活性の低下により、その基質であるグロボトリアオシルセラミドが、血管内皮細胞、平滑筋細胞、汗腺、腎臓、心筋、自律神経節、角膜に蓄積し、腎障害、脳血管障害、虚血性心疾患、心筋症、皮膚病変、四肢末端痛、角膜混濁などを生じる。X染色体劣性遺伝形式をとるが、ヘテロ結合体の女性も発症する。Kayser-Fleischer輪はWilson病の所見。渦状角膜は渦巻き状の上皮混濁を認める、クロロキンやアミオダロンの長期投与やFabry病の所見。水疱性角膜症は、角膜内皮細胞が障害をうけて、角膜に多量の水がたまる病気です。 その際、角膜の厚さが著しく増した状態となります。 この状態を「浮腫（ふしゅ）」といい、角膜浮腫では、角膜の厚さが１mmにもなることがあります。 このような状態では、角膜がスリガラス状に濁り、非常に見えにくくなります。 一方、樹枝性角膜炎の原因はアカントアメーバや単純ヘルペスウイルスによる角膜の感染。上皮型単純ヘルペスウイルスで特徴的な角膜初見は、樹枝状角膜炎と地図状角膜炎であり、緑膿菌では輪状膿瘍(輪状潰瘍ではない)がみられる。　Fuchs(フックス)角膜内皮ジストロフィは、原発性に角膜内皮が障害され、進行性に内皮細胞数の減少をきた す疾患である。正常人でも角膜内皮は老化とともに漸減していくが、フックス症では内皮細胞数の異常減少と ともに細胞の形態異常も伴い、進行すると水疱性角膜症となり視力は手動弁ないし光覚弁にまで低下する疾患で、両眼性に角膜浮腫による混濁が進行し、最終的には水疱性角膜症に至り、手動弁ないし光覚弁にまで視力 が低下する。また、角膜浮腫に伴い角膜上皮びらんを生じやすくなり、眼痛をくりかえす。角膜内皮面の滴状 角膜とよばれる所見が特徴的であり、滴状角膜そのものによって視機能が低下する可能性も見出された。',
         },{
             detailInfo: '13.',
             questionImg: [],
             questionSentence: '次のうち、誤っているものを2つ選べ。',
             choices: ['斜視の精査では視力を始めとする眼科一般検査を原則として行わない。','美容的な要因で斜視の手術を行うことはない。', '動眼神経麻痺では複視症状が生じることが多い。', '左上斜筋麻痺では右側に頭部を傾斜した頭位をとりやすい。', 'スマートフォンを長時間見続けると内斜視になることがある。'],
-            answerImg: [],
+            answerImg: [strabismus1,strabismus2,strabismus3],
             answer: '斜視の精査では視力を始めとする眼科一般検査を原則として行わない。,美容的な要因で斜視の手術を行うことはない。',
-            commentary: '斜視の精査では視力を始めとする眼科一般検査を原則として行う。美容的な要因で斜視の手術を行うこともある。',
-        },{
+            commentary: '斜視とは、両眼でものを注視するときに、左右の眼の向きがずれている状態であり、眼位の異常である。斜視の検査として、固視検査(中心固視or偏心固視)、眼位検査、眼球運動検査などのほか、眼科一般検査も行われる。斜視では実際に視力を回復させるために手術が行われるほか、美容的要因でも手術が行われることがある。6つの外眼筋のうち動眼神経が4つを支配しているため、動眼神経麻痺で患側の眼球運動が障害され複視症状が出やすい(Bielschowsky頭部傾斜試験)。上斜筋麻痺では頭位を傾けることによって複視を修正しようとするため、右上斜筋麻痺では左側に頭部を傾斜させる。スマートフォンを偏った姿勢で見続けることによって、内斜視になることがある。',
             detailInfo: '14.',
             questionImg: [],
             questionSentence: '兎眼の原因として誤っているものを選べ。',
             choices: ['顔面神経麻痺','外傷性瘢痕', '甲状腺眼症', '動眼神経麻痺', '眼窩腫瘍'],
             answerImg: [],
             answer: '動眼神経麻痺',
-            commentary: '動眼神経麻痺は兎眼の原因とならない。',
+            commentary: '兎眼とは、まぶたをうまく閉じることができず、眼球の表面が露出したままになる状態のことです。 兎眼には、夜眠っている間のみまぶたをうまく閉じることができない“夜間兎眼”のような軽症例から、常にまぶたをうまく閉じることができない重症例まで程度はさまざまです。兎眼を生じる原因は、まぶたを閉じる筋肉が麻痺する“顔面神経麻痺”や、まぶたをけがした後の“瘢痕拘縮(はんこんこうしゅく)”、眼球が収まるスペースである眼窩(がんか)に甲状腺眼症や眼窩腫瘍(がんかしゅよう)などの占拠性病変が生じた際の“眼球突出”および“眼瞼後退”などが挙げられます。 動眼神経は開眼の眼瞼挙筋を支配する神経。',
         },{
             detailInfo: '15.',
             questionImg: [],
             questionSentence: '急性緑内障発作について誤っているものを選べ。',
             choices: ['発作が起こっている眼は中等度散瞳している。','水晶体再建術は治療の一つである。', '頭痛、嘔吐を伴うことがある。', '服用している薬剤が発症の一因なる場合がある。', '開放隅角眼に起こりやすい。'],
-            answerImg: [],
-            answer: '水晶体再建術は治療の一つである。',
-            commentary: '急性緑内障発作に対して水晶体再建術は行われない。',
+            answerImg: [acuteGlaucoma1,acuteGlaucoma2,acuteGlaucoma3,acuteGlaucoma4,acuteGlaucoma5,acuteGlaucoma6],
+            answer: '開放隅角眼に起こりやすい。',
+            commentary: '急性緑内障発作では、急激な眼圧上昇により眼痛・悪心・嘔吐などを生じる。眼圧は基準値を大幅に超過し、中等度の散瞳もみられる。急性緑内障発作は眼球が小さく隅角が狭い(解放していない隅角眼)中高齢の小柄な女性に起こりやすく、アトロピンなど抗コリン作用・交感神経刺激作用を持つ薬剤などが原因となることがある。白内障手術によって虹彩水晶体間隙や隅角を広げることによって、緑内障発作を予防することができる。',
         },{
             detailInfo: '16.',
             questionImg: [],
@@ -825,7 +836,7 @@ export const useQuestionList = () => {
             questionSentence: '神経外胚葉由来の組織を選べ。',
             choices:['涙腺','角膜実質','水晶体','網膜','脈絡膜'],
             answerImg: [eyeDevelopment1,eyeDevelopment2,eyeDevelopment3],
-            answer: '脈絡膜',
+            answer: '網膜',
             commentary: '視覚系組織は神経外胚葉・表皮外胚葉・中胚葉・神経堤などから発達し、神経外胚葉からは網膜や視神経、表皮外胚葉からは水晶体や角膜上皮や結膜、中胚葉からは眼球の結合組織・血管系、神経堤からは脈絡膜や強膜や角膜実質が発達します。',
         },{
             detailInfo: '8.',
@@ -896,7 +907,7 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '急性緑内障発作について、間違っているものを2つ選べ。',
             choices:['発作眼は縮瞳している','非発作眼の対光反射は保たれている','水晶体再建術は治療の一つである','急性なので、視野障害をきたすことは絶対にない','頭痛、嘔吐を伴うことがある'],
-            answerImg: [acuteGlaucoma],
+            answerImg: [acuteGlaucoma1,acuteGlaucoma2,acuteGlaucoma3,acuteGlaucoma4,acuteGlaucoma5,acuteGlaucoma6],
             answer: '発作眼は縮瞳している,急性なので、視野障害をきたすことは絶対にない',
             commentary: '急性緑内障発作とは、何らかの原因で、閉塞偶角緑内障を発症し、眼圧が急上昇して、眼の痛み・頭痛・吐き気・嘔吐・霧視（むし：かすみ目）などの症状を起こすことがあります。これを急性緑内障発作といいます。症状によっては一晩で失明してしまう可能性があります。また、症状から初期診断では頭の病気と間違われる場合があり、治療が遅れてしまう可能性があります。急性緑内障発作は、できるだけ早急な治療が必要となります。治療には、即効性のある薬剤もしくは点滴を使い発作を抑制したり、レーザー虹彩切開術もしくは周辺虹彩切除術（PI）、白内障を併発している場合は、白内障手術を実施します。急性緑内障発作を片方の眼で起こした場合、もう片方の眼でも発症する危険性があるので、レーザー治療や手術療法を予防的に実施します。 狭隅角患者が散瞳すると、隅角が完全に閉じてしまうために急性緑内障発作が起こります。発作中は高い眼圧のため、その圧に負けて虹彩へ血流が届かなくなり虚血となります。その虚血により一時的に瞳孔括約筋が麻痺してしまうため発作中は瞳孔が中等度散瞳状態のままとなり、対光反射も消失してしまいます。そのため、逆に対光反射がしっかりある場合は緑内障発作の可能性が低いか、発作状態が解除された後と考えられます。',
         },{
