@@ -1,3 +1,10 @@
+import amblyopia1 from './img/answer/amblyopia1.png';
+import acuteGlaucomaLaserTreatment from './img/answer/acuteGlaucomaLaserTreatment.png';
+import amblyopia3 from './img/answer/amblyopia3.png';
+import amblyopia2 from './img/answer/amblyopia2.png';
+import autosomalDominantOpticAtrophy2 from './img/answer/autosomalDominantOpticAtrophy2.png';
+import autosomalDominantOpticAtrophy1 from './img/answer/autosomalDominantOpticAtrophy1.png';
+import safetyRod from './img/answer/safetyRod.png';
 import acuteGlaucoma6 from './img/answer/acuteGlaucoma6.png';
 import acuteGlaucoma5 from './img/answer/acuteGlaucoma5.png';
 import strabismus3 from './img/answer/strabismus3.png';
@@ -604,7 +611,7 @@ export const useQuestionList = () => {
     },{
         groupTag: '眼疾患 2023本試験',
         groupContents: [{
-            detailInfo: '1.',
+            detailInfo: '1. ##2023は難化傾向',
             questionImg: [],
             questionSentence: '視力が0.5のときの視角を選べ。',
             choices: ['1分','2分', '3分', '5分', '10分'],
@@ -707,6 +714,7 @@ export const useQuestionList = () => {
             answerImg: [strabismus1,strabismus2,strabismus3],
             answer: '斜視の精査では視力を始めとする眼科一般検査を原則として行わない。,美容的な要因で斜視の手術を行うことはない。',
             commentary: '斜視とは、両眼でものを注視するときに、左右の眼の向きがずれている状態であり、眼位の異常である。斜視の検査として、固視検査(中心固視or偏心固視)、眼位検査、眼球運動検査などのほか、眼科一般検査も行われる。斜視では実際に視力を回復させるために手術が行われるほか、美容的要因でも手術が行われることがある。6つの外眼筋のうち動眼神経が4つを支配しているため、動眼神経麻痺で患側の眼球運動が障害され複視症状が出やすい(Bielschowsky頭部傾斜試験)。上斜筋麻痺では頭位を傾けることによって複視を修正しようとするため、右上斜筋麻痺では左側に頭部を傾斜させる。スマートフォンを偏った姿勢で見続けることによって、内斜視になることがある。',
+        },{
             detailInfo: '14.',
             questionImg: [],
             questionSentence: '兎眼の原因として誤っているものを選べ。',
@@ -727,59 +735,42 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '常染色体優性視神経萎縮で正しいものを選べ。',
             choices: ['自覚症状が強い','視力障害の進行は早い', '眼底検査では片眼性の視神経萎縮を認める', '色覚障害は起こらない', '乳頭周囲の視神経線維層欠損を認める'],
-            answerImg: [],
+            answerImg: [autosomalDominantOpticAtrophy1,autosomalDominantOpticAtrophy2],
             answer: '乳頭周囲の視神経線維層欠損を認める。',
-            commentary: '常染色体優性視神経萎縮では乳頭周囲の視神経線維層欠損を認める。',
+            commentary: '優性遺伝性視神経萎縮は，常染色体優性形式で遺伝する。遺伝性視神経症で最も頻度が高いと考えられており，有病率は10,000人に1人から50,000人に1人である。視神経アビオトロフィーであると考えられており，視神経の早期変性により進行性の視力障害に至る。10歳までに発症する。両眼性の視神経蒼白を呈するが、視神経萎縮に比べて視力障害の自覚が乏しく、色覚障害を伴うことが多い。視力障害の進行は比較的緩徐で、乳頭周囲の視神経繊維層の欠損を認める。',
         },{
             detailInfo: '17.',
             questionImg: [],
             questionSentence: '次のうち、正しいものを選べ。',
             choices: ['15 歳時に屈折異常弱視であることが判明したため積極的な治療が勧められた。','屈折異常弱視の治療として健眼遮蔽と眼鏡による完全屈折矯正を 24時間 6か月行った。', '屈折異常弱視は近視眼で生じやすい。', '乳児の瞳孔が白く見えたため早期の眼科受診を指示した。', '斜視が原因で弱視になることはない。'],
-            answerImg: [],
+            answerImg: [amblyopia1,amblyopia2,amblyopia3],
             answer: '乳児の瞳孔が白く見えたため早期の眼科受診を指示した。',
-            commentary: '乳児の瞳孔が白く見えた場合は先天性白内障を疑い、早期の眼科受診を指示する。',
+            commentary: '弱視とは、器質的変化がない、あるいはそれだけでは説明のつかない機能的な視力低下を指す。視力は8歳までに発達するため、こういった感受性が高い時期に障害が生じると、弱視を生じるため、積極的治療が勧められる。15歳で見つかった場合は治療を行なっても視力が改善する可能性が低い。弱視の治療として、健側遮蔽や屈折完全矯正は行われるが、24時間行うと健側の視力の発達を妨げてしまうため、1日30分~5時間程度に抑える。屈折異常弱しとは、両側の屈折異常(角膜など)が未矯正のままであると両側の中心窩像が不鮮明になった起こる疾患で、原因としては遠視・高度の近視・高度の乱視で生じやすい(近視よりは遠視で生じやすい)。',
         },{
             detailInfo: '18.',
             questionImg: [],
             questionSentence: '次のうち、正しいものを2つ選べ。',
             choices: ['日本では視覚障害の基準を満たした時点で障害者手帳が交付される。','緑内障は日本における中途視覚障害・失明原因の第1位である。', '40歳以上の緑内障の有病率は15%といわれている。', '糖尿病網膜症は日本における中途視覚障害・失明原因の第2位である。', '白杖は周囲に視覚障害であることを認識してもらうことにも役立つ。'],
-            answerImg: [],
+            answerImg: [safetyRod],
             answer: '緑内障は日本における中途視覚障害・失明原因の第1位である。,白杖は周囲に視覚障害であることを認識してもらうことにも役立つ。',
-            commentary: '緑内障は日本における中途視覚障害・失明原因の第1位であり、白杖は周囲に視覚障害であることを認識してもらうことにも役立つ。',
+            commentary: '日本の視覚障害身体障害者(成人)は31.2万人、このうち1級・2級の重症者が22.7万人となっている(2016年)。障害者手帳を受け取るためには審査があり、すべての人が障害者手帳を申請しているわけではないため、実際にはより多くの視覚障害を有する人がいる可能性がある。2019年度の視覚障害の原因疾患の第1位は緑内障、第2位は網膜色素変性、第3位は糖尿病網膜症でした。2015年度と比べて順位に変化はありませんでしたが、緑内障の割合が28.6%から40.7%に急増しており、2018年に実施された認定基準改正の影響が大きいと考えられました。平成12~13年に行われた多治見スタディ（疫学調査）によりますと、有病率は40歳台で2.2%、50歳台で2.9%、60歳台で6.3%と上昇し70歳台では10.5%、80歳以上は11.4%になると報告されています。盲人安全杖は黄色もしくは白色と規定されている。白杖は視覚障害者が周囲に視覚障害であることを認識してもらうことにも役立つ。',
         },{
             detailInfo: '19.',
             questionImg: [],
             questionSentence: 'サルコイドーシスの眼所見として正しいものを2つ選べ。',
             choices: ['網膜黄白色滲出斑','テント状周辺虹彩前癒着', '網膜新生血管', '多発性漿液性網膜剥離', '豚脂様角膜後面沈着物'],
             answerImg: [],
-            answer: '網膜黄白色滲出斑,テント状周辺虹彩前癒着',
-            commentary: 'The correct answers are retinal yellow-white exudates and tent-shaped peripheral iris anterior synechiae.',
+            answer: 'テント状周辺虹彩前癒着,豚脂様角膜後面沈着物',
+            commentary: 'サルコイドーシスの眼病変は，本邦では肺病変に次いで多く，55~79%程度にみられるが，海外では 25~50%程度と，頻度には人種差が存在する。眼サルコイドーシス国際診断基準として、豚脂様角膜後面沈着物または虹彩結節（Koeppe結節、Busacca結節）:Mutton-flat keratic precipitates and/or iris nodulesや、隅角結節またはテント状周辺虹彩前癒着:Trabecular meshwork nodules and/or tent-shaped peripheral anterior synechiae、雪玉状または数珠状硝子体混濁:Snowballs or string of pearls in the vitreous、活動性または非活動性の眼底周辺部の多発性網脈絡膜病巣:Active or inactive multiple chorioretinal peripheral lesions、網膜血管周囲炎，血管周囲結節または網膜動脈瘤:Nodular and/or segmental periphlebitis and/or macroaneurysms in an inflamed eye、視神経乳頭肉芽腫または脈絡膜肉芽腫:Optic disc nodule or nodules/granuloma or granulomas and/or solitary choroidal nodule、両眼罹患:Bilateral involvementが挙げられます。',
         },{
             detailInfo: '20.',
             questionImg: [question202320],
             questionSentence: '75歳の女性。1日前に受けた散瞳検査後から左眼の眼痛、視力低下、嘔気を主訴に来院した。喘息の既往がある。視力は右 0.1(1.0× +3.5D)、左 0.1(0.1 × +4.5D)。眼圧は右 22mmHg、左 58mmHg。左眼前眼部写真を示す。最も適切な治療を選べ。',
             choices: ['β遮断薬点眼','抗生剤点眼', '眼球マッサージ', 'レーザー線維柱帯形成術', '水晶体摘出術'],
-            answerImg: [],
+            answerImg: [acuteGlaucoma1,acuteGlaucoma2,acuteGlaucoma3,acuteGlaucoma4,acuteGlaucoma5,acuteGlaucoma6,acuteGlaucomaLaserTreatment],
             answer: 'レーザー線維柱帯形成術',
-            commentary: 'The most appropriate treatment is laser trabeculoplasty.',
-        },]
-
-
-// 19. サルコイドーシスの眼所見として正しいものを2つ選べ。
-// a) 網膜黄白色滲出斑
-// b) テント状周辺虹彩前癒着
-// c) 網膜新生血管
-// d) 多発性漿液性網膜剥離
-// e) 豚脂様角膜後面沈着物
-// 20.75歳の女性。 1日前に受けた散瞳検査後から左眼の眼痛、 視力低下、嘔気を主訴に来院した。
-// 喘息の既往がある。 視力は右 0.1(1.0× +3.5D)、 左 0.1(0.1 × +4.5D)。 眼圧は右 22mmHg、左
-// 58mmHg。 左眼前眼部写真を示す。 最も適切な治療を選べ。
-// a) β遮断薬点眼
-// b) 抗生剤点眼
-// c) 眼球マッサージ
-// d) レーザー線維柱帯形成術
-// e) 水晶体摘出術
-    },
+            commentary: '右眼は球面レンズ補正で見えるようになる→遠視(老視)であるが、左眼は矯正で視力が改善しない。眼は充血していて、図では隅角の閉塞(浅前房)が確認される。おそらく散瞳検査後から急性緑内障発作を起こしていると考えられる。眼圧も高い。治療はピロカルビンなどのコリン作動薬点滴や、高浸透圧薬(マンニトール)や炭酸脱水素阻害剤などの内服、レーザー虹彩切開術/周辺虹彩切除術、水晶体摘出術などが選択される。レーザー線維柱帯形成術や線維柱帯切除術(トラベクレクトミー)は線維柱帯以降の流出障害が原因の開放隅角緑内障に対して行われる手術であり、α2遮断薬やβ遮断薬などの点眼薬は房水産生抑制作用をもち緑内障治療薬として使用されるが、喘息の既往がある場合は禁忌である。抗生剤点眼は緑内障には効果がない。眼球マッサージは眼圧が一時的に高くなるため緑内障の場合は不適である。',
+    },]},
     {
         groupTag: '眼疾患 2022本試験',
         groupContents: [{
