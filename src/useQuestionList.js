@@ -1,3 +1,10 @@
+import ITPTreatment1 from './img/answer/ITPTreatment1.png';
+import ITPDiagnosis2 from './img/answer/ITPDiagnosis2.png';
+import ITPTreatment2 from './img/answer/ITPTreatment2.png';
+import ITPTreatment3 from './img/answer/ITPTreatment3.png';
+import ITPDiagnosis1 from './img/answer/ITPDiagnosis1.png';
+import lymphomaTypes from './img/answer/lymphomaTypes.png';
+import lymphomaTypePrevalence from './img/answer/lymphomaTypePrevalence.png';
 import amblyopia1 from './img/answer/amblyopia1.png';
 import acuteGlaucomaLaserTreatment from './img/answer/acuteGlaucomaLaserTreatment.png';
 import amblyopia3 from './img/answer/amblyopia3.png';
@@ -1486,7 +1493,185 @@ export const useQuestionList = () => {
             answer: 'デンタルインプラントの埋入は、成長が終わってから行う。',
             commentary: '口唇裂口蓋裂の治療に関して、デンタルインプラントの埋入は、成長が終わってから行うのは誤りです。'
         }]
-    },    ])
+    },{
+        groupTag: '血液疾患 2023本試験',
+        groupContents: [{
+            detailInfo: '1.',
+            questionImg: [],
+            questionSentence: 'リンパ腫で日本で発生率が高いものを2つ選べ。',
+            choices:['低悪性B細胞型リンパ腫','高悪性B細胞型リンパ腫','低悪性T細胞型リンパ腫','高悪性T細胞型リンパ腫','ホジキンリンパ腫'],
+            answerImg: [lymphomaTypePrevalence,lymphomaTypes],
+            answer: '低悪性B細胞型リンパ腫,高悪性B細胞型リンパ腫',
+            commentary: '我が国における悪性リンパ腫の新規患者数は約22000人(2008)で、年々増加傾向にある。内訳を見ると、びまん性大細胞型B細胞リンパ腫(DLBCL)が45.3%、濾胞性リンパ腫(FL)が13.5%など、B細胞腫瘍が大半をしめ、ついでT細胞腫瘍・NK細胞腫瘍、ホジキンリンパ腫などが続く。',
+        },{
+            detailInfo: '2.',
+            questionImg: [],
+            questionSentence: 'B細胞リンパ腫免疫化学染色において重要でない標的分子はどれか。',
+            choices:['Bcl2','CD10','CD30','Cyclin D1','Ki-67'],
+            answerImg: [],
+            answer: 'CD30',
+            commentary: '濾胞性リンパ腫(FL)はt(14:18)によるBCL2タンパクの異常発現やCD10陽性であることが特徴である。マントル細胞リンパ腫(MCL)はt(11:14)によるcyclin D1の過剰発現が特徴である。バーキットリンパ腫(BL)は１００％近い細胞がKi-67陽性となる。',
+        },{
+            detailInfo: '4.',
+            questionImg: [],
+            questionSentence: '特発性血小板減少性紫斑病(ITP)について誤っているものを2つ選べ。',
+            choices:['出血症状の主体は紫斑である。','骨髄巨核球数は低値である。','PAIgG値の測定は診断に必須である。','第一選択の治療はプレドニゾロンである。','脾摘は奏効率が高い。'],
+            answerImg: [ITPDiagnosis1,ITPDiagnosis2,ITPTreatment1,ITPTreatment2,ITPTreatment3],
+            answer: '骨髄巨核球数は低値である。,PAIgG値の測定は診断に必須である。',
+            commentary: '特発性血小板減少性紫斑病(ITP)/免疫性血小板減少症(Immune Thrombocytopenic Purpura)は、血小板減少による出血症状を主体とする自己免疫性疾患である。出血症状は紫斑が主体で、骨髄巨核球数は正常ないし増加する(血小板減少に対する反応)。PA IgG値は増加しないこともあり、また血小板減少を呈する他疾患の鑑別に有用でない。ITPへの第一選択はステロイド投与で、ステロイドが効かない場合はリツキシマブやTPO作動薬、脾摘が考慮される。脾摘は奏功率が高いが再発率が高く、また脾摘後の感染症リスクがある。',
+        },{
+            detailInfo: '5.',
+            questionImg: [],
+            questionSentence: '小児白血病について正しいものを3つ選べ。',
+            choices:['ALLはAMLより多い。','ALL、T細胞型がB細胞前駆型より多い。','すみません。過去問やったらできる内容でした。'],
+            answerImg: [],
+            answer: 'ALLはAMLより多い。,ALL、T細胞型がB細胞前駆型より多い。',
+            commentary: '小児白血病に関して、ALLAMLより多い、ALL、T細胞型がB細胞前駆型より多いです。'
+        },{
+            detailInfo: '6.',
+            questionImg: [],
+            questionSentence: '血液について次から正しいものを2つ選べ。',
+            choices:['赤血球、白血球、血小板すべて全能性幹細胞から分化成熟してできる。','末梢血赤血球にミトコンドリアが存在する。','年齢や性別によらずヘモグロビン濃度(g/dL)とヘマトクリット(%)基準値一定である。','胎生3ヶ月造血メイン骨髄である。','鉄欠乏性貧血で、平均赤血球容積(mcv)低値(80fl未満)となる。'],
+            answerImg: [],
+            answer: '赤血球、白血球、血小板すべて全能性幹細胞から分化成熟してできる。,鉄欠乏性貧血で、平均赤血球容積(mcv)低値(80fl未満)となる。',
+            commentary: '血液に関して、赤血球、白血球、血小板すべて全能性幹細胞から分化成熟してできる、鉄欠乏性貧血で、平均赤血球容積(mcv)低値(80fl未満)となるです。'
+        },{
+            detailInfo: '7.',
+            questionImg: [],
+            questionSentence: 'Choose the options following the anemic disease for which the splenectomy is indicated.',
+            choices:['Hereditary spherocytosis(HS)','Glucose-6-phosphate dehydrogenase','Iron-deficiency anemia','Autoimmune hemolytic anemia(AH)','Paroxysmal nocturnal hemoglobinuria(PNH)'],
+            answerImg: [],
+            answer: 'Hereditary spherocytosis(HS),Autoimmune hemolytic anemia(AH)',
+            commentary: 'Choose the options following the anemic disease for which the splenectomy is indicatedはHereditary spherocytosis(HS)とAutoimmune hemolytic anemia(AH)です。'
+        },{
+            detailInfo: '8.',
+            questionImg: [],
+            questionSentence: '乳児、母乳みでほぼ離乳食食べない、眼瞼結膜に貧血、ヘモグロビン6ぐらい。正しいものを2つ選べ。',
+            choices:['骨髄生検が確定診断に必要','MCV 60','栄養指導が有用'],
+            answerImg: [],
+            answer: '骨髄生検が確定診断に必要,栄養指導が有用',
+            commentary: '乳児、母乳みでほぼ離乳食食べない、眼瞼結膜に貧血、ヘモグロビン6ぐらいの正しいものは骨髄生検が確定診断に必要と栄養指導が有用です。'
+        },{
+            detailInfo: '9.',
+            questionImg: [],
+            questionSentence: '貧血病態生理として誤っているものをどれか。',
+            choices:['心拍出量が低下する。','脈拍数が増加する。','Hb 酸素解離曲線右にシフトする。','脳へ血流量が増加する。','慢性貧血で循環血漿量が増加している。'],
+            answerImg: [],
+            answer: '脈拍数が増加する。',
+            commentary: '貧血病態生理として誤っているものは脈拍数が増加するです。'
+        },{
+            detailInfo: '10.',
+            questionImg: [],
+            questionSentence: '化学治療適応になる症候性多発性骨髄腫はどれか。',
+            choices:['ヘモグロビン 9g/dL','モノクローナルな形質細胞 50%以上','血中遊離軽鎖比 50 倍','MRI で 2 ヶ所以上 5mm 以上巣状病変','血清 IgG 6000/μL'],
+            answerImg: [],
+            answer: 'モノクローナルな形質細胞 50%以上',
+            commentary: '化学治療適応になる症候性多発性骨髄腫はモノクローナルな形質細胞 50%以上です。'
+        },{
+            detailInfo: '12.',
+            questionImg: [],
+            questionSentence: '倦怠感あり。ペルオキシダーゼ陰性。表面マーカーcd10,cd19,cd22陽性。 はじめ1週間ステロイド治療。 Tcell性急性白血病である。 ステージ4 放射線治療効かない。　間違っているのはどれか。',
+            choices:['ボンフィルブランド因子欠損で出血時間延長する。','先天性第Ⅺ因子欠損で臍帯出血をきたす。'],
+            answerImg: [],
+            answer: 'ボンフィルブランド因子欠損で出血時間延長する。',
+            commentary: '倦怠感あり。ペルオキシダーゼ陰性。表面マーカーcd10,cd19,cd22陽性。 はじめ1週間ステロイド治療。 Tcell性急性白血病である。 ステージ4 放射線治療効かない。　間違っているのはボンフィルブランド因子欠損で出血時間延長するです。'
+        },{
+            detailInfo: '13.',
+            questionImg: [],
+            questionSentence: '菌状息肉腫について正しいものをどれか。',
+            choices:['診断にT細胞受容体遺伝子再構成検索が有用である。','マンロー斑が見られる。','紅斑期・腫瘍期・白血期が見られる。','CD20陽性である。','紅斑期に多剤併用化学療法'],
+            answerImg: [],
+            answer: 'マンロー斑が見られる。',
+            commentary: '菌状息肉腫について正しいものはマンロー斑が見られるです。'
+        },{
+            detailInfo: '14.',
+            questionImg: [],
+            questionSentence: '血友病について誤っているものをどれか。',
+            choices:['血友病 B 第IX因子質的量的異常症である。','伴性劣性遺伝を呈する。','プロトロンビン時間延長するが、活性化部分トロンボプラスチン時間正常である。','出血部位膝、足関節が多い。','血友病 B 止血管理で第Ⅸ因子製剤投与を行う'],
+            answerImg: [],
+            answer: 'プロトロンビン時間延長するが、活性化部分トロンボプラスチン時間正常である。',
+            commentary: '血友病について誤っているものはプロトロンビン時間延長するが、活性化部分トロンボプラスチン時間正常であるです。'
+        },{
+            detailInfo: '15.',
+            questionImg: [],
+            questionSentence: '骨髄増殖性腫瘍で見られる遺伝子異常を2つ選べ。',
+            choices:['ALK','FLT3','CALR','JAK2','TP53'],
+            answerImg: [],
+            answer: 'CALR,JAK2',
+            commentary: '骨髄増殖性腫瘍で見られる遺伝子異常はCALRとJAK2です。'
+        },{
+            detailInfo: '23.',
+            questionImg: [],
+            questionSentence: '血小板凝集を引き起こさないものをすべて選べ。',
+            choices:['ADP','エピネフリン','ヘパリン','トロンビン','コラーゲン'],
+            answerImg: [],
+            answer: 'ADP,エピネフリン,ヘパリン',
+            commentary: '血小板凝集を引き起こさないものはADP,エピネフリン,ヘパリンです。'
+        },{
+            detailInfo: '29.',
+            questionImg: [],
+            questionSentence: '急性白血病支持療法として誤っているものを2つ選べ。',
+            choices:['血小板低下があれ必要に応じて血小板輸血を行う。','オゾンやホルマリンなどによる完全無菌管理を行う必要ない。','耐性菌出現を防ぐために抗生剤第一世代を使う。','最も重要な感染予防策手洗いである。','クリーンルーム清掃週に1回に制限する。'],
+            answerImg: [],
+            answer: 'オゾンやホルマリンなどによる完全無菌管理を行う必要ない。,クリーンルーム清掃週に1回に制限する。',
+            commentary: '急性白血病支持療法として誤っているものはオゾンやホルマリンなどによる完全無菌管理を行う必要ない、クリーンルーム清掃週に1回に制限するです。'
+        },{
+            detailInfo: '30.',
+            questionImg: [],
+            questionSentence: 'ATLL予後不良因子で不適なものを選べ。',
+            choices:['30歳以上','初診時白血球1万以上','モノソミー7','寛解導入に4週間以上かかる','モノソミー8'],
+            answerImg: [],
+            answer: 'モノソミー7',
+            commentary: 'ATLL予後不良因子で不適なものはモノソミー7です。'
+        },{
+            detailInfo: '31.',
+            questionImg: [],
+            questionSentence: 'ヒトT細胞性白血病ウイルス(HTLV-1)について誤っているものを選べ。',
+            choices:['標準療法 VCAP-AMP-VECP療法である','神経系へ浸潤が強いで髄液腔に抗がん剤を投与する','治療薬としてボルテゾミブがある','化学療法で完治が期待できないため、同種造血幹細胞移植を行う。','モガムリズマブを用いて治療する'],
+            answerImg: [],
+            answer: '標準療法 VCAP-AMP-VECP療法である',
+            commentary: 'ヒトT細胞性白血病ウイルス(HTLV-1)について誤っているものは標準療法 VCAP-AMP-VECP療法であるです。'
+        },{
+            detailInfo: '33.',
+            questionImg: [],
+            questionSentence: '慢性骨髄性白血病予後に関わらない因子はどれか。',
+            choices:['年齢','血小板数','脾臓大きさ','末梢血芽球数数','好塩基球'],
+            answerImg: [],
+            answer: '好塩基球',
+            commentary: '慢性骨髄性白血病予後に関わらない因子は好塩基球です。'
+        },{
+            detailInfo: '36.',
+            questionImg: [],
+            questionSentence: '次の組み合わせうち誤っているものを選べ。',
+            choices:['赤血球－エリスロポエチン','血小板－トロンボポエチン','Tリンパ球－インターロイキン2','好中球－G-CSF','Bリンパ球－インターロイキン4'],
+            answerImg: [],
+            answer: 'Tリンパ球－インターロイキン2',
+            commentary: '次の組み合わせうち誤っているものはTリンパ球－インターロイキン2です。'
+        },{
+            detailInfo: '40.',
+            questionImg: [],
+            questionSentence: '血小板減少について正しいものを2つ選べ。',
+            choices:['出血を認めない場合、偽性血小板減少可能性がある','ITPで、関節内出血、筋肉内出血まれ','PAIgG検査ITP診断に極めて有用','ITP治療目標血小板を正常数にすること','ITPで副腎皮質ステロイド不応性場合、脾摘'],
+            answerImg: [],
+            answer: '出血を認めない場合、偽性血小板減少可能性がある,ITP治療目標血小板を正常数にすること',
+            commentary: '血小板減少について正しいものは出血を認めない場合、偽性血小板減少可能性がある、ITP治療目標血小板を正常数にすることです。'
+        },{
+            detailInfo: '48.',
+            questionImg: [],
+            questionSentence: '特発性血小板減少性紫斑病(ITP)治療として適切でないものを選べ。',
+            choices:['、トロンボポエチン 受容体作動薬','ヘリコバクターピロリ除菌','抗胸腺細胞グロブリン','ステロイド','脾臓摘出'],
+            answerImg: [],
+            answer: '抗胸腺細胞グロブリン',
+            commentary: '特発性血小板減少性紫斑病(ITP)治療として適切でないものは抗胸腺細胞グロブリンです。'
+        },{
+            detailInfo: '50.',
+            questionImg: [],
+            questionSentence: '悪性リンパ腫に関する記述うち、正しいものを二つ選べ。',
+            choices:['悪性リンパ腫罹患率年々上昇傾向にある。','ホジキンリンパ腫B症状と発熱、盗汗、体重増加である','日本欧米に比べてホジキンリンパ腫が少ない傾向にある','低悪性リンパ腫多く進行期であっても初期化学療法で治療が期待でき る','悪性リンパ腫リンパ節腫大特徴、弾性軟で可動性良好な有痛性腫大 である'],
+            answerImg: [],
+            answer: 'ホジキンリンパ腫B症状と発熱、盗汗、体重増加である,低悪性リンパ腫多く進行期であっても初期化学療法で治療が期待でき る',
+            commentary: '悪性リンパ腫に関する記述うち、正しいものはホジキンリンパ腫B症状と発熱、盗汗、体重増加である、低悪性リンパ腫多く進行期であっても初期化学療法で治療が期待できるです。'}]
+    }    ])
     const showQuestionList = () => {
         return questionList
     }
