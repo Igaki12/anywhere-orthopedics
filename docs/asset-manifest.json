@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.092ebaf6.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.2b828c7e.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/causeOfVisualImpairment.png": "/anywhere-orthopedics/static/media/causeOfVisualImpairment.66a777cfd3a9234e3696.png",
@@ -26,7 +26,9 @@
     "static/media/halluxValgusCause2.png": "/anywhere-orthopedics/static/media/halluxValgusCause2.7eaeaad61618800eeaed.png",
     "static/media/functionalPosition.png": "/anywhere-orthopedics/static/media/functionalPosition.b651aa75b48583132aec.png",
     "static/media/clubFeet.png": "/anywhere-orthopedics/static/media/clubFeet.d8233905c2c3d96076c2.png",
+    "static/media/lungTransplantation2.png": "/anywhere-orthopedics/static/media/lungTransplantation2.d664e9696ad2db9d61c4.png",
     "static/media/corneaCrossLinking.png": "/anywhere-orthopedics/static/media/corneaCrossLinking.c4113630311c2396d671.png",
+    "static/media/lungTransplantationChoice.png": "/anywhere-orthopedics/static/media/lungTransplantationChoice.5feb1e7797c507e8284d.png",
     "static/media/colorVisionDeficiencyTest.png": "/anywhere-orthopedics/static/media/colorVisionDeficiencyTest.14248dd09e14aa3531f9.png",
     "static/media/carpalTunnelSyndrome1.png": "/anywhere-orthopedics/static/media/carpalTunnelSyndrome1.3b512aaf75e3bb467c24.png",
     "static/media/kneeOsteoarthritis.png": "/anywhere-orthopedics/static/media/kneeOsteoarthritis.cee22a2eb60797f28777.png",
@@ -42,6 +44,7 @@
     "static/media/tibialOsteotomy.png": "/anywhere-orthopedics/static/media/tibialOsteotomy.f844f858c36896b94640.png",
     "static/media/lymphomaTypes.png": "/anywhere-orthopedics/static/media/lymphomaTypes.fcb55cc69011d1cf2097.png",
     "static/media/eyesight.png": "/anywhere-orthopedics/static/media/eyesight.53081d3071dfed3b0381.png",
+    "static/media/lungTransplantation1.png": "/anywhere-orthopedics/static/media/lungTransplantation1.518991912cd55a39fa37.png",
     "static/media/childAbuse3.png": "/anywhere-orthopedics/static/media/childAbuse3.ad0724688b78e18b3622.png",
     "static/media/OCD.png": "/anywhere-orthopedics/static/media/OCD.593107c9010bf6b8bf38.png",
     "static/media/amblyopia1.png": "/anywhere-orthopedics/static/media/amblyopia1.ab2232244d143ea85bad.png",
@@ -97,8 +100,10 @@
     "static/media/IDA.png": "/anywhere-orthopedics/static/media/IDA.8c3488a0f79bcbce645c.png",
     "static/media/amblyopia2.png": "/anywhere-orthopedics/static/media/amblyopia2.e28aedab1ac20bd1a128.png",
     "static/media/fundusFindingsForAtherosclerosis.png": "/anywhere-orthopedics/static/media/fundusFindingsForAtherosclerosis.3e95c5540cdb2eedc9d0.png",
+    "static/media/cleftPalate1.png": "/anywhere-orthopedics/static/media/cleftPalate1.6a0c5a49a746d6ea6480.png",
     "static/media/howToReadEyeSight.png": "/anywhere-orthopedics/static/media/howToReadEyeSight.bf0cc514ac4ade13df92.png",
     "static/media/osteosarcoma.png": "/anywhere-orthopedics/static/media/osteosarcoma.ff274fe1d14297422fbf.png",
+    "static/media/cleftPalate2.png": "/anywhere-orthopedics/static/media/cleftPalate2.ed916335d64aa4e063ff.png",
     "static/media/guyonCanalSyndrome2.png": "/anywhere-orthopedics/static/media/guyonCanalSyndrome2.010ae90d7825dfd8e84f.png",
     "static/media/Kienbock.png": "/anywhere-orthopedics/static/media/Kienbock.0c35d7c17efaaed01d28.png",
     "static/media/autosomalDominantOpticAtrophy1.png": "/anywhere-orthopedics/static/media/autosomalDominantOpticAtrophy1.3bd0fc1bbf40409d68a1.png",
@@ -119,6 +124,7 @@
     "static/media/venousThrombolism.png": "/anywhere-orthopedics/static/media/venousThrombolism.5ef3ceba821f914e79eb.png",
     "static/media/eyeDevelopment3.png": "/anywhere-orthopedics/static/media/eyeDevelopment3.e24c889a6c16bce8df40.png",
     "static/media/acuteGlaucoma3.png": "/anywhere-orthopedics/static/media/acuteGlaucoma3.1daa5adfe65c7a4d6d26.png",
+    "static/media/cleftPalate3.png": "/anywhere-orthopedics/static/media/cleftPalate3.660a2ee2b7d3e2c73eb8.png",
     "static/media/acuteGlaucoma5.png": "/anywhere-orthopedics/static/media/acuteGlaucoma5.1adac1b7e2b8291a8aa2.png",
     "static/media/SoftTissueTumorRI.png": "/anywhere-orthopedics/static/media/SoftTissueTumorRI.fb1ba77dddd7289c77d4.png",
     "static/media/lithotomyPosition.png": "/anywhere-orthopedics/static/media/lithotomyPosition.741c544f10919f26ef0b.png",
@@ -128,10 +134,10 @@
     "static/media/coagulationFactors.png": "/anywhere-orthopedics/static/media/coagulationFactors.66d2a2d93491ec8f1f40.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.092ebaf6.js.map": "/anywhere-orthopedics/static/js/main.092ebaf6.js.map"
+    "main.2b828c7e.js.map": "/anywhere-orthopedics/static/js/main.2b828c7e.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.092ebaf6.js"
+    "static/js/main.2b828c7e.js"
   ]
 }

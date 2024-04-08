@@ -1,3 +1,9 @@
+import lungTransplantationChoice from './img/answer/lungTransplantationChoice.png';
+import lungTransplantation1 from './img/answer/lungTransplantation1.png';
+import lungTransplantation2 from './img/answer/lungTransplantation2.png';
+import cleftPalate3 from './img/answer/cleftPalate3.png';
+import cleftPalate2 from './img/answer/cleftPalate2.png';
+import cleftPalate1 from './img/answer/cleftPalate1.png';
 import MPN from './img/answer/MPN.png';
 import coagulationFactors from './img/answer/coagulationFactors.png';
 import childhoodLeukemiaTypes2 from './img/answer/childhoodLeukemiaTypes2.png';
@@ -960,17 +966,17 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '人工心肺が必ず必要な肺移植を２つ選べ。',
             choices:['脳死両肺移植','脳死両側片肺移植','脳死片肺移植','生体肺移植','心肺移植'],
-            answerImg: [],
+            answerImg: [lungTransplantation1,lungTransplantation2],
             answer: '脳死両肺移植,心肺移植',
-            commentary: '人工心肺が必ず必要な肺移植は脳死両肺移植と心肺移植です。'
+            commentary: '両肺移植なら人工心肺が必ず必要となる。片方の肺を移植する場合は完全に循環を止めなくても良いため、人工心肺を回避できる可能性がある。'
         },{
             detailInfo: '2.',
             questionImg: [],
             questionSentence: '両肺移植が必要な疾患を2つ選べ。',
             choices:['原発性肺高血圧症','肺気腫','リンパ脈管筋腫症','特発性肺線維症','気管支拡張症'],
-            answerImg: [],
-            answer: '原発性肺高血圧症,特発性肺線維症',
-            commentary: '両肺移植が必要な疾患は原発性肺高血圧症と特発性肺線維症です。'
+            answerImg: [lungTransplantationChoice],
+            answer: '原発性肺高血圧症,気管支拡張症',
+            commentary: '気管支拡張症は感染が問題となるため両肺を移植する必要がある。原発性肺高血圧症は高血圧が問題となるため原則として両肺移植が選択される(片肺移植だと移植した肺に負荷がかかり保たない)。拘束性肺疾患や閉塞性肺疾患など、呼吸機能の低下が問題となっている疾患であれば片肺移植が選択されることが多い。'
         },{
             detailInfo: '3.',
             questionImg: [],
@@ -984,25 +990,25 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '口唇裂口蓋裂の治療について誤っているものを選べ。',
             choices:['口唇形成術は通常、 生後3-6か月に行う。','口蓋形成術は通常、 18歳頃に行う。','顎裂部骨移植には、 腸骨からの自家海綿骨が用いられることが多い。','顎裂を伴う場合は、歯科矯正治療による咬合回復が必須である。','デンタルインプラントの植立が行われることがある。'],
-            answerImg: [],
+            answerImg: [cleftPalate1,cleftPalate2,cleftPalate3],
             answer: '口蓋形成術は通常、 18歳頃に行う。',
-            commentary: '口唇裂口蓋裂の治療について、口蓋形成術は通常、 18歳頃に行うことが誤りです。'
+            commentary: '口蓋形成術は通常1歳半ごろに行われる。顎裂を伴う場合は必ず顎骨を再建する必要があり、腸骨などからの自家骨移植が9歳ごろに行われる。顎骨再建後は自家歯牙移植やデンタルインプラントによって咬合回復が行われる。'
         },{
             detailInfo: '5.',
             questionImg: [],
             questionSentence: '唇顎口蓋裂の治療で最も早期に行われるものを選べ。',
             choices:['口唇形成術','口蓋形成術','ホッツ床 (哺乳床) の装着','言語治療','咽頭弁形成術'],
-            answerImg: [],
-            answer: '口唇形成術',
-            commentary: '唇顎口蓋裂の治療で最も早期に行われるのは口唇形成術です。'
+            answerImg: [cleftPalate1],
+            answer: 'ホッツ床 (哺乳床) の装着',
+            commentary: '治療順番として、まず哺乳のためのホッツ床 (哺乳床) の装着が行われる。成長を待ってから口唇形成術・口蓋形成術が行われ、言語習得時期に合わせて言語治療が行われる。'
         },{
             detailInfo: '6.',
             questionImg: [],
             questionSentence: '口唇裂口蓋裂の治療について正しいものを選べ。',
-            choices:['生後6か月ころよりホッツ床 (哺乳床) を使う。','口唇形成術は体重10kgのころに行う。','口蓋形成術は3歳ころに行う。','顎裂部骨移植術は上顎犬歯萌出期に行う。','言語治療は2歳ころに開始する。'],
-            answerImg: [],
-            answer: '生後6か月ころよりホッツ床 (哺乳床) を使う。',
-            commentary: '口唇裂口蓋裂の治療について、生後6か月ころよりホッツ床 (哺乳床) を使うことが正しいです。'
+            choices:['生後6か月ころよりホッツ床 (哺乳床) を使う。','口唇形成術は体重10kgのころに行う。','口蓋形成術は3歳ごろに行う。','顎裂部骨移植術は上顎犬歯萌出期に行う。','言語治療は2歳ごろに開始する。'],
+            answerImg: [cleftPalate1],
+            answer: '言語治療は2歳ごろに開始する。',
+            commentary: '顎発育誘導や哺乳のため、ホッツ床は直ちに装着される。口唇形成術は生後3-6ヶ月/体重6kgまで、口蓋形成術は1歳半ごろまで待って行われる。顎裂部骨移植術は歯が生える9歳ごろに行われるが、上顎犬歯は他の歯が生えた後10-12歳ごろに生えてくるため、上顎犬歯萌出期より前の時期となる。言語治療は言語を獲得する2歳ごろに合わせて行われる。',
         },{
             detailInfo: '7.',
             questionImg: [],
