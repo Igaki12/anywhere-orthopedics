@@ -1,3 +1,15 @@
+import organDonation5 from './img/answer/organDonation5.png';
+import organDonation4 from './img/answer/organDonation4.png';
+import osteoblastDifferentiation from './img/answer/osteoblastDifferentiation.png';
+import organDonation1 from './img/answer/organDonation1.png';
+import organDonation2 from './img/answer/organDonation2.png';
+import organDonation3 from './img/answer/organDonation3.png';
+import JOT2 from './img/answer/JOT2.png';
+import JOT1 from './img/answer/JOT1.png';
+import intestineTransplantation1 from './img/answer/intestineTransplantation1.png';
+import intestineTransplantation2 from './img/answer/intestineTransplantation2.png';
+import pancreasTransplantation1 from './img/answer/pancreasTransplantation1.png';
+import pancreasTransplantation2 from './img/answer/pancreasTransplantation2.png';
 import lungTransplantationChoice from './img/answer/lungTransplantationChoice.png';
 import lungTransplantation1 from './img/answer/lungTransplantation1.png';
 import lungTransplantation2 from './img/answer/lungTransplantation2.png';
@@ -1014,9 +1026,9 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '骨組織と細胞について間違っているものを選べ。',
             choices:['骨を構成する主要なコラーゲンはI型である。','骨代謝により骨組織の若返りと血中カルシウム濃度の維持がされる。','骨芽細胞は間葉系幹細胞由来である。','破骨細胞の分化は、骨細胞より影響を受ける。','骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植しても骨形成は認めない。'],
-            answerImg: [],
+            answerImg: [osteoblastDifferentiation],
             answer: '骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植しても骨形成は認めない。',
-            commentary: '骨組織と細胞について、骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植しても骨形成は認めないことが誤りです。'
+            commentary: 'ヒドロキシアパタイトは骨の主成分。骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植すると骨形成が認められる。'
         },{
             detailInfo: '8.',
             questionImg: [],
@@ -1040,7 +1052,7 @@ export const useQuestionList = () => {
             choices:['好中球','補体','血栓','抗体','T細胞'],
             answerImg: [],
             answer: '血栓',
-            commentary: '超急性型拒絶反応に関与する因子として、血栓は不適切です。'
+            commentary: '',
         },{
             detailInfo: '11.',
             questionImg: [],
@@ -1110,17 +1122,17 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '膵臓移植について適当な記述はどれか。',
             choices:['膵臓と腎臓の同時移植は、現状では禁忌である。','最近、 血行再建が不要な膵臓移植の方法が開発された。','多くのレシピエントでは、糖尿病性腎症の発症はまれである。','インスリン依存型糖尿病は、 移植適応とはならない。','移植後には免疫抑制剤の投与が必要である。'],
-            answerImg: [],
-            answer: '膵臓と腎臓の同時移植は、現状では禁忌である。',
-            commentary: '膵臓移植について、膵臓と腎臓の同時移植は、現状では禁忌です。'
+            answerImg: [pancreasTransplantation1,pancreasTransplantation2],
+            answer: '移植後には免疫抑制剤の投与が必要である。',
+            commentary: '膵臓移植は自己のインスリン分泌が枯渇している１型糖尿病(インスリン依存性糖尿病)の患者に対して、インスリンを分泌させる膵臓を移植することによりインスリン分泌を再開させて糖代謝をさせる治療法です。大部分(80%)のレシピエントでは、糖尿病性腎症による慢性腎不全を合併しており、このようなレシピエントに膵臓と腎臓の同時移植(SPK:Simultaneous Pancreas and Kidney trnsplantation)を行うことは、患者のQOLの改善のみならず、移植後の生命予後を改善させうることが示されています。膵臓移植の現状の課題として、待機時間の短縮がある。ドナーは現状脳死・心臓死に限られていて、生体膵臓移植はドナーの糖尿病リスクのため2014年以降行われていない。移植後の免疫抑制剤の投与はもちろん必要である。膵臓の中には成人一人あたり約100万個の膵島があります。膵島は様々な種類の細胞で構成されていますが、その中にβ細胞という、血糖が上昇した場合に血糖を低下させるホルモン、インスリンを分泌する細胞があります。β細胞が枯渇して起こる重度の糖尿病患者さんに対し、膵島を移植することで糖尿病の改善を目指す治療が『膵島移植』です。膵島移植は組織移植の一つで、膵臓を手術によって腹腔内に移植する膵臓移植に比べて短時間で終えることができ、患者さんの身体にかかる負担が少ないのが特徴です。移植後に免疫抑制剤の投与が必要なことは他の移植治療と同様です。技術的にまだ難しい部分もあり、現在、日本では臨床研究として行われています。膵島移植は血行再建不要である最近開発された手法であるが、膵臓移植ではない。',
         },{
             detailInfo: '20.',
             questionImg: [],
             questionSentence: '小腸移植について適当な記述はどれか。',
             choices:['本邦では、年間に100例以上施行されている。','小腸グラフト生着率は、 移植患者の生存率より不良である。','移植後早期では、免疫抑制剤は不要である。','腸管運動障害などによる腸管不全は移植適応とならない。','静脈栄養の中枢ルート消失だけでは、 移植適応とならない。'],
-            answerImg: [],
-            answer: '静脈栄養の中枢ルート消失だけでは、 移植適応とならない。',
-            commentary: '小腸移植について、静脈栄養の中枢ルート消失だけでは、 移植適応とならないです。'
+            answerImg: [intestineTransplantation1,intestineTransplantation2],
+            answer: '小腸グラフト生着率は、 移植患者の生存率より不良である。',
+            commentary: '短腸症や腸管運動機能障害などの腸管不全は、静脈栄養の発達で経口摂取により栄養を摂ることができなくても生活を維持していくことは可能ですが、中枢ルートの喪失や肝障害などで中心静脈栄養を継続することができない場合がああります。小脳移植は2020年までに国内で35例が実施されています。症例数は少ないが、日本の小腸移植の成績は良好とされる。2018年より健康保険適応。腸管不全（短腸症や腸管運動障害）によって静脈栄養からの離脱の見込みがない状態で、 1.静脈栄養を行う中枢ルートがなくなることが予測される(残存ルート2本以下)こと、2.腸管不全ならびに静脈栄養のため、肝障害をはじめ他の臓器に障害が起きているまたは起きることが予測される(敗血症など)こと、腸管不全のため著しく生活の質が落ちている場合など。残存腸管が成人で20cm以下の超短腸症の場合にも速やかに肝不全に至るため条件に関わらず適応となる。 小腸移植患者の生存率は10年で59%であるが、小腸移植の生着りつは10年で47%であり、患者の生存率>生着率と言える(生着が生存に必須であるわけではない)。免疫抑制剤は必要である。'
         },{
             detailInfo: '21.',
             questionImg: [],
@@ -1174,17 +1186,17 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '日本臓器移植ネットワークが行っていることはどれか。',
             choices:['移植医療の普及啓発','生体腎移植希望者への移植施設紹介','熱傷患者に対する皮膚移植のための皮膚のあっせん','臓器提供への感謝状作成','摘出心臓搬送のためのチャーター機の手配'],
-            answerImg: [],
+            answerImg: [JOT1,JOT2],
             answer: '移植医療の普及啓発',
-            commentary: '日本臓器移植ネットワークが行っていることは移植医療の普及啓発です。'
+            commentary: '日本臓器移植ネットワークが行っていることは移植医療の普及啓発です。ドナーやその家族の意思をいかし、レシピエントに最善の方法で臓器が送られるように橋渡し(実際に手配したり斡旋するわけではない)をする組織。(実際に手配したり斡旋するわけではない)。感謝状は厚生労働大臣から渡される。'
         },{
             detailInfo: '28.',
             questionImg: [],
             questionSentence: '脳死下臓器提供について誤っているものを一つ選べ。',
             choices:['2回目の法的脳死判定の終了時刻が死亡時刻となる','2回の脳死判定の間にメディカルコンサルタントが派遣され、 臓器の医学的適応評価を行う','臓器提供者の家族が希望した場合は、マスコミ等への情報公開は行わない','2020年は COVID-19 の影響で少なくなったが、 18歳未満の提供が2019年に最多となった','臓器摘出の順番は心臓→肺→小腸→肝臓→膵臓→腎臓である'],
-            answerImg: [],
+            answerImg: [organDonation1,organDonation2,organDonation3,organDonation4,organDonation5],
             answer: '臓器提供者の家族が希望した場合は、マスコミ等への情報公開は行わない',
-            commentary: '脳死下臓器提供について、臓器提供者の家族が希望した場合は、マスコミ等への情報公開は行わないが誤りです。'
+            commentary: '脳死下臓器提供について、法的脳死判定は2回、６時間以上空けて行われ、2回目の法的脳死判定の終了時刻が死亡時間となる。メディカルコンサルタントによる医学的適応評価は1回目脳死判定終了後~2回目脳死判定開始前の間に実施される。18歳未満脳死下臓器提供件数は2019年に最多となった。臓器摘出手術の順番は虚血許容時間が短い順で、心臓→肺→小腸→肝臓→膵臓→腎臓である。'
         },{
             detailInfo: '29.',
             questionImg: [],
