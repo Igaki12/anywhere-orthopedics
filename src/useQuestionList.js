@@ -1,3 +1,7 @@
+import livingKidneyTransplantation1 from './img/answer/livingKidneyTransplantation1.png';
+import livingKidneyTransplantation2 from './img/answer/livingKidneyTransplantation2.png';
+import PEKT1 from './img/answer/PEKT1.png';
+import PEKT2 from './img/answer/PEKT2.png';
 import organDonation5 from './img/answer/organDonation5.png';
 import organDonation4 from './img/answer/organDonation4.png';
 import osteoblastDifferentiation from './img/answer/osteoblastDifferentiation.png';
@@ -1161,7 +1165,7 @@ export const useQuestionList = () => {
             detailInfo: '24.',
             questionImg: [],
             questionSentence: '小児急性白血病の造血幹細胞移植の適応について正しいのはどれ',
-            choices:['第1寛解期のT細胞性急性リンパ性白血病は全例移植の適応である。','化学療法終了後2年経過した時点で再発した急性リンパ性白血病では、 化学療法で再度寛解 (第2寛解期) に持ち込むことができれば、 同種造血幹細胞移植が推奨される。','KMT2A (MLL) 遺伝子再構成ありの乳児急性リンパ性白血病では第1寛解期で移植すると長期生存率70%以上が期待できる。','非寛解の急性リンパ性白血病は同種造血幹細胞移植を行っても5年無病生存率は20%未満である。','微小残存病変 (MRD) 陽性の急性リンパ性白血病は、 第1寛解期での同種造血幹細胞移植が推奨される。'],
+            choices:['第1寛解期のT細胞性急性リンパ性白血病は全例移植の適応である。','化学療法終了後2年経過した時点で再発した急性リンパ性白血病では、 化学療法で再度寛解 (第2寛解期) に持ち込むことができれば、 同種造血幹細胞移植が推奨される。','KMT2A (MLL) 遺伝子再構成ありの乳児急性リンパ性白血病では第1寛解期で移植すると長期生存率70%以上が期待できる。','非寛解の急性リンパ性白血病は同種造血幹細胞移植を行っても5年無病生存率は20%未満である。','微小残存病変 (MRD) 陽性の急性リンパ性白血病は、 第1寛解期での同種造血幹細胞移植が推奨される。'],a
             answerImg: [],
             answer: '2,5',
             commentary: '小児急性白血病の造血幹細胞移植の適応について、化学療法終了後2年経過した時点で再発した急性リンパ性白血病では、 化学療法で再度寛解 (第2寛解期) に持ち込むことができれば、 同種造血幹細胞移植が推奨される。微小残存病変 (MRD) 陽性の急性リンパ性白血病は、 第1寛解期での同種造血幹細胞移植が推奨される。が正しいです。'
@@ -1170,7 +1174,7 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '日本移植学会で倫理的に生体腎移植として認められているものを選べ。',
             choices:['祖母','孫','子供もいる同性パートナー','妻の従妹','夫の甥'],
-            answerImg: [],
+            answerImg: [livingKidneyTransplantation1,livingKidneyTransplantation2],
             answer: '子供もいる同性パートナー',
             commentary: '日本移植学会で倫理的に生体腎移植として認められているのは子供もいる同性パートナーです。'
         },{
@@ -1178,9 +1182,9 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '先行的腎移植のメリットで間違っているものを一つ選べ。',
             choices:['医療経済的に優れる','仕事、 学業などの生活面への影響が少ない','免疫抑制剤に対するアドヒアランスが向上する','美容的に優れる','小児では身長獲得や精神発達面で優れる'],
-            answerImg: [],
-            answer: '美容的に優れる',
-            commentary: '先行的腎移植のメリットで、美容的に優れるが誤りです。'
+            answerImg: [PEKT1,PEKT2],
+            answer: '免疫抑制剤に対するアドヒアランスが向上する',
+            commentary: '先行的腎移植(Pre-emptive kidney transplantation:PEKT)とは、人工透析を行わずに腎移植を行うことである。人工透析を経ないメリットとして、生存率が向上することのほか、QOL面、医療経済的な影響、小児の精神発達、透析合併症の回避、透析導入のためのシャントを作らなくて良いので美容面に優れるという点がある。反面、苦しい人工透析を行わないので術後の免疫抑制剤などのアドヒアランス(患者さん自身が自分の病気を受け入れて、医師の指示に従って積極的に薬を用いた治療を受けること)は低下する。',
         },{
             detailInfo: '27.',
             questionImg: [],
