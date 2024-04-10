@@ -1,3 +1,10 @@
+import HSCTForChildhoodALL from './img/answer/HSCTForChildhoodALL.png';
+import acuteGVHD from './img/answer/acuteGVHD.png';
+import solidTumor from './img/answer/solidTumor.png';
+import HSCT1 from './img/answer/HSCT1.png';
+import HSCT3 from './img/answer/HSCT3.png';
+import umbilicalCordBlood from './img/answer/umbilicalCordBlood.png';
+import HSCT2 from './img/answer/HSCT2.png';
 import livingKidneyTransplantation1 from './img/answer/livingKidneyTransplantation1.png';
 import livingKidneyTransplantation2 from './img/answer/livingKidneyTransplantation2.png';
 import PEKT1 from './img/answer/PEKT1.png';
@@ -809,8 +816,8 @@ export const useQuestionList = () => {
             questionSentence: '75歳の女性。1日前に受けた散瞳検査後から左眼の眼痛、視力低下、嘔気を主訴に来院した。喘息の既往がある。視力は右 0.1(1.0× +3.5D)、左 0.1(0.1 × +4.5D)。眼圧は右 22mmHg、左 58mmHg。左眼前眼部写真を示す。最も適切な治療を選べ。',
             choices: ['β遮断薬点眼','抗生剤点眼', '眼球マッサージ', 'レーザー線維柱帯形成術', '水晶体摘出術'],
             answerImg: [acuteGlaucoma1,acuteGlaucoma2,acuteGlaucoma3,acuteGlaucoma4,acuteGlaucoma5,acuteGlaucoma6,acuteGlaucomaLaserTreatment],
-            answer: 'レーザー線維柱帯形成術',
-            commentary: '右眼は球面レンズ補正で見えるようになる→遠視(老視)であるが、左眼は矯正で視力が改善しない。眼は充血していて、図では隅角の閉塞(浅前房)が確認される。おそらく散瞳検査後から急性緑内障発作を起こしていると考えられる。眼圧も高い。治療はピロカルビンなどのコリン作動薬点滴や、高浸透圧薬(マンニトール)や炭酸脱水素阻害剤などの内服、レーザー虹彩切開術/周辺虹彩切除術、水晶体摘出術などが選択される。レーザー線維柱帯形成術や線維柱帯切除術(トラベクレクトミー)は線維柱帯以降の流出障害が原因の開放隅角緑内障に対して行われる手術であり、α2遮断薬やβ遮断薬などの点眼薬は房水産生抑制作用をもち緑内障治療薬として使用されるが、喘息の既往がある場合は禁忌である。抗生剤点眼は緑内障には効果がない。眼球マッサージは眼圧が一時的に高くなるため緑内障の場合は不適である。',
+            answer: '水晶体摘出術',
+            commentary: '右眼は球面レンズ補正で見えるようになる→遠視(老視)であるが、左眼は矯正で視力が改善しない。眼は充血していて、図では隅角の閉塞(浅前房)が確認される。おそらく散瞳検査後から急性緑内障発作を起こしていると考えられる。眼圧も高い。治療はピロカルビンなどのコリン作動薬点滴や、高浸透圧薬(マンニトール)や炭酸脱水素阻害剤などの内服、レーザー虹彩切開術/周辺虹彩切除術、水晶体摘出術などが選択される。レーザー線維柱帯形成術や線維柱帯切除術(トラベクレクトミー)は線維柱帯以降の流出障害が原因の開放隅角緑内障(閉塞隅角ではないし、開放隅角の場合は急性発作は考えにくい)に対して行われる手術であり、α2遮断薬やβ遮断薬などの点眼薬は房水産生抑制作用をもち緑内障治療薬として使用されるが、喘息の既往がある場合は禁忌である。抗生剤点眼は緑内障には効果がない。眼球マッサージは眼圧が一時的に高くなるため緑内障の場合は不適である。',
     },]},
     {
         groupTag: '眼疾患 2022本試験',
@@ -1142,33 +1149,33 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '各種造血幹細胞移植の特徴の比較について誤っているのはどれか一つ選べ。',
             choices:['同種臍帯血移植は生着不全のリスクが最も高い。','同種末梢血幹細胞移植は好中球生着が最も早い。','同種骨髄移植は標準的移植法である。','自家末梢血幹細胞移植では GVHD を認めない。','同種臍帯血移植はGVHD の発症リスクが最も高い。'],
-            answerImg: [],
+            answerImg: [umbilicalCordBlood],
             answer: '同種末梢血幹細胞移植は好中球生着が最も早い。',
-            commentary: '各種造血幹細胞移植の特徴の比較について、同種末梢血幹細胞移植は好中球生着が最も早いことが誤りです。'
+            commentary: '末梢血幹細胞移植は移植後に好中球が500/μL以上に回復するまでの期間が、他の方法に比べて最も短く、約２週間で生着する。末梢血幹細胞移植は慢性のGVHDが発生しやすい。臍帯血移植はGVHDのリスクは比較的少ないが、ウイルス感染リスクが最も高い。'
         },{
             detailInfo: '22.',
             questionImg: [],
             questionSentence: '急性GVHDの症状として誤っているのはどれか一つ選べ。',
             choices:['下痢','皮疹','肝機能障害','関節拘縮','黄疸'],
-            answerImg: [],
+            answerImg: [acuteGVHD],
             answer: '関節拘縮',
-            commentary: '急性GVHDの症状として、関節拘縮が誤っています。'
+            commentary: '急性GVHDは造血幹細胞浮遊中に含まれるドナー由来のT細胞が活性化され、袁紹制裁とかいんが放出されることで発症する。急性GVHDの症状としては、皮膚症状(皮疹)、下痢、肝機能障害、黄疸が挙げられる。移植後6-30日目に発症し、その抑制として免疫抑制剤が使用される。'
         },{
             detailInfo: '23.',
             questionImg: [],
             questionSentence: '小児造血幹細胞移植について正しいのはどれか。 2つ選べ。',
             choices:['造血幹細胞移植はヒト白血球抗原 (HLA) の発見やシクロスポリンなどの免疫抑制剤の開発などによって発展してきた。','血縁関係のあるきょうだい同士では、HLAは理論上1/2の確率で完全に一致する。','一般的に HLA 一致の同種臍帯血移植では HLA 一致の同種血縁者間末梢血幹細胞移植よりも慢性移植片対宿主病 (慢性 GVHD) は軽いとされる。','難治性固形腫瘍では大量化学療法 + 同種造血幹細胞移植が標準的治療法である。','同種造血幹細胞移植でドナー白血球が生着すれば、 ウイルス感染のリスクは低くなる。'],
-            answerImg: [],
-            answer: '1,4',
-            commentary: '小児造血幹細胞移植について、造血幹細胞移植はヒト白血球抗原 (HLA) の発見やシクロスポリンなどの免疫抑制剤の開発などによって発展してきた。難治性固形腫瘍では大量化学療法 + 同種造血幹細胞移植が標準的治療法である。が正しいです。'
+            answerImg: [HSCT1,HSCT2,HSCT3,umbilicalCordBlood,solidTumor],
+            answer: '1,3',
+            commentary: '小児造血幹細胞移植について、造血幹細胞移植はヒト白血球抗原 (HLA) の発見やシクロスポリンなどの免疫抑制剤の開発などによって発展してきた。血縁関係のある兄妹(同胞)同士でHLAが完全一致する確率は1/4である。一般的に臍帯血移植は末梢血幹細胞移植よりも慢性GVHDは軽いとされる（その代わり生着不全は多い）。造血幹細胞移植は基本的に固形腫瘍より血液腫瘍や代謝性疾患に適応される。白血球はウイルス感染というよりは細菌性感染のリスクを下げる。'
         },{
             detailInfo: '24.',
             questionImg: [],
             questionSentence: '小児急性白血病の造血幹細胞移植の適応について正しいのはどれ',
             choices:['第1寛解期のT細胞性急性リンパ性白血病は全例移植の適応である。','化学療法終了後2年経過した時点で再発した急性リンパ性白血病では、 化学療法で再度寛解 (第2寛解期) に持ち込むことができれば、 同種造血幹細胞移植が推奨される。','KMT2A (MLL) 遺伝子再構成ありの乳児急性リンパ性白血病では第1寛解期で移植すると長期生存率70%以上が期待できる。','非寛解の急性リンパ性白血病は同種造血幹細胞移植を行っても5年無病生存率は20%未満である。','微小残存病変 (MRD) 陽性の急性リンパ性白血病は、 第1寛解期での同種造血幹細胞移植が推奨される。'],
-            answerImg: [],
+            answerImg: [HSCTForChildhoodALL],
             answer: '2,5',
-            commentary: '小児急性白血病の造血幹細胞移植の適応について、化学療法終了後2年経過した時点で再発した急性リンパ性白血病では、 化学療法で再度寛解 (第2寛解期) に持ち込むことができれば、 同種造血幹細胞移植が推奨される。微小残存病変 (MRD) 陽性の急性リンパ性白血病は、 第1寛解期での同種造血幹細胞移植が推奨される。が正しいです。'
+            commentary: '小児急性白血病の第一寛解期では、超高危険群の一部条件(遺伝子型・HLA適合有無)でのみ造血幹細胞移植がS:Standard of careとなっている。再発したALLではMRD陰性まで化学療法で第二寛解を得ることができれば、造血幹細胞移植はGNR:Generally Not Recommendとなる（逆に寛解に持ち込めなければ/MRD陽性ならば移植適応）。'
         },{
             detailInfo: '25.',
             questionImg: [],
@@ -1239,8 +1246,8 @@ export const useQuestionList = () => {
             questionSentence: '以下の自家移植のうち、 単独で行われない組織移植はどれか。',
             choices:['骨移植','軟骨移植','静脈移植','神経移植','腱移植'],
             answerImg: [],
-            answer: '静脈移植',
-            commentary: '以下の自家移植のうち、 単独で行われない組織移植は静脈移植です。'
+            answer: '軟骨移植',
+            commentary: '軟骨単独では生着しないので、骨と軟骨を一緒に移植することが多いです。'
         },{
             detailInfo: '34.',
             questionImg: [],
