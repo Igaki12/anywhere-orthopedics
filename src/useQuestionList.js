@@ -1,3 +1,13 @@
+import stemCellDifferencitationInBone from './img/answer/stemCellDifferencitationInBone.png';
+import collagen1 from './img/answer/collagen1.png';
+import iPSCellUse from './img/answer/iPSCellUse.png';
+import PRP from './img/answer/PRP.png';
+import stemCellReport from './img/answer/stemCellReport.png';
+import osteoclastDifferentiation from './img/answer/osteoclastDifferentiation.png';
+import mescenchymalStemCellTransplantation from './img/answer/mescenchymalStemCellTransplantation.png';
+import regenerativeMedicineLaw from './img/answer/regenerativeMedicineLaw.png';
+import regenerativeMedicineUse from './img/answer/regenerativeMedicineUse.png';
+import bedsore from './img/answer/bedsore.png';
 import HSCTForChildhoodALL from './img/answer/HSCTForChildhoodALL.png';
 import acuteGVHD from './img/answer/acuteGVHD.png';
 import solidTumor from './img/answer/solidTumor.png';
@@ -1037,7 +1047,7 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '骨組織と細胞について間違っているものを選べ。',
             choices:['骨を構成する主要なコラーゲンはI型である。','骨代謝により骨組織の若返りと血中カルシウム濃度の維持がされる。','骨芽細胞は間葉系幹細胞由来である。','破骨細胞の分化は、骨細胞より影響を受ける。','骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植しても骨形成は認めない。'],
-            answerImg: [osteoblastDifferentiation],
+            answerImg: [osteoblastDifferentiation,collagen1,osteoclastDifferentiation,stemCellReport],
             answer: '骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植しても骨形成は認めない。',
             commentary: 'ヒドロキシアパタイトは骨の主成分。骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植すると骨形成が認められる。'
         },{
@@ -1045,9 +1055,9 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '運動器に関する再生医療について正しいものを選べ。',
             choices:['PRP (Platelet-Rich Plasma) を用いた医療はまだヒトには行われたことがない。','平成6年11月に 「再生医療等の安全性の確保等に関する法律」 が施行された。','脊髄損傷に対する骨髄間葉系細胞移植は行われたことはない。','iPS 細胞による脊髄損傷治療の臨床研究が進行中である。','骨髄間葉系細胞移植は良性骨腫瘍による骨欠損には適用がない。'],
-            answerImg: [],
+            answerImg: [PRP,mescenchymalStemCellTransplantation,regenerativeMedicineLaw,regenerativeMedicineUse,iPSCellUse],
             answer: 'iPS 細胞による脊髄損傷治療の臨床研究が進行中である。',
-            commentary: '運動器に関する再生医療について、iPS 細胞による脊髄損傷治療の臨床研究が進行中であることが正しいです。'
+            commentary: 'PRP医療は「切らない再生医療」とも呼ばれ、保険適用外ながらも盛んに変形性関節症・靭帯損傷・腱炎など幅広く利用されている。再生医療の研究開発促進のため、平成26年(当時安倍内閣)に「再生医療等の安全性の確保等に関する法律」が施行され、これにより細胞培養加工などを医療機関から企業へ外部委託できるようになり、安全な再生医療を迅速かつ円滑に行えるようになった。脊髄損傷などに対する骨髄間葉系細胞移植は2013年より札幌医科大学で開始され、2016年には厚労省から承認を取得した。変形性関節症、脊髄損傷、軟骨欠損のほか、良性骨腫瘍(完全摘出後)でも、骨髄間葉系細胞移植が行われている。'
         },{
             detailInfo: '9.',
             questionImg: [],
@@ -1075,7 +1085,7 @@ export const useQuestionList = () => {
         },{
             detailInfo: '12.',
             questionImg: [],
-            questionSentence: '次のうち major histocompatibility complex (MHC) にあてはまらない組織適合抗原を選�',
+            questionSentence: '次のうち major histocompatibility complex (MHC) にあてはまらない組織適合抗原を選べ。',
             choices:['HA','HLA-A','HLA-B','HLA-C','HLA-DR'],
             answerImg: [],
             answer: 'HA',
@@ -1093,9 +1103,9 @@ export const useQuestionList = () => {
             questionImg: [],
             questionSentence: '間葉系幹細胞について最も適する 記述を選べ。',
             choices:['骨髄における主な機能は、傷害時に造血幹細胞の機能を代替することである。','体外培養では骨細胞に分化する。','体外培養では事実上回数制限なく細胞分裂する。','発生学的には内胚葉に由来する。','生体では骨髄に特有の細胞である。'],
-            answerImg: [],
-            answer: '発生学的には内胚葉に由来する。',
-            commentary: '間葉系幹細胞について、発生学的には内胚葉に由来することが適切です。'
+            answerImg: [stemCellDifferencitationInBone],
+            answer: '体外培養では骨細胞に分化する。',
+            commentary: 'Bone tissue engineeringの有用な細胞源である骨髄間質細胞の寿命は有限であり、出来得る骨組織量もおのずと制限される。間葉系幹細胞は骨芽細胞、骨細胞、軟骨芽細胞、繊維芽細胞に分化する、発生学的には中胚葉に由来する細胞。骨髄由来の細胞の中でも非常に増えやすいが、分裂回数に制限はある。破骨細胞は造血幹細胞から分化するので間葉系幹細胞からは分化しない。臨床目的で用いられるだけでも、骨髄由来・臍帯由来・脂肪由来など、多様な組織から採取される。'
         },{
             detailInfo: '15.',
             questionImg: [],
@@ -1231,15 +1241,15 @@ export const useQuestionList = () => {
             choices:['植皮片は薄いほど生着しやすい。','植皮片は薄いほど収縮しやすい。','植皮片は厚いほど色素沈着しやすい。','移植床の血行が良いほど生着しやすい。','移植床と密着しているほど生着しやすい。'],
             answerImg: [],
             answer: '植皮片は厚いほど色素沈着しやすい。',
-            commentary: '遊離植皮術について、植皮片は厚いほど色素沈着しやすいが誤りです。'
+            commentary: '遊離植皮術には皮膚のみを移植する遊離移植と血行を良くするため血管を移植片に繋げたまま移植する有茎移植とがあり、有茎移植は取得可能な面積が限られるが拘縮や色素沈着が少なく、血行不良であっても再建しやすい。遊離移植は真皮中層までの部分のみを移植する分層移植と表皮・真皮全てを移植する全層移植に分類されるが、薄い分層移植の方が色素沈着や拘縮しやすい。'
         },{
             detailInfo: '32.',
             questionImg: [],
             questionSentence: '褥瘡について誤っているのはどれか。 一つ選べ。',
             choices:['発症直後は感染に注意する。','好発部位は仙骨部・腸骨稜・ 大転子部などである。','体液漏出により低タンパク血症となりやすい。','坐骨部の褥瘡は対麻痺より四肢麻痺の患者に発生しやすい。','肉芽組織の中にも褥瘡ができうる'],
-            answerImg: [],
+            answerImg: [bedsore],
             answer: '肉芽組織の中にも褥瘡ができうる',
-            commentary: '褥瘡について、肉芽組織の中にも褥瘡ができうるが誤りです。'
+            commentary: '褥瘡とは、体と支持面との接触部位で皮膚が圧迫されて起こる血行障害が一定期間持続し組織壊死に至ったものである。後発部位は皮下組織が薄く外力が集中しやすい骨突出部で、仰臥位では仙骨部、側臥位では腸骨部、大転子部で多い。褥瘡は感染しやすいので、発症直後から感染に注意する。坐骨部の褥瘡は坐位や車いす坐位が続く場合に発症しやすく、広い麻痺であるほど発症しやすい。褥瘡の発症機構(圧迫や血行障害)を考えると低タンパク血症を起こすほどの体液漏出は起こらないが、低タンパク血症は褥瘡の原因になる(組織治癒が遅れるため)。肉芽組織の中にも褥瘡ができることがある。'
         },{
             detailInfo: '33.',
             questionImg: [],
@@ -1254,8 +1264,8 @@ export const useQuestionList = () => {
             questionSentence: '神経欠損に用いられる移植組織の組み合わせで、正しいものを3つ選べ。',
             choices:['骨','神経','血管','筋肉','腱'],
             answerImg: [],
-            answer: '2,4,5',
-            commentary: '神経欠損に用いられる移植組織の組み合わせで、筋肉、腱が正しいです。'
+            answer: '神経,血管,筋肉',
+            commentary: '神経欠損で最も良い移植組織は神経組織である(重要でない神経を重要な組織に移植することにになる)が、1cm程度であれば神経に組織やホルモン分泌が類似している静脈(筒状)や筋肉(一方向性に細胞が分布)が使われることもある。'
         }
     ]
     }
@@ -1264,7 +1274,7 @@ export const useQuestionList = () => {
         groupContents: [{
             detailInfo: '1.',
             questionImg: [],
-            questionSentence: '同種造血幹細胞移植に関して正しいのはどれか。1つ選べ。',
+            questionSentence: '同種 造血幹細胞移植に関して正しいのはどれか。1つ選べ。',
             choices:['臍帯血移植は成人での施行件数が小児より多い。','免疫抑制剤としてシクロスポリンとタクロリムスを併用する。','GVHD が発症すると再発率が高くなる。','同種造血幹細胞移植可能年齢は55歳までである。','サイトメガロウイルス感染発症リスクは移植直後が最も高い。'],
             answerImg: [],
             answer: 'サイトメガロウイルス感染発症リスクは移植直後が最も高い。',
