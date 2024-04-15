@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.bdf825ca.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.9f2de5c2.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/causeOfVisualImpairment.png": "/anywhere-orthopedics/static/media/causeOfVisualImpairment.66a777cfd3a9234e3696.png",
@@ -68,6 +68,7 @@
     "static/media/myastheniaGravis.png": "/anywhere-orthopedics/static/media/myastheniaGravis.e0ef2a445e6c15e0b50a.png",
     "static/media/HSCTForChildhoodALL.png": "/anywhere-orthopedics/static/media/HSCTForChildhoodALL.42f8459e83aca04186c9.png",
     "static/media/acuteGlaucoma2.png": "/anywhere-orthopedics/static/media/acuteGlaucoma2.9fa45c755a1f6d2c0a49.png",
+    "static/media/otorhinolalyngology2311.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2311.350edd75354fc160b705.png",
     "static/media/totalHipArthroplasty.png": "/anywhere-orthopedics/static/media/totalHipArthroplasty.c9b421e8f3880681ea46.png",
     "static/media/retinalDegenerationVisualField.png": "/anywhere-orthopedics/static/media/retinalDegenerationVisualField.9284abbc885cb00a89c8.png",
     "static/media/childhoodLeukemiaTypes2.png": "/anywhere-orthopedics/static/media/childhoodLeukemiaTypes2.beafc1e21a84090b2a9f.png",
@@ -78,6 +79,7 @@
     "static/media/mescenchymalStemCellTransplantation.png": "/anywhere-orthopedics/static/media/mescenchymalStemCellTransplantation.6e85845d47dfa75bae87.png",
     "static/media/acuteGlaucoma6.png": "/anywhere-orthopedics/static/media/acuteGlaucoma6.8e10ea5223cec0e4a094.png",
     "static/media/acuteGlaucoma.png": "/anywhere-orthopedics/static/media/acuteGlaucoma.2ff2ee800d381a040753.png",
+    "static/media/otorhinolalyngology2310.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2310.58bda0caea2fe18200af.png",
     "static/media/solidTumor.png": "/anywhere-orthopedics/static/media/solidTumor.b65235b92eda4d114d02.png",
     "static/media/survey.png": "/anywhere-orthopedics/static/media/survey.eb0320b04eab91298bc6.png",
     "static/media/bedsore.png": "/anywhere-orthopedics/static/media/bedsore.121cfdc55dd2e6fc667b.png",
@@ -122,6 +124,7 @@
     "static/media/ITPDiagnosis1.png": "/anywhere-orthopedics/static/media/ITPDiagnosis1.d1d292752ef1c0aba37e.png",
     "static/media/purulentFolliculitis.png": "/anywhere-orthopedics/static/media/purulentFolliculitis.0b675bdda7ded75745fe.png",
     "static/media/pagetBone.png": "/anywhere-orthopedics/static/media/pagetBone.e753245cd90d831bfb36.png",
+    "static/media/otorhinolalyngology2315.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2315.dcbff1a50864e5f55237.png",
     "static/media/Preiser.png": "/anywhere-orthopedics/static/media/Preiser.8dfc746cdb2ca49f2704.png",
     "static/media/regenerativeMedicineLaw.png": "/anywhere-orthopedics/static/media/regenerativeMedicineLaw.9765c538b9730eedd302.png",
     "static/media/extraArticularSymptoms.png": "/anywhere-orthopedics/static/media/extraArticularSymptoms.10440c87046d69204d59.png",
@@ -132,6 +135,7 @@
     "static/media/IDA.png": "/anywhere-orthopedics/static/media/IDA.8c3488a0f79bcbce645c.png",
     "static/media/amblyopia2.png": "/anywhere-orthopedics/static/media/amblyopia2.e28aedab1ac20bd1a128.png",
     "static/media/fundusFindingsForAtherosclerosis.png": "/anywhere-orthopedics/static/media/fundusFindingsForAtherosclerosis.3e95c5540cdb2eedc9d0.png",
+    "static/media/otorhinolalyngology2313.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2313.350e246cf5e9de8143f2.png",
     "static/media/cleftPalate1.png": "/anywhere-orthopedics/static/media/cleftPalate1.6a0c5a49a746d6ea6480.png",
     "static/media/howToReadEyeSight.png": "/anywhere-orthopedics/static/media/howToReadEyeSight.bf0cc514ac4ade13df92.png",
     "static/media/osteosarcoma.png": "/anywhere-orthopedics/static/media/osteosarcoma.ff274fe1d14297422fbf.png",
@@ -140,6 +144,7 @@
     "static/media/Kienbock.png": "/anywhere-orthopedics/static/media/Kienbock.0c35d7c17efaaed01d28.png",
     "static/media/autosomalDominantOpticAtrophy1.png": "/anywhere-orthopedics/static/media/autosomalDominantOpticAtrophy1.3bd0fc1bbf40409d68a1.png",
     "static/media/halluxValgusTreatment2.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment2.112d263687e6693d8a12.png",
+    "static/media/otorhinolalyngology2308.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2308.299fd5985798f207e641.png",
     "static/media/regenerativeMedicineUse.png": "/anywhere-orthopedics/static/media/regenerativeMedicineUse.71174fec572b9ab5616d.png",
     "static/media/ITPTreatment2.png": "/anywhere-orthopedics/static/media/ITPTreatment2.42f2d28c7dfedba866cb.png",
     "static/media/halluxValgusArthrodesis.png": "/anywhere-orthopedics/static/media/halluxValgusArthrodesis.025c6d6b77877914ea1f.png",
@@ -150,6 +155,7 @@
     "static/media/autosomalDominantOpticAtrophy2.png": "/anywhere-orthopedics/static/media/autosomalDominantOpticAtrophy2.14a41d77738063b2bf3a.png",
     "static/media/innervationLowerLimb.png": "/anywhere-orthopedics/static/media/innervationLowerLimb.84b2e22c2ada16c0add5.png",
     "static/media/coagulationPathway.png": "/anywhere-orthopedics/static/media/coagulationPathway.486110a0088e2a25bc07.png",
+    "static/media/otorhinolalyngology2307.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2307.6c9f11e660ff617c5b9f.png",
     "static/media/halluxValgusTreatment1.png": "/anywhere-orthopedics/static/media/halluxValgusTreatment1.50ee42390fdad840a2b4.png",
     "static/media/congenitalColorVisionDeficiency.png": "/anywhere-orthopedics/static/media/congenitalColorVisionDeficiency.76e16ec47a203211616c.png",
     "static/media/question23.png": "/anywhere-orthopedics/static/media/question23.16e0a156ef0e6762dbf7.png",
@@ -167,10 +173,10 @@
     "static/media/coagulationFactors.png": "/anywhere-orthopedics/static/media/coagulationFactors.66d2a2d93491ec8f1f40.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.bdf825ca.js.map": "/anywhere-orthopedics/static/js/main.bdf825ca.js.map"
+    "main.9f2de5c2.js.map": "/anywhere-orthopedics/static/js/main.9f2de5c2.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.bdf825ca.js"
+    "static/js/main.9f2de5c2.js"
   ]
 }

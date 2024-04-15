@@ -1,3 +1,9 @@
+import otorhinolalyngology2311 from './img/answer/otorhinolalyngology2311.png';
+import otorhinolalyngology2310 from './img/answer/otorhinolalyngology2310.png';
+import otorhinolalyngology2313 from './img/answer/otorhinolalyngology2313.png';
+import otorhinolalyngology2307 from './img/answer/otorhinolalyngology2307.png';
+import otorhinolalyngology2315 from './img/answer/otorhinolalyngology2315.png';
+import otorhinolalyngology2308 from './img/answer/otorhinolalyngology2308.png';
 import stemCellDifferencitationInBone from './img/answer/stemCellDifferencitationInBone.png';
 import collagen1 from './img/answer/collagen1.png';
 import iPSCellUse from './img/answer/iPSCellUse.png';
@@ -173,9 +179,6 @@ export const useQuestionList = () => {
         // ここに問題のリストを記述(選択式の場合は[0]に正解択をいれた配列をつくる)
         {
             groupTag: "運動器疾患 2023本試験(解説少なめ)",
-
-
-
             groupContents: [{
                     detailInfo: '1.',
                     questionImg: [],
@@ -1587,7 +1590,133 @@ export const useQuestionList = () => {
             answerImg: [],
             answer: '0.5',
             commentary: '視力とは、2点を識別する眼の能力のことであり、２つの点を1点ではなく2点として認識できる最小の角度を示します。視角1分の時の視力が1.0であり、視角2分の時の視力は0.5、視角3分の時の視力は0.3、視角4分の時の視力は0.25です。'
-        }]
+        }]},{
+        groupTag: '耳鼻科 2023本試験',
+        groupContents: [{
+            detailInfo: '1.',
+            questionSentence: '中耳、内耳、脳神経に関して正しいのはどれか。3つ選べ。',
+            choices:['耳小骨のうち、鼓膜に接している耳小骨はキヌタ骨である。','アブミ骨の底板は卵円窓に付着している。','平衡機能を担う臓器のうち半規管は回転加速度、耳石器は直線加速度を感知する臓器である。','立位・座位にて重力加速度を感知するのは主として卵形嚢である。','鼓膜の組織は3層構造をしており、中央が凹んだ漏斗状をなしている。'],
+            answer:"アブミ骨の底板は卵円窓に付着している。,平衡機能を担う臓器のうち半規管は回転加速度、耳石器は直線加速度を感知する臓器である。,鼓膜の組織は3層構造をしており、中央が凹んだ漏斗状をなしている。",
+            commentary:'鼓膜→ツチ骨→キヌタ骨→アブミ骨→前庭窓(卵円窓)。耳石器には球形嚢・卵形嚢があり、球形嚢が立位・坐位で鉛直方向の加速度を感知する。鼓膜の3層構造はそれぞれ外胚葉・中胚葉・内胚葉由来となっている。'
+        },{
+            detailInfo: '2.',
+            questionSentence: '鼻副鼻腔の解剖に関して正しいのはどれか。3つ選べ。',
+            choices:['上顎洞自然口は中鼻道に開口する。','蝶形洞は蜂巣状になっていることが多い。','Kiesselbach部位は鼻腔前方の鼻中隔に存在する。','前篩骨動脈は内頸動脈から分枝される。','鼻涙管は上鼻道に開口する。'],
+            answer:'上顎洞自然口は中鼻道に開口する。,Kieselbach部位は鼻腔前方の鼻中隔に存在する。,前篩骨動脈は内頸動脈から分枝される。',
+            commentary:'峰巣状になるのは蝶形骨洞と篩骨洞。鼻涙管は下鼻道に開口する。'
+        },{
+            detailInfo: '3.',
+            questionSentence: '良性発作性頭位めまい症の特徴として誤っているものはどれか。',
+            choices:['女性に多い。','高齢者に多い。','後半規管型が多い。','多くは自然治癒する。','めまい発作は誘因なく生じる。'],
+            answer:'めまい発作は誘因なく生じる。',
+            commentary:'めまい発作は頭位変化により誘因される。'
+        },{
+            detailInfo: '4.',
+            questionSentence: 'メニエール病の特徴として正しいものはどれか。',
+            choices:['女性に多い。','高齢者に多い。','両側罹患が多い。','多くは自然治癒する。','めまい発作は誘因なく生じる。'],
+            answer:'女性に多い。',
+            commentary:'メニエール病は女性に多く、30-50歳代に多い。内リンパ水腫が原因であるため、片側性のめまいが特徴的で、自然治癒しない。ストレスや過労が原因とされることもあるが、直接的な誘因ではない。'
+        },{
+            detailInfo: '5.',
+            questionSentence: 'メニエール病・遅発性内リンパ水腫診療ガイドラインには、患者の病状に合わせて提案すべき治療順位が示されている。3番目に提案すべき治療はどれか。',
+            choices:['生活指導','前庭破壊術','内耳加圧治療','内リンパ嚢開放術','浸透圧利尿薬投与'],
+            answer:'浸透圧利尿薬投与',
+            commentary:'まずストレス回避・水分摂取指導などの生活指導を行い、改善しなければ利尿薬などの薬物療法を行い、それでも改善しなければ外科手術となる。'
+        },{
+            detailInfo: '6.',
+            questionSentence: 'A 65-year-old woman was admitted following a fall. During an assessment of her fall she complained of balance problems and dizziness whenever she looked upwards, for example, to hang laundry on her washing line outside. Her past medical history comprised hypertension, mild angina and diet controlled diabetes for which she was taking aspirin 75mg daily and amlodipine 10 mg daily. She also had osteoarthritis of the knees. On examination, her gait and balance and neurological examination was normal and there were no injuries. What is the most likely diagnosis?',
+            choices:['Benign paroxysmal positional vertigo','Cervical spondylosis','Concussion','Meniere\'s disease','Vertebrobasilar insufficiency'],
+            answer:'Benign paroxysmal positional vertigo',
+            commentary:'問題文日本語訳：65歳女性。転倒して入院した。転倒の評価中、外で洗濯物を干すために上を見上げるとバランスが悪く、めまいがすると訴えた。高血圧、軽度の狭心症、食事療法でコントロールされている糖尿病の既往歴があり、アスピリン75mgとアムロジピン10mgを毎日服用していた。また、膝の変形性関節症もあった。検査では、歩行とバランス、神経学的検査は正常で、外傷はなかった。最も可能性が高い診断は何か。選択肢：1.良性発作性頭位めまい症(BPPV) 2.頚椎症 3.脳震盪 4.メニエール病 5.椎骨基底動脈不全。　頭位によって誘発されることから、良性発作性頭位めまい症が最も可能性が高い。'
+        },{
+            detailInfo: '7.',
+            questionImg: [otorhinolalyngology2307],
+            questionSentence: '17歳女性。耳かきで右耳を掃除中に子供とぶつかり耳を突き、緊急受診した。鼓膜所見を示す。この時点で治療方針を決定する上で重要性の高い症状はどれか。2つ選べ。',
+            choices:['出血','疼痛','耳閉感','めまい','顏面神經麻痺'],
+            answer:'めまい,顏面神經麻痺',
+            commentary:'めまい→三半規管損傷、顔面神経麻痺→鼓室内の神経まで損傷している可能性がある。そのほかは一般的な外傷症状。'
+        },{
+            detailInfo: '8.',
+            questionImg: [otorhinolalyngology2308],
+            questionSentence: '耳科手術後の頭部エックス線写真を示す。今後、実施する上で制約が生じる検査、処置はどれか。2つ選べ。',
+            choices:['CT','MRI','皮膚切開','頸椎穿刺','超音波檢查'],
+            commentary:'人工内耳装置は磁石が搭載されているので、基本的にはMRIが使えない。電気メスを使えないので皮膚切開にも制限がある。',
+            answer:'MRI,皮膚切開'
+        },{
+            detailInfo: '9.',
+            questionSentence: '鼓膜正常な伝音難聴をきたす疾患はどれか? 2つ選べ。',
+            choices:['二次性真珠腫性中耳炎','突発性難聴','耳硬化症','加齢性難聴','耳小骨奇形'],
+            commentary:'真珠腫は鼓膜異常。突発性難聴は鼓膜正常な感音難聴。耳硬化症はアブミ骨の動きが悪くなることによる難聴で、鼓膜正常な伝音難聴。加齢性難聴は感音難聴。耳小骨奇形は鼓膜正常な伝音難聴。鼓膜が正常で伝音難聴をきたすのは耳小骨の異常や中耳炎など、かなり限られた症例。',
+            answer:'耳硬化症,耳小骨奇形'
+        },{
+            detailInfo: '10.',
+            questionSentence: '12歳の男児。脳腫瘍で化学放射線治療中である。両耳鳴があるため、純音聴力検査を施行した。結果から最も可能性が高い疾患はどれか。1つ選べ。',
+            choices:['遺伝性難聴','メニエール病','突発性難聴','滲出性中耳炎','薬剤性難聴'],
+            commentary:'薬剤性難聴の原因となる薬剤には、アミノグリコシド系抗菌薬やシスプラチンなどがある。',
+            answer:'薬剤性難聴'
+        },{
+            detailInfo: '11.',
+            questionImg: [otorhinolalyngology2311],
+            questionSentence: 'A 46-year-old man visited the hospital because of hearing loss and dizziness. He felt the fullness and ringing in the right ear when he wakes up in the morning. Sitting up, he felt dizziness, and he noticed hearing loss in the right ear when his wife talked to him. No other neurological symptom was found when he visited the hospital. He had never experienced a similar symptom before the current episode. Figure shows the audiogram examined at the visit. What is the disease name most likely estimated from the following list?',
+            choices:['Acoustic trauma','Idiopathic sudden sensorineural hearing loss','Menierre disease','Perilymph fistula','Vestibular neuritis'],
+            answer:'Idiopathic sudden sensorineural hearing loss',
+            commentary:'問題文日本語訳：46歳男性。聴力低下とめまいのために病院を受診した。朝起きると右耳に満たされ感じ、耳鳴りがする。座り上がるとめまいを感じ、妻が話しかけたときに右耳の聴力低下に気づいた。病院を受診した際、他の神経症状は見られなかった。現在の発作以前に同様の症状を経験したことはなかった。図は受診時に検査された聴力検査結果を示している。最も可能性が高い疾患名は何か。選択肢：1.音響外傷 2.特発性突発性難聴 3.メニエール病 4.リンパ液瘻 5.前庭神経炎。　答え：特発性難聴　オーディオグラムを読まないと解けない問題。右側の高音域中心の感音性難聴とめまいの両方があるため、前庭神経炎(めまいだけ)やメニエール病(低音域中心)は考えにくい。また外傷を示唆する所見もない。突発性難聴は前兆なく突然発症して耳閉塞感、耳鳴り、めまいを伴う疾患で、感音性難聴が特徴。'
+        },{
+            detailInfo: '12.',
+            questionSentence: '次のうち正しいのはどれか。3つ選べ。',
+            choices:['中耳による音の増幅効果は約30dBである。','蝸牛の回転数はおよそ2回転半である。','内有毛細胞と外有毛細胞はそれぞれ1列と3列でならんでいる。','低音は主に基底回転、高音は頂回転付近で聴取される。','聴神経は前庭神経と上下の蝸牛神経からなる。'],
+            commentary:'音の増幅効果は40dB(鼓膜アブミ骨底面積比で25dB + ツチ骨キヌタ骨てこ比で2.5dB + 鼓膜の蝸牛窓遮断効果12dB)低音は主に蝸牛頂部、高音は基底部で聴取される。超神経は上下の前提神経と蝸牛神経からなる。',
+            answer:',蝸牛の回転数はおよそ2回転半である。、内有毛細胞と外有毛細胞はそれぞれ1列と3列でならんでいる。　の２つ（再現ミス？）',
+        },{
+            detailInfo: '13.',
+            questionImg: [otorhinolalyngology2313],
+            questionSentence: '下記の副鼻腔CT軸位断において確認できる解剖学的部位はどれか。2つ選べ。',
+            choices:['鼻淚管','下鼻甲介','蝶形骨洞','篩骨蜂巢','上顎洞'],
+            commentary:'鼻の両側に最大の上顎洞が見られ、その背側に三角形の蝶形骨洞が小さく確認される。上顎洞のさらに鼻側の空間は鼻腔であることから、篩骨峰巣は映っていない（多分）',
+            answer:'蝶形骨洞,上顎洞'
+        },{
+            detailInfo: '14.',
+            questionSentence: 'アレルギー性鼻炎に関して正しいのはどれか。3つ選べ。',
+            choices:['鼻粘膜の I型アレルギー疾患である。','日本人のアレルギー性鼻炎の有病率は30%以下である。','カモガヤ・ハルガヤなどのイネ科の植物は秋の花粉症として知られている。','スギ花粉症は日本固有の疾患である。','アレルギー性鼻炎の診断に鼻汁中好酸球検査や特異的IgE抗体測定が行われる。'],
+            commentary:'日本人のアレルギー鼻炎有病率は49.2%である（半分！）。稲科の植物の時期は5-8月。',
+            answer:'鼻粘膜の I型アレルギー疾患である。,スギ花粉症は日本固有の疾患である。,アレルギー性鼻炎の診断に鼻汁中好酸球検査や特異的IgE抗体測定が行われる。'
+        },{
+            detailInfo: '15.',
+            questionImg: [otorhinolalyngology2315],
+            questionSentence: '46歳女性。 歯周炎で近医歯科にて治療を行っていた。 1週間前から右鼻に悪臭を感じるようになり、膿性鼻汁が多くなった。 昨日より右頬部痛を認めるようになったため受診した。 既往歴は特にない。 CT の冠状断を以下に示す。 この疾患の治療として適切なものを2つ選べ。',
+            choices:['抗真菌薬投与','歯科治療','内視鏡下副鼻腔手術','上顎全摘','放射線治療'],
+            commentary:'口腔から上顎洞に細菌感染が広がって、副鼻腔炎を引き起こしている所見。治療として、歯科治療・内視鏡手術・抗菌薬投与などが選択される。抗真菌薬は効果がない。'
+        },{
+            detailInfo: '16.',
+            questionSentence: '75歳女性。 2ヶ月前に左耳閉感があり近医耳鼻科で鼓膜チューブ留置術を施行された。 1週間前に左頸部腫瘤を自覚し呂律困難が出現したので受診した。 左頸部腫瘤は固く固着しており、舌左側への偏位を認め舌下神経麻痺と考えられた。 滲出性中耳炎・舌下神経麻痺・頸部腫瘤をきたす疾患として最も考えられる疾患はどれか。1つ選べ。',
+            choices:['真珠腫性中耳炎','脳梗塞','上咽頭癌','側頭囊胞','喉頭癌'],
+            commentary:'真珠腫性中耳炎や脳梗塞では頚部腫瘤が認められない。側頭嚢胞や喉頭癌では舌下神経麻痺が認められにくい。上咽頭癌は喉頭癌と違って背側にできるため、神経症状を来しやすい。耳管を塞ぐことで中耳炎をきたしやすい。',
+            answer:'上咽頭癌'
+        },{
+            detailInfo: '17.',
+            questionSentence: '甲状腺腫瘍の診断に有用な検査はどれか。2つ選べ。',
+            choices:['穿刺吸引細胞診','頸部超音波検査','MIBIシンチグラフィ','胸部Xp','甲状腺機能検査(血液検査)'],
+            commentary:'甲状腺腫瘍には特異的な血液マーカーが存在しないため、血液検査は診断に有用とまでは言えない（甲状腺機能低下は判断できる）。甲状腺は体表すぐにあるため超音波検査が非常に有用で、もちろんCTやシンチグラフィでも診断は可能であるが侵襲性の面で劣っているため、ガイドラインで推奨されていない。そのほか、穿刺吸引細胞診は診断に有用である。',
+            answer:'穿刺吸引細胞診,頸部超音波検査'
+        },{
+            detailInfo: '18.',
+            questionSentence: '下咽頭癌に関して正しいのはどれか。3つ選べ。',
+            choices:['早期に診断されることが多い。','女性に多い癌の一つである。','近年、増加傾向である。','食道がんなどの重複癌の頻度が高い。','頸部リンパ節に転移しやすい。'],
+            commentary:'下咽頭癌は喫煙・飲酒と関係が深く、高齢の男性に好発し、早期は自発症状に乏しい。食道と同じく漿膜を欠き、粘膜筋板が少ないため転移しやすく、転移してから発覚することもしばしば。',
+            answer:'近年、増加傾向である。,食道がんなどの重複癌の頻度が高い。,頸部リンパ節に転移しやすい。'
+        },{
+            detailInfo: '19.',
+            questionSentence: '流行性耳下腺炎に関して正しいのはどれか。2つ選べ。',
+            choices:['発症までの潜伏期間は2~3日である。','学童期に罹患した場合は耳下腺腫脹が出現後5日を経過しかつ全身状態が改善するまで出席停止となる。','15歳以下の小児が80%以上を占める。','10人に1人の割合で感音難聴を併発する。','学校保健安全法第1種の感染症である。'],
+            commentary:'別名おたふくかぜ。潜伏期間は2~3週間で、学校保健安全法第2種で出席停止措置の対象となる疾患（非常に伝染力が高い）。発症はほとんど小児だが、成人になってから罹患すると重症化する。合併症として感音難聴があるが、2万人に1人程度の割合。',
+            answer:'学童期に罹患した場合は耳下腺腫脹が出現後5日を経過しかつ全身状態が改善するまで出席停止となる。,15歳以下の小児が80%以上を占める。'
+        },{
+            detailInfo: '20.',
+            questionSentence: '25歳、女性。 小学校の教員をしており、数ヶ月前から嗄声が出現して受診した。 喫煙歴はない。考えられる疾患として可能性が高いものを2つ選べ。',
+            choices:['喉頭癌','声帯ポリープ','喉頭肉芽腫','ポリープ様声帯','声帯結節'],
+            commentary:'喉頭癌は喫煙・飲酒が原因となり、高齢男性好発。声帯ポリープも喫煙・飲酒が原因となり、中年~に好発。ポリープ様声帯も喫煙が原因となり、中高年女性に多い。喉頭肉芽種は声帯後部にできる肉芽(炎症組織)で、逆流性食道炎や梅毒・結核などで起こることがある。小児・20-40歳代に好発。声帯結節は声帯の過度の使用によりできる良性腫瘍で、保育士や教員など、声を使う職業に多い。',
+            answer:'喉頭肉芽腫,声帯結節',
+        }],}]
     // }
     // {
         // groupTag: '移植再生医療 2022本試験',
@@ -2323,8 +2452,7 @@ export const useQuestionList = () => {
     //         answerImg: [],
     //         answer: 'ホジキンリンパ腫B症状と発熱、盗汗、体重増加である,低悪性リンパ腫多く進行期であっても初期化学療法で治療が期待でき る',
     //         commentary: '悪性リンパ腫に関する記述うち、正しいものはホジキンリンパ腫B症状と発熱、盗汗、体重増加である、低悪性リンパ腫多く進行期であっても初期化学療法で治療が期待できるです。'}]  
-}]
-)
+    )
     const showQuestionList = () => {
         return questionList
     }
