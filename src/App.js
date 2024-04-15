@@ -86,17 +86,6 @@ function App() {
         >
           眼疾患
         </Badge>
-        <Badge
-          variant='outline'
-          m={1}
-          mt="-0.5"
-          mr={0}
-          borderRadius="full"
-          px="2"
-          colorScheme="red"
-        >
-          移植再生医療
-          </Badge>
       </Flex>
 
       {log.startTime !== '' ? (
@@ -173,7 +162,7 @@ function App() {
             mt={0}
             mb={2}
           >
-            ©2022- IgaTatApps
+            ©2022- Igatatsu Apps
           </Text>
         </Box>
       )}

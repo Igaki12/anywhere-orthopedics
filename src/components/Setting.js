@@ -217,6 +217,9 @@ export const Setting = ({
             </List>
             <Divider orientation="horizontal" mt={3} mb="1" />
             <Text>アップデート履歴</Text>
+            <Text fontSize={"sm"}>
+              2024 GithubCopilotによる効率的なアプリ開発
+            </Text>
             <Text fontSize={'sm'}>
               05-07_Ver2.3-Xperiaの狭い横幅にもできるだけ対応
             </Text>

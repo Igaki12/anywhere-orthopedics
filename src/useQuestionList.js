@@ -388,10 +388,10 @@ export const useQuestionList = () => {
                     detailInfo: '27.',
                     questionImg: [],
                     questionSentence: '人工関節置換術全般に関する記述で正しいのはどれか。2つ選べ。',
-                    choices: ['人工関節置換術は骨粗鬆症があるため高齢者には適応はない', '人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである', '本邦では膝関節に対する人工関節置換術の件数が最も多い', '骨腫瘍切除後の機能再建には人工関節置換術の適応はない', '人工関節置換術後の合併症として感染がある'],   
+                    choices: ['人工関節置換術は骨粗鬆症があるため高齢者には適応はない', '人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである', '本邦では膝関節に対する人工関節置換術の件数が最も多い', '骨腫瘍切除後の機能再建には人工関節置換術の適応はない', '人工関節置換術後の合併症として感染があるが、抗菌薬投与で鎮静化し手術治療は不要である'],
                     answerImg: [],
-                    answer: '本邦では膝関節に対する人工関節置換術の件数が最も多い,人工関節置換術後の合併症として感染がある',
-                    commentary: '人工関節置換術は骨粗鬆症の場合は適応とはならないが、骨粗鬆症でない高齢者にはよく適応される。人工関節置換術の最大の目的は除痛であり、正座や激しい運動などはできず、若い患者には適応されないので、改善しているのはADL(Activity of daily living)というよりはQOLである。ADLの改善を目的とするなら骨切り術などの手術もある。骨腫瘍切除後にも人工関節が適応される。人工関節置換術後の合併症として感染がある。',
+                    answer: '本邦では膝関節に対する人工関節置換術の件数が最も多い,人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである',
+                    commentary: '人工関節置換術は骨粗鬆症の場合である場合は沈み込み現象に注意が必要であるが、PTH製剤の投与などで骨密度を保つことで予防することができる。人工関節置換術の最大の目的は除痛であり、正座や激しい運動などは行えないためADL(activity of daily living)が完全に回復するわけではないが、術前術後でADLが改善されることは間違いない。骨腫瘍切除後にも人工関節が適応される。人工関節置換術後の合併症として感染があり、その発生率は1-3%とされる。手術中の細菌侵入や、術後、歯槽膿漏・難治性の痔・皮膚の傷などから二次的に細菌感染を起こす遅発感染症がある。再手術が必要となることがある。',
                 },{
                     detailInfo: '28.',
                     questionImg: [],
@@ -615,10 +615,18 @@ export const useQuestionList = () => {
                     detailInfo: '27.',
                     questionImg: [],
                     questionSentence: 'Which of the following is correct about total joint replacement surgery in general? Choose two.',
-                    choices: ['Total joint replacement surgery is not indicated for the elderly with osteoporosis.', 'The purpose of total joint replacement surgery is to improve ADL by improving pain, range of motion, and deformity.', 'In Japan, the number of total knee arthroplasties is the highest.', 'Total joint replacement surgery is not indicated for functional reconstruction after bone tumor resection.', 'Infection is one of the complications after total joint replacement surgery.'],
+                    choices: ['Total joint replacement surgery is not indicated for the elderly with osteoporosis.', 'The purpose of total joint replacement surgery is to improve pain relief, range of motion, deformity correction, etc., to improve ADL.', 'In Japan, the number of total knee arthroplasties is the highest.', 'Total joint replacement surgery is not indicated for functional reconstruction after bone tumor resection.', 'Complications after total joint replacement surgery include infection, which can be controlled by antibiotic administration without the need for surgical treatment.'],
                     answerImg: [],
-                    answer: 'In Japan, the number of total knee arthroplasties is the highest., Infection is one of the complications after total joint replacement surgery.',
-                    commentary: 'Total joint replacement surgery is not indicated for the elderly with osteoporosis, but it is often indicated for elderly people without osteoporosis. The purpose of total joint replacement surgery is to improve QOL rather than ADL. Total joint replacement surgery is indicated for functional reconstruction after bone tumor resection. Infection is one of the complications after total joint replacement surgery.',
+                    answer: 'The purpose of total joint replacement surgery is to improve pain relief, range of motion, deformity correction, etc., to improve ADL., In Japan, the number of total knee arthroplasties is the highest.',
+                    commentary: 'In total joint replacement surgery, if osteoporosis is present, attention should be paid to the sinking phenomenon, but it can be prevented by maintaining bone density with PTH preparations. The main purpose of total joint replacement surgery is pain relief, and although ADL (activity of daily living) is not completely restored, it is certain that ADL is improved before and after surgery. Total joint replacement surgery is also indicated for functional reconstruction after bone tumor resection. Complications after total joint replacement surgery include infection, with an incidence of 1-3%. Late-onset infections that cause secondary bacterial infections from bacteria such as surgical invasion during surgery, postoperative, intractable hemorrhoids, and skin wounds are called late-onset infections. Reoperation may be necessary.',
+
+                    // detailInfo: '27.',
+                    // questionImg: [],
+                    // questionSentence: '人工関節置換術全般に関する記述で正しいのはどれか。2つ選べ。',
+                    // choices: ['人工関節置換術は骨粗鬆症があるため高齢者には適応はない', '人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである', '本邦では膝関節に対する人工関節置換術の件数が最も多い', '骨腫瘍切除後の機能再建には人工関節置換術の適応はない', '人工関節置換術後の合併症として感染があるが、抗菌薬投与で鎮静化し手術治療は不要である'],
+                    // answerImg: [],
+                    // answer: '本邦では膝関節に対する人工関節置換術の件数が最も多い,人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである',
+                    // commentary: '人工関節置換術は骨粗鬆症の場合である場合は沈み込み現象に注意が必要であるが、PTH製剤の投与などで骨密度を保つことで予防することができる。人工関節置換術の最大の目的は除痛であり、正座や激しい運動などは行えないためADL(activity of daily living)が完全に回復するわけではないが、術前術後でADLが改善されることは間違いない。骨腫瘍切除後にも人工関節が適応される。人工関節置換術後の合併症として感染があり、その発生率は1-3%とされる。手術中の細菌侵入や、術後、歯槽膿漏・難治性の痔・皮膚の傷などから二次的に細菌感染を起こす遅発感染症がある。再手術が必要となることがある。',
                 },{
                     detailInfo: '28.',
                     questionImg: [],
@@ -693,8 +701,8 @@ export const useQuestionList = () => {
                     questionSentence: '骨軟部腫瘍について正しいのはどれか。',
                     choices: ['全悪性腫瘍に占める骨軟部悪性腫瘍の割合は、約25%と1/4を占める。','悪性骨腫瘍においては、転移性骨腫瘍が原発性のものより多い', '軟部腫瘍は、良悪性にかかわらず発症時から疼痛や発熱を伴う', '原発性悪性軟部腫瘍では、ほとんどに化学療法が有用である', '多くはMRIで診断がおおむね可能であり、生検を要するのは限られた症例である'],
                     answerImg: [],
-                    answer: '多くはMRIで診断がおおむね可能であり、生検を要するのは限られた症例である',
-                    commentary: '我が国の悪性軟部腫瘍発生率は2/100000で、全癌に占める割合は1%未満と稀である。軟部腫瘍とは、軟部組織(筋・脂肪・血管など)から発生する腫瘍であり、中胚葉由来のものが多い。良性は全身に好発し、大きさは小さい(<5cm)、緩徐に発育する、浅在性に局在する、比較的弾性が軟、一部をのぞいて無痛性などの特徴がある一方で、悪性は大腿での発生が多く、大きさは>5cmのものが多い、急速に増大する、深在性に局在する、弾性が硬、無痛性が多いなどの特徴がある。検査はMRIが最も有用であり、必要に応じて(悪性の可能性があれば)エコー・X線・CT・生検が行われる。治療は良性なら経過観察となることがあるが、悪性なら手術による除去が基本となり、必要に応じて化学療法や放射線療法を併用する。骨腫瘍の発生頻度のうち、転移性骨腫瘍は29.6%、原発性骨腫瘍は66.3%を占める(良性48.3%、悪性13.6%)。良性腫瘍の中では骨軟骨腫が最も多く(9.7%)、悪性腫瘍の中では骨肉腫が最も多い(4.3%)',
+                    answer: '悪性骨腫瘍においては、転移性骨腫瘍が原発性のものより多い',
+                    commentary: '我が国の悪性軟部腫瘍発生率は2/100000で、全癌に占める割合は1%未満と稀である(→希少がん)。悪性骨腫瘍には、10歳代に発症しやすい骨肉腫に代表される原発性骨腫瘍と、肺癌や乳癌の骨への転移に代表される転移性骨腫瘍があります。悪性骨腫瘍全体では転移性骨腫瘍が大半を占めます。各腫瘍に特有な症状はありませんが、けがをしないのに痛みや腫れが出現し、長く続いたりすることが多いようです。骨がもろくなり、骨折して発見されることもあります。骨のX線（レントゲン）写真を撮り、骨の内部に異常が認められるときに疑います。MRIや骨シンチグラフィーなどの画像検査を行えば、たいがいは腫瘍であることがわかりますが、診断をはっきりさせるためには病変部の細胞を取り出して顕微鏡で検査を行う必要があります。転移性骨腫瘍の場合は、癌にかかったことのある患者さんで、X線写真や骨シンチグラフィーで異常所見があるときに疑います。血液中の腫瘍マーカーの測定が有用なこともあります。'
                 },{
                     detailInfo: '7. AI正解',
                     questionImg: [],
@@ -763,10 +771,10 @@ export const useQuestionList = () => {
                     detailInfo: '15.',
                     questionImg: [],
                     questionSentence: '下肢の人工膝関節置換術について正しいのはどれか。',
-                    choices: ['感染性関節疾患に適応がある。','骨粗鬆症のある患者には適応がない。', '血友病性関節炎に適応がある。', '深部静脈血栓症のリスクが高い','術後の磁気共鳴画像検査(MRI)は禁忌である。'],
+                    choices: ['感染性関節疾患に適応がある。','骨粗鬆症のある患者には適応がない。', '血友病性関節炎に適応がない。', '深部静脈血栓症のリスクが高い','術後の磁気共鳴画像検査(MRI)は禁忌である。'],
                     answerImg: [artificialJointReplacement],
                     answer: '深部静脈血栓症のリスクが高い',
-                    commentary: '人工関節置換術のリスクとして、感染症・素材の摩耗による緩み・下肢深部静脈血栓症(血流停滞のため)などがあるため、感染性関節疾患や血友病性関節炎は不適応。チタン製であれば人工関節置換術のあとでもMRIは可能であるが、患部の撮影はインプラントの影響でノイズが多くなることに注意が必要である。骨粗鬆症の場合はsinking(沈み込み)が生じるため、適応はないと考える。深部静脈血栓症対策として、ストッキングの着用や運動が有効である。',
+                    commentary: '人工膝関節置換術のデメリットとして、感染症、深部静脈血栓症、沈み込み、高負荷運動の制限などがある。骨粗鬆症の場合は沈み込み(sinking)現象に注意が必要であるが、適応がないわけではなく、PTH製剤などを用いて骨密度を改善することで手術は可能である。古い金属の人工関節ではMRI検査はできなかったが、現在の人工関節はMRI検査が可能である。'
                 },{
                     detailInfo: '16.',
                     questionImg: [],
@@ -774,7 +782,7 @@ export const useQuestionList = () => {
                     choices: ['術後24時間以内に発症することが多い。','深部静脈血栓症の既往がある場合は発症頻度が高い。', '予防策として下肢弾性ストッキングの使用が有効である。', '起立、歩行開始時に発症することが多い。', '予防として足関節の底背屈運動が有効である。'],
                     answerImg: [venousThrombolism,footStretch,venousThrombolismFactor],
                     answer: '術後24時間以内に発症することが多い',
-                    commentary: '深部血栓塞栓症は、長期入院や肥満、妊娠などでリスクが高まるため、周産期での合併症が問題となっている。深部静脈血栓症(VTE)の既往もリスク因子で、術後すぐというよりは長期の臥床後の起立・歩行開始時に発症することが多い。予防として、下肢弾性ストッキングの着用や、足関節の底背屈運動が有効である。'
+                    commentary: '深部血栓塞栓症は、長期入院や肥満、妊娠などでリスクが高まるため、周産期での合併症が問題となっている。深部静脈血栓症(VTE)の既往もリスク因子で、術後すぐというよりはもっと長期(数日から数週間)の臥床後の起立・歩行開始時に発症することが多い。予防として、下肢弾性ストッキングの着用や、足関節の底背屈運動が有効である。'
                 },{
                     detailInfo: '17.',
                     questionImg: [],
@@ -851,10 +859,10 @@ export const useQuestionList = () => {
                     detailInfo: '26.',
                     questionImg: [],
                     questionSentence: '腓骨神経麻痺について正しいのはどれか。3つ選べ。',
-                    choices: ['下肢における神経麻痺の中で最も頻度が高い。','足関節の底屈が障害される。', '砕石位の手術の際に起こりやすい合併症のひとつである。', '神経の連続性が保たれている場合は自然回復する可能性がある。', '腓骨神経麻痺による足関節の底屈が障害される。'],
+                    choices: ['下肢における神経麻痺の中で最も頻度が高い。','足関節の底屈が障害される。', '砕石位の手術の際に起こりやすい合併症のひとつである。', '神経の連続性が保たれている場合は自然回復する可能性がある。', 'フロマン(Froment)徴候が陽性となる。'],
                     answerImg: [lithotomyPosition],
                     answer: '下肢における神経麻痺の中で最も頻度が高い,砕石位の手術の際に起こりやすい合併症のひとつである,神経の連続性が保たれている場合は自然回復する可能性がある。',
-                    commentary: '腓骨神経麻痺とは、総腓骨神経などが主に腓骨頚部で圧迫されることにより、総腓骨神経の支配する前脛骨筋や長趾伸筋など足趾・足関節の背屈運動が障害される病態である。下肢における神経麻痺の中で最も頻度が高い。長時間足組みをした後や、骨折・脱臼などの外傷後、ギプス固定後などに好発する。図のような砕石位の手術の際に起こりやすい合併症の一つである。末梢神経伝導検査や超音波検査などが行われ、回復が見込める場合は装具固定や薬物療法などの保存療法が行われる。腫瘤などの圧迫や神経断裂があったり、陳旧例などで回復が見込めない場合は後脛骨筋腱移植術などの手術が行われる。'
+                    commentary: '腓骨神経麻痺とは、総腓骨神経などが主に腓骨頚部で圧迫されることにより、総腓骨神経の支配する前脛骨筋や長趾伸筋など足趾・足関節の背屈運動が障害される病態である。下肢における神経麻痺の中で最も頻度が高い。長時間足組みをした後や、骨折・脱臼などの外傷後、ギプス固定後などに好発する。図のような砕石位の手術の際に起こりやすい合併症の一つである。末梢神経伝導検査や超音波検査などが行われ、回復が見込める場合は装具固定や薬物療法などの保存療法が行われる。腫瘤などの圧迫や神経断裂があったり、陳旧例などで回復が見込めない場合は後脛骨筋腱移植術などの手術が行われる。フロマン徴候は、親指の屈筋の麻痺により、紙片を持つ際に親指を屈曲させることができないため、親指の第1関節を伸展させて代用する徴候で、尺骨神経損傷の場合にみられる。'
                 },{
                     detailInfo: '27.',
                     questionImg: [],
@@ -877,8 +885,8 @@ export const useQuestionList = () => {
                     questionSentence: '関節リウマチの2010年ACR/EULAR 分類基準の評価項目に含まれないものはどれか。',
                     choices: ['CRP','リウマトイド因子', '罹病期間', '抗CCP抗体'],
                     answerImg: [RA2010],
-                    answer: 'CRP',
-                    commentary: '関節リウマチの分類基準はいくつかあるが、ACR/EULAR分類基準では、主に炎症関節の数・血清中抗体(リウマトイド因子/抗CCP抗体)・罹患期間(6週)・炎症反応(CRPやESR)についての評価が行われる。選択肢の項目は全て含まれているが、試験中に選択肢の誤りについてアナウンスがあったらしく、何らかの不備があるのではないかと思われる。ちなみに、1987米国リウマチ学会の分類基準では、CPRは含まれていない。そのほか、関節リウマチの検査では軟骨破壊に関連するMMP-3なども有用である。'
+                    answer: '選択肢の中に答えなし',
+                    commentary: '関節リウマチの分類基準はいくつかあるが、ACR/EULAR分類基準では、主に炎症関節の数・血清中抗体(リウマトイド因子/抗CCP抗体)・罹患期間(6週)・炎症反応(CRPやESR)についての評価が行われる。選択肢の項目は全て含まれているが、試験中に選択肢の誤りについてアナウンスがあったらしく、何らかの不備があるのではないかと思われる。ちなみに、1987米国リウマチ学会の分類基準では、CPRは含まれていない。そのほか、関節リウマチの検査では軟骨破壊に関連するMMP-3なども有用である'
                 },{
                     detailInfo: '30.',
                     questionImg: [],
@@ -940,13 +948,13 @@ export const useQuestionList = () => {
             answer: '手指MCP関節',
             commentary: '変形性関節症とは、関節の間にある軟骨が擦り減ったことで滑らかに動かなくなり、関節の骨などが摩擦を起こして炎症を起こし、水がたまったりする症状のことです。 また、骨棘（こつきょく）という骨に棘のような突起ができて関節が変形していきます。手指のDIP関節(遠位指節間関節)ではへバーデン結節が、PIP関節(指節間関節)ではブシャール結節が、母指のCM関節(親指基底関節)では母指基底関節症が起こりやすい。MCP関節(中手関節)は変形性関節症が起こりにくい部位である。',
         },{
-            detailInfo: '6.',
+            detailInfo: '6. AI正解',
             questionImg: [],
             questionSentence: '骨軟部腫瘍について正しいのはどれか。',
             choices: ['原発性悪性軟部腫瘍では、ほとんどに化学療法が有用である。','各種がんの治療が進歩したので、転移性骨腫瘍も激減している。', '軟部腫瘍は、良悪性にかかわらず無症候性であることが多い。', '全悪性腫瘍に占める骨軟部悪性腫瘍の割合は、約10% (1/10)を占める。', '多くはMRIで診断がおおむね可能であり、生検を要するのは限られた症例である。'],
             answerImg: [guidelineOfSoftTissueTumor],
-            answer: '多くはMRIで診断がおおむね可能であり、生検を要するのは限られた症例である。',
-            commentary: '原発性悪性軟部腫瘍は軟部肉腫とも呼ばれ、基本的には手術療法が選択され、横紋筋肉腫など限られた場合で化学療法や放射線療法が併用される。肺がん(25%)、乳がん(14.1%)、前立腺がん(8.9%)などから脊椎への転移性骨腫瘍が多く、近年画像診断の進歩などによる発見機会の増加やがん治療の進歩による生存期間延長により転移性骨腫瘍の発症は増加傾向にある。軟部腫瘍は良性でも悪性でも疼痛を認めない場合が多いが、症状はある。例えば手足の筋肉にくるみ大以上の無痛性腫瘤を触れる、大きくなると表面がテカテカと光沢を示し、静脈が浮き出てくる、腫瘍部は腫れて、触ると熱を持っているが通常押さえても痛みがない、腫瘍は触るとよく動くが基底の骨や筋肉に浸潤すると動きにくくなるなど。　わが国の2008 年度全国骨・軟部腫瘍登録では，良・悪性軟部腫瘍計3,708 例が登録されており，そのうち，良性は70.4％，悪性は29.6% であった（T2R00005）．良性軟部腫瘍では治療を行わずに経過観察が行われている例が多く，病院で診察を受けていない患者の存在も考慮すると，良性軟部腫瘍の頻度はさらに高いと考えられる．MRI は組織分解能に優れていて，軟部腫瘍の性状を評価するのに最も適した画像検査であり、悪性の場合など限られた症例でのみ胸部CT、生検など追加の検査を行う。',
+            answer: '軟部腫瘍は、良悪性にかかわらず無症候性であることが多い。',
+            commentary: '原発性悪性軟部腫瘍は軟部肉腫とも呼ばれ、基本的には手術療法が選択され、横紋筋肉腫など限られた場合で化学療法や放射線療法が併用される。肺がん(25%)、乳がん(14.1%)、前立腺がん(8.9%)などから脊椎への転移性骨腫瘍が多く、近年画像診断の進歩などによる発見機会の増加やがん治療の進歩による生存期間延長により転移性骨腫瘍の発症は増加傾向にある。軟部腫瘍は良性でも悪性でも疼痛を認めない場合が多い。骨軟部腫瘍は希少がんで、発生頻度は非常に低い。診断にはMRIが非常に有用であるが、確定診断には生検が必要である。骨軟部腫瘍の診断には、X線、CT、MRI、骨シンチグラフィ、PET-CTなどの画像診断が用いられる。'
         },{
             detailInfo: '7. AI正解',
             questionImg: [],
@@ -954,12 +962,12 @@ export const useQuestionList = () => {
             choices: ['CTとMRIがあれば単純X線は不要である。','手術計画を立てる上でMRIは非常に有用である。', '悪性腫瘍の転移検索はPET検査のみで十分である。', '良性腫瘍には、血管造影検査で濃染されるものはない。', '骨シンチグラフィは腫瘍と非腫瘍性病変の鑑別に有用である。'],
             answerImg: [guidelineOfSoftTissueTumor,SoftTissueTumorRI],
             answer: '骨シンチグラフィは腫瘍と非腫瘍性病変の鑑別に有効である',
-            commentary: '骨軟部腫瘍の画像診断では次のような方法があります。1. 単純レントゲン…骨腫瘍では典型的なパターンもあり、診断に役立つことがあります。 2. CT…骨は非常に分かり易く、骨腫瘍で特に有効です。通常の撮影では筋肉と腫瘍の区別はつきにくいため、造影剤を使って撮影することがあります。 3. MRI…腫瘍の範囲や、大まかな診断を行う上で非常に役に立つ検査です。 4. タリウムシンチグラム…腫瘍の良性か悪性か調べたり（約8割の確率で正しいと言われています）、骨軟部腫瘍の化学療法の効果判定に有効です。 5. 骨シンチグラム…骨が壊されているか、他の骨に転移しているかどうかを調べます。 6. PET-CT…転移がないかどうか全身を調べる検査で、3～4時間かかります。　→単純X線は骨腫瘍だけでなく軟部腫瘍でも初期診断や肺転移診断などに有用。例えば悪性腫瘍の肺転移検出にはPETだけでなく胸部CTが有用である場合があったり、脳など正常でも濃染する場所ではPET検査で転移検出することはできない。軟部腫瘍は筋・脂肪・血管・神経鞘など様々な軟部組織から発生する腫瘍の総称であるため、中には血管腫など血液造影検査で濃染されるものもある。骨シンチグラフィは、軟部腫瘍が骨と隣接していた時に骨を合併切除するべきかどうかの鑑別に有用であり、手術計画を立てる段階で有用な画像検査である。',
+            commentary: '骨軟部腫瘍の画像診断では次のような方法があります。1. 単純レントゲン…骨腫瘍では典型的なパターンもあり、診断に役立つことがあります。 2. CT…骨は非常に分かり易く、骨腫瘍で特に有効です。通常の撮影では筋肉と腫瘍の区別はつきにくいため、造影剤を使って撮影することがあります。 3. MRI…腫瘍の範囲や、大まかな診断を行う上で非常に役に立つ検査です。 4. タリウムシンチグラム…腫瘍の良性か悪性か調べたり（約8割の確率で正しいと言われています）、骨軟部腫瘍の化学療法の効果判定に有効です。 5. 骨シンチグラム…骨が壊されているか、他の骨に転移しているかどうかを調べます。 6. PET-CT…転移がないかどうか全身を調べる検査で、3～4時間かかります。　→単純X線は骨腫瘍だけでなく軟部腫瘍でも初期診断や肺転移診断などに有用。例えば悪性腫瘍の肺転移検出にはPETだけでなく胸部CTが有用である場合があったり、脳など正常でも濃染する場所ではPET検査で転移検出することはできない。軟部腫瘍は筋・脂肪・血管・神経鞘など様々な軟部組織から発生する腫瘍の総称であるため、中には血管腫など血液造影検査で濃染されるものもある。骨シンチグラフィは、軟部腫瘍が骨と隣接していた時に骨を合併切除するべきかどうかの鑑別に有用である。'
         },{
             detailInfo: '8.',
             questionImg: [],
             questionSentence: '骨肉腫について正しいのはどれか。',
-            choices: ['壮年期に好発する。','長管骨骨幹端に好発する。', '特異的融合遺伝子を有する。', '患者の5年生存率は90%以上である。', '多くは化学療法が有用である。'],
+            choices: ['壮年期に好発する。','長管骨骨幹端に好発する。', '特異的融合遺伝子を有する。', '患肢を切断する必要がある。', '骨アルカリフォスファターゼは特異的マーカーである。'],
             answerImg: [osteosarcoma],
             answer: '長管骨骨幹端に好発する。',
             commentary: '骨肉腫(osteosarcoma)は、腫瘍性の類骨・骨形成を伴う肉腫で、原発性悪性骨腫瘍の中で最も多い。10歳代の男性に好発し、膝関節周囲などの長管骨の骨幹端部に好発する。肺転移が多いが、5年生存率は近年70%程度にまで改善してきている。患肢温存率は90%近い。治療は術前・術後化学療法を併用した広域切除術が基本。特異的融合遺伝子は現時点では報告されていない(Ewing肉腫の話？)。',
@@ -990,7 +998,7 @@ export const useQuestionList = () => {
         },{
             detailInfo: '12.',
             questionImg: [],
-            questionSentence: '外反母趾に成因について誤っているのはどれか。2つ選べ。',
+            questionSentence: '外反母趾の成因について誤っているのはどれか。2つ選べ。',
             choices: ['肥満','短い第1中足骨', '第1中足骨の内反', 'ハイヒールのような先端の細い履物', '母趾が第2趾よりも短いギリシャ型の足趾'],
             answerImg: [halluxValgusCause1,halluxValgusCause2],
             answer: "短い第1中足骨,母趾が第2趾よりも短いギリシャ型の足趾",
@@ -1228,7 +1236,7 @@ export const useQuestionList = () => {
             questionSentence: '角膜上皮について、誤っているものを選べ。',
             choices: ['角膜全体の厚さの約10%を占める。','重層扁平上皮から構成されている。', '一度障害されると原則再生されない。', 'タイトジャンクションにより、 細胞間結合が強固である。', '角膜知覚神経が豊富に存在する'],
             answerImg: [corneaAnatomy,corneaHistology],
-            answer: '重層扁平上皮から構成されている。',
+            answer: '一度障害されると原則再生されない。',
             commentary: 'およそ10%程度であることが断面解剖図↑からわかる。　角膜内皮細胞は６角形の単層上皮から成り、角膜の透明性を保つのに大事な役割を果たしています。角膜内皮細胞は、上皮細胞とは異なり、一度障害されると再生できません。障害された細胞の周囲の細胞の面積が大きくなって、傷んだ細胞の面積分を補います。角膜上皮はタイトジャンクションであり、眼のバリア機能を担っている。角膜には三叉神経由来の角膜知覚神経が豊富に存在し、角膜の知覚を担っている。',
         },{
             detailInfo: '12.',
