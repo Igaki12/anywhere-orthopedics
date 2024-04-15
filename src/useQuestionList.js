@@ -420,13 +420,13 @@ export const useQuestionList = () => {
         },{
             groupTag: "運動器疾患 2023本試験 in English(機械翻訳)",
             groupContents: [{
-                    detailInfo: '2. ## Translated by AI:chatGPT-4/GithubCopilot',
+                    detailInfo: '2. ## Translated with ChatGPT-4 based GitHub Copilot ',
                     questionImg: [],
                     questionSentence: 'Which joint is the best limb position with 10° of extension? Choose the correct one.',
                     choices: ['Ankle joint', 'Elbow joint', 'Knee joint', 'Hip joint', 'Wrist joint'],
                     answerImg: [],
                     answer: 'Wrist joint',
-                    commentary: 'Even if the joint does not move at that position and loses mobility, the limb position that has the least impact on activities of daily living is called the best limb position. The wrist joint is the best limb position with 10° of extension. Other joints are 0° for the ankle joint, 90° for the elbow joint, and around 10° for the knee joint and hip joint.',
+                    commentary: '伸展10°が良肢位となる関節はどれか。正しいものを選べ。　選択肢：1.足関節、2.肘関節、3.膝関節、4.股関節、5.手関節。　答え：手関節。関節が仮にその位置で動かなくなり、運動性が失われても、日常生活動作に及ぼす影響が最も少ない肢位を良肢位という。手関節は伸展10°が良肢位となる。他、足関節は0°、肘関節は屈曲90度、膝関節・股関節は屈曲10度前後が良肢位である。',
                 },{
                     detailInfo: '4.',
                     questionImg: [],
@@ -434,7 +434,7 @@ export const useQuestionList = () => {
                     choices: ['It is aseptic necrosis of the lunate bone', 'It occurs more frequently in men', 'It is caused by lymphatic obstruction', 'Radial lengthening surgery is performed', 'Vascularized bone grafting is ineffective'],
                     answerImg: [Kienbock],
                     answer: 'It is aseptic necrosis of the lunate bone, It occurs more frequently in men',
-                    commentary: 'Kienbock\'s disease is aseptic necrosis that mainly occurs in the lunate bone on the radial side.Blood circulation is considered to be the cause.Radial shortening surgery may be performed, and vascularized bone grafting may be performed.',
+                    commentary: 'キーンベック病についての記載で正しいのはどれか。2つ選べ。　選択肢：1.月状骨無腐性壊死である、2.男性に多い、3.リンパ管閉塞により生じる、4.橈骨延長術が行われる、5.血管柄付き骨移植は無効である。　答え：月状骨無腐性壊死である、男性に多い。キーンベック病は、主に橈骨側の月状骨に生じる無腐性壊死である。男性に多い。血行不良が原因とされる。橈骨短縮手術が行われたり、血管柄付き骨移植が行われることがある。',
                 },{
                     detailInfo: '5.',
                     questionImg: [],
@@ -442,7 +442,7 @@ export const useQuestionList = () => {
                     choices: ['The most common site of fracture is the waist', 'The most common site of nonunion is the proximal pole', 'The most common site of avascular necrosis is the distal pole', 'The most common site of fracture is the proximal pole', 'The most common site of nonunion is the waist'],
                     answerImg: [],
                     answer: 'The most common site of fracture is the waist, The most common site of nonunion is the proximal pole, The most common site of avascular necrosis is the distal pole',
-                    commentary: 'The most common site of fracture is the waist, and the most common site of nonunion is the proximal pole. The most common site of avascular necrosis is the distal pole. The most common site of fracture is the waist, and the most common site of nonunion is the proximal pole.',
+                    commentary: '小児の肘周囲骨折についての記載で正しいのはどれか。3つ選べ。　選択肢：1.上腕骨顆上骨折が最も高頻度で生じる、2.上腕骨顆上骨折の好発年齢は3歳である、3.上腕骨外側顆骨折は2番目の高頻度で生じる、4.上腕骨外側顆骨折は回旋転位を生じる、5.上腕骨外側顆骨折の偽関節により内反肘を生じる。　答え：上腕骨顆上骨折が最も高頻度で生じる、上腕骨外側顆骨折は2番目の高頻度で生じる、上腕骨外側顆骨折は回旋転位を生じる。上腕骨課上骨折の好発年齢は4-7歳とされている。上腕骨外側顆骨折では偽関節が生じやすいが、外反肘を生じる。',
                 },{
                     detailInfo: '6.',
                     questionImg: [],
@@ -450,7 +450,7 @@ export const useQuestionList = () => {
                     choices: ['The most common site of fracture is the waist', 'The most common site of nonunion is the proximal pole', 'The most common site of avascular necrosis is the distal pole', 'The most common site of fracture is the proximal pole', 'The most common site of nonunion is the waist'],
                     answerImg: [],
                     answer: 'The most common site of fracture is the waist, The most common site of nonunion is the proximal pole, The most common site of avascular necrosis is the distal pole',
-                    commentary: 'The most common site of fracture is the waist, and the most common site of nonunion is the proximal pole. The most common site of avascular necrosis is the distal pole. The most common site of fracture is the waist, and the most common site of nonunion is the proximal pole.',
+                    commentary: '骨腫瘍の画像診断について正しいものはどれか。　選択肢：1.CT と MRI があれば単純X線は不要である、2.血管造影検査は良・悪性の鑑別に必須である、3.手術計画を立てる上でMRI は非常に重要である、4.悪性骨腫瘍の転移は PET検査ですべて発見できる、5.骨シンチグラフィは良/悪性の鑑別に非常に有用である。　答え：手術計画を立てる上でMRI は非常に重要である。　骨腫瘍の画像診断においては、単純X線、CT、MRI、骨シンチグラフィ、血管造影検査などが用いられる。MRIは軟部組織の評価に優れており、手術計画を立てる上で非常に重要である。',
                 },{
                     detailInfo: '7.',
                     questionImg: [],
@@ -458,7 +458,7 @@ export const useQuestionList = () => {
                     choices: ['The most common site of fracture is the waist', 'The most common site of nonunion is the proximal pole', 'The most common site of avascular necrosis is the distal pole', 'The most common site of fracture is the proximal pole', 'The most common site of nonunion is the waist'],
                     answerImg: [],
                     answer: 'The most common site of fracture is the waist, The most common site of nonunion is the proximal pole, The most common site of avascular necrosis is the distal pole',
-                    commentary: 'The most common site of fracture is the waist, and the most common site of nonunion is the proximal pole. The most common site of avascular necrosis is the distal pole. The most common site of fracture is the waist, and the most common site of nonunion is the proximal pole.',
+                    commentary: '骨・軟部腫瘍について誤っているのはどれか。　選択肢：1.悪性腫瘍に占める原発性骨軟部悪性腫瘍の割合は、約 1-2%である、2.悪性軟部腫瘍の治療は、広汎切除術が原則である、3.悪性軟部腫瘍の主訴は、疼痛を伴う腫瘤である、4.転移性骨腫瘍の頻度は原発性骨腫瘍より多い、5.確定診断のためには、生検を要する。　答え：悪性軟部腫瘍の主訴は、疼痛を伴う腫瘤である。　悪性軟部腫瘍は無痛性であり、疼痛を伴う腫瘤は良性腫瘍に多い。悪性軟部腫瘍の治療は、広汎切除術が原則である。転移性骨腫瘍の頻度は原発性骨腫瘍より少ない。確定診断のためには、生検を要する。',
                 },{
                     detailInfo: '8.',
                     questionImg: [],
@@ -466,7 +466,7 @@ export const useQuestionList = () => {
                     choices: ['Osteosarcoma is more common in adults over 30 years of age', 'Distant metastasis mainly shows lymphatic metastasis through the lymphatic system', 'Most of them occur at the end of the bone shaft and show strong bone changes on the bone side', 'If cartilage formation is seen in addition to osteoid in the pathological tissue examination, it is chondrosarcoma', 'In the usual type of osteosarcoma, chemotherapy and radiotherapy are often used together'],
                     answerImg: [],
                     answer: 'Most of them occur at the end of the bone shaft and show strong bone changes on the bone side',
-                    commentary: 'Osteosarcoma is more common in the growth period of 10-20 years. Blood-borne metastasis is common, and in the usual type without metastasis, excision surgery is applied.',
+                    commentary: '骨肉腫について正しいのはどれか。　選択肢：1.骨肉腫は、特に 30 歳以上の成人に好発する、2.遠隔転移は、主にリンパ系を介したリンパ節転移を示す、3.大部分が骨幹端に発生し、骨端側に強い骨変化を示すことがある、4.病理組織検査で、類骨以外に軟骨形成がみられるものは軟骨肉腫である、5.通常型の骨肉腫においては、化学療法と放射線療法を併用することが多い。　答え：大部分が骨幹端に発生し、骨端側に強い骨変化を示すことがある。　骨肉腫は好発は10-20歳の成長期。血行性転移が多く、転移していない通常型は摘出手術が適応される。',
                 },{
                     detailInfo: '9.',
                     questionImg: [],
@@ -474,7 +474,7 @@ export const useQuestionList = () => {
                     choices: ['Caused by a mutation in type II collagen', '10-20% have blue sclera', 'The bones are extremely fragile and prone to fractures', 'Bone healing after fracture is normal', 'Hearing loss is often associated'],
                     answerImg: [],
                     answer: 'The bones are extremely fragile and prone to fractures, Bone healing after fracture is normal, Hearing loss is often associated',
-                    commentary: 'Osteogenesis imperfecta is a hereditary disease caused by a mutation in type I collagen, and the bones are extremely fragile and prone to fractures (brittle bones). It is often associated with blue sclera, hearing loss, and dental abnormalities. Bone healing after fracture is normal.',
+                    commentary: '骨形成不全症について正しいのはどれか。3つ選べ。　選択肢：1.Ⅱ型コラーゲンの変異による、2.10-20% に青色強膜を合併する、3.骨が著しく脆弱で骨折しやすい、4.骨折後の骨癒合は正常である、5.難聴を合併することが多い。　答え：骨が著しく脆弱で骨折しやすい、骨折後の骨癒合は正常である、難聴を合併することが多い。　骨形成不全症はⅠ型コラーゲンの変異による遺伝性疾患で、骨が著しく脆弱で骨折しやすい(易骨折性)。多数に青色強膜や難聴、歯牙形成不全を合併する。骨折後の骨癒合は正常である。',
                 },{
                     detailInfo: '10.',
                     questionImg: [],
@@ -482,7 +482,7 @@ export const useQuestionList = () => {
                     choices: ['Focus on activities and treat using activities', 'Perform comprehensive medical management related to activities', 'Wait in the training room and train intensively', 'Establish a "treatment culture of activities"', 'Avoid immobility and disuse and promote early bed rest'],
                     answerImg: [rehabilitation1,rehabilitation2],
                     answer: 'Wait in the training room and train intensively',
-                    commentary: 'A rehabilitation physician focuses on activities and treats using activities. They perform comprehensive medical management related to activities and provide appropriate treatment according to the patient\'s condition. They also avoid immobility and disuse and promote early bed rest.',
+                    commentary: 'リハビリテーション科医の役割について間違っているものはどれか。　選択肢：1.活動に焦点を当て、活動を用いて治療する、2.活動関連の包括的医学管理を行う、3.訓練室で待ち、集中的に訓練を行う、4.「活動の治療文化」を根付かせる、5.不動や廃用を回避し早期離床を促進する。　答え：訓練室で待ち、集中的に訓練を行う。　リハビリテーション科医は、活動に焦点を当て、活動を用いて治療を行う。活動関連の包括的医学管理を行い、患者の状態に応じて適切な治療を行う。また、不動や廃用を回避し早期離床を促進する。',
                 },{
                     detailInfo: '11.',
                     questionImg: [],
@@ -490,7 +490,7 @@ export const useQuestionList = () => {
                     choices: ['On simple X-rays, images of bone resorption and repair are seen', 'It is more common in Asia than in Caucasians', 'Parvovirus involvement is suggested', 'Alkaline phosphatase shows an increase', 'Bisphosphonate drugs are effective'],
                     answerImg: [pagetBone],
                     answer: 'Parvovirus involvement is suggested, Alkaline phosphatase shows an increase, Bisphosphonate drugs are effective',
-                    commentary: 'Paget\'s disease of the bone is a bone disease in which bone resorption and excessive bone formation are alternately repeated. Alkaline phosphatase increases, and bisphosphonate drugs are effective. It is more common in Caucasians, and parvovirus involvement is suggested.',
+                    commentary:'骨Paget病について正しいのはどれか。3つ選べ。　選択肢：1.単純エックス線上、骨吸収と修復の像がみられる、2.アジアに多く見られる。白人、3.パラミクソウイルスの関与が指摘されている、4.アルカリフォスファターゼは増加を示す、5.ビスフォスフォネート製剤の有効性がある。　答え：パラミクソウイルスの関与が指摘されている、アルカリフォスファターゼは増加を示す、ビスフォスフォネート製剤の有効性がある。　Paget病は、骨吸収と過剰骨形成が交互に繰り返される骨疾患である。アルカリフォスファターゼが増加し、ビスフォスフォネート製剤が有効である。白人に多く、パラミクソウイルスの関与が指摘されている。',
                 },{
                     detailInfo: '12.',
                     questionImg: [],
@@ -498,7 +498,7 @@ export const useQuestionList = () => {
                     choices: ['Distal interphalangeal (DIP) joint', 'Proximal interphalangeal (PIP) joint', 'Metatarsophalangeal (MTP) joint', 'Lisfranc joint', 'Chopart joint'],
                     answerImg: [],
                     answer: 'Lisfranc joint',
-                    commentary: 'In the foot, the joint connecting the metacarpal bone and the metatarsal bone is called the Lisfranc joint.',
+                    commentary:'足部において、基節骨と中足骨を連結する関節はどのように呼ばれるか。　選択肢：1.遠位趾節(DIP)関節、2.近位趾節(PIP)関節、3.中足趾節(MTP)関節、4.Lisfranc関節、5.Chopart関節。　答え：Lisfranc関節。　足部において、基節骨と中足骨を連結する関節はLisfranc関節である。',
                 },{
                     detailInfo: '13.',
                     questionImg: [],
@@ -506,7 +506,7 @@ export const useQuestionList = () => {
                     choices: ['Internal rotation of the first metatarsal bone', 'Round metatarsal head', 'Egyptian toe', 'Obesity', 'Long metatarsal bone'],
                     answerImg: [],
                     answer: 'Obesity',
-                    commentary: 'Internal factors of hallux valgus include internal rotation of the first metatarsal bone, round metatarsal head, Egyptian toe, and long metatarsal bone. Obesity is an external factor (outside the foot).',
+                    commentary:'外反母趾の内的要因として不適切なものはどれか。　選択肢：1.第1中足骨の内反、2.丸い中足骨頭、3.エジプト型の足趾、4.肥満、5.長い中足骨。　答え：肥満。　外反母趾の内的要因として、第1中足骨の内反、丸い中足骨頭、エジプト型、長い中足骨がある。肥満は外的要因(足からみて外)である。',
                 },{
                     detailInfo: '14.',
                     questionImg: [],
@@ -514,15 +514,15 @@ export const useQuestionList = () => {
                     choices: ['Anterior talofibular ligament', 'Calcaneofibular ligament', 'Posterior talofibular ligament', 'Anterior cruciate ligament', 'Posterior cruciate ligament'],
                     answerImg: [],
                     answer: 'Anterior cruciate ligament, Posterior cruciate ligament',
-                    commentary: 'The lateral ligaments of the ankle joint include the anterior talofibular ligament, calcaneofibular ligament, and posterior talofibular ligament. The anterior cruciate ligament and posterior cruciate ligament are in the knee joint.',
+                    commentary:'足関節外側靭帯として不適切なのはどれか。2つ選べ。　選択肢：1.前距腓靭帯、2.踵腓靭帯、3.後距腓靭帯、4.前十字靭帯、5.後十字靭帯。　答え：前十字靭帯、後十字靭帯。　足関節外側靭帯として、前距腓靭帯、踵腓靭帯、後距腓靭帯がある。前十字靭帯、後十字靭帯は膝関節に存在する靭帯である。'
                 },{
                     detailInfo: '15.',
                     questionImg: [],
                     questionSentence: 'Which is correct about osteochondrosis? Choose two.',
-                    choices: ['Panner\'s disease occurs more frequently in wemen', 'Kienbock\'s disease occurs more frequently in men who use their hands frequently', 'Kohler\'s disease occurs in the metatarsal bone', 'Osgood-Schlatter disease does not occur bilaterally', 'Panner\'s disease can be expected to heal naturally with local rest'],
+                    choices: ['Panner\'s disease occurs more frequently in women', 'Kienbock\'s disease occurs more frequently in men who use their hands frequently', 'Kohler\'s disease occurs in the metatarsal bone', 'Osgood-Schlatter disease does not occur bilaterally', 'Panner\'s disease can be expected to heal naturally with local rest'],
                     answerImg: [],
                     answer: 'Kienbock\'s disease occurs more frequently in men who use their hands frequently, Panner\'s disease can be expected to heal naturally with local rest',
-                    commentary: 'The first Keeler\'s disease occurs in the navicular bone of the foot.',
+                    commentary: '骨端症について正しいものを2つ選べ。　選択肢：1.ペルテス病は女児に多い、2.キーンベック病は手をよく使用する男性に多い、3.第1ケーラー病は中足骨に発症する、4.オスグッド・シュラッター病の両側発症はみられない、5.パンナー病は局所安静で自然治癒が期待できる。　答え：キーンベック病は手をよく使用する男性に多い、パンナー病は局所安静で自然治癒が期待できる。　第1ケーラー病は足の舟状骨に発症する。ペルテス病は男児に多い。オスグッド・シュラッター病は両側発症が多い。パンナー病は局所安静で自然治癒が期待でき、基本的に後遺症は残らない。',
                 },{
                     detailInfo: '16.',
                     questionImg: [],
@@ -530,7 +530,7 @@ export const useQuestionList = () => {
                     choices: ['Rheumatoid arthritis', 'Pyogenic arthritis', 'Degenerative knee arthritis', 'Hemophilic arthritis', 'Neurogenic arthritis'],
                     answerImg: [],
                     answer: 'Rheumatoid arthritis, Degenerative knee arthritis, Hemophilic arthritis',
-                    commentary: 'The problem with total knee arthroplasty is infection, osteoporosis, and deep vein thrombosis. Neurogenic arthritis is caused by diabetes, and it is not an indication from the viewpoint of steroid treatment and susceptibility to infection. Hemophilia is an inflammatory arthritis, so it is an indication for artificial joints.',
+                    commentary:'人工膝関節置換術の適応となるのはどれか。3つ選べ。　選択肢：1.関節リウマチ、2.化膿性関節炎、3.変形性膝関節症、4.血友病性関節症、5.神経原性関節炎。　答え：関節リウマチ、変形性膝関節症、血友病性関節症。　工膝関節置換術の問題点として、感染症、骨粗鬆症、静脈血栓などが挙げられる。神経病性関節症の一番の原因は糖尿病で、ステロイド治療・易感染性の観点から適応とはならない。血友病は炎症性の関節炎であるので人工関節の適応。',
                 },{
                     detailInfo: '17.',
                     questionImg: [],
@@ -538,7 +538,7 @@ export const useQuestionList = () => {
                     choices: ['Angina pectoris', 'Hospital-acquired pneumonia', 'Acute myocardial infarction', 'Pulmonary embolism', 'Aortic dissection'],
                     answerImg: [],
                     answer: 'Pulmonary embolism',
-                    commentary: 'If acute respiratory distress occurs after total knee arthroplasty, pulmonary embolism should be suspected. Pulmonary embolism often occurs as a complication of deep vein thrombosis.',
+                    commentary:'74歳の女性。右変形性膝関節症に対する人工膝関節置換術後で入院中である。手術後2週目の歩行訓練中に突然、胸部の不快感を自覚した。意識レベルは JCSII-10。脈拍 120/分、整。血圧 150/80mmHg。呼吸数 24/分。SpO2 89% (room air)。呼吸音に異常を認めない。動脈血ガス分析 (自発呼吸、room air) : pH 7.50、PaCO2 32 Torr PaO2 51Torr、HCO3-24mEq/L。胸部エックス線写真に異常を認めない。診断として最も考えられるのはどれか。　選択肢：1.狭心症、2.院内肺炎、3.急性心筋梗塞、4.肺血栓塞栓症、5.解離性大動脈瘤。　答え：肺血栓塞栓症。　人工膝関節置換術後に急性の呼吸困難が生じた場合、肺塞栓症を疑う。肺塞栓症は、下肢深部静脈血栓症の合併症として生じることが多い。',
                 },{
                     detailInfo: '18.',
                     questionImg: [],
@@ -546,15 +546,15 @@ export const useQuestionList = () => {
                     choices: ['Locomo 25', 'Loco check', '6-minute walk test', '2-step test', 'Standing-up test'],
                     answerImg: [],
                     answer: 'Locomo 25, 2-step test, Standing-up test',
-                    commentary: 'Locomo 25 is a question format.',
+                    commentary:'ロコモティブシンドローム(ロコモ)の進行度は4段階に分類される。分類に用いる評価方法はどれか。3つ選べ。　選択肢：1.ロコモ25、2.ロコチェック、3.6分間歩行試験、4.2ステップテスト、5.立ち上がりテスト。　答え：ロコモ25、2ステップテスト、立ち上がりテスト。　ロコモ25は質問形式。'
                 },{
                     detailInfo: '19.',
                     questionImg: [],
-                    questionSentence: 'Which of the following is correct about cervical spondylosis? Choose one.',
+                    questionSentence: 'Which of the following is correct about ossification if the posterior longitudinal ligament of the cervical spine(OPLL)?',
                     choices: ['it occurs more frequently in women', 'it is more common in young people', 'it is a designated intractable disease of the country', 'the incidence in Westerners is higher than in Japanese', 'ligament ossification in the thoracic or lumbar spine does not coexist'],
                     answerImg: [],
                     answer: 'it is a designated intractable disease of the country',
-                    commentary: 'Cervical spondylosis is a designated intractable disease of the country. more common in men. The incidence is higher in Japanese than in Westerners. Ligament ossification may coexist in the thoracic or lumbar spine.',
+                    commentary:'頚椎後縦靭帯骨化症について正しいのはどれか。　選択肢：1.女性に多い、2.若年の発症が多い、3.国の指定難病である、4.欧米人の発生が日本人より多い、5.胸椎あるいは腰椎に靭帯骨化は併存しない。　答え：国の指定難病である。　頚椎症は国の指定難病である。男女比2:1で、中年以降の発症が多い。日本人に多く、胸椎や腰椎に靭帯骨化が併存することがある。'
                 },{
                     detailInfo: '20.',
                     questionImg: [],
@@ -562,7 +562,7 @@ export const useQuestionList = () => {
                     choices: ['Lower limb muscle contracture', 'Babinski sign', 'Myoclonus', 'Increased patellar tendon reflex', 'Decreased Achilles tendon reflex'],
                     answerImg: [],
                     answer: 'Decreased Achilles tendon reflex',
-                    commentary: 'In lumbar spinal stenosis, the patellar tendon reflex and Achilles tendon reflex disappear due to spinal cord compression. Choose symptoms due to lower motor neuron damage.',
+                    commentary: '71歳の男性。腰痛と会陰部のしびれを主訴に来院した。10年前から時々腰痛を自覚していたが、2年前から腰痛が強くなり、歩行後に右足先がしびれるようになった。3ヶ月前からは100mの歩行で会陰部に強いしびれが生じ、尿意を催すようになった。腰かけて数分休むと症状は消失する。腰椎の前屈は正常であるが、後屈は制限されている。この患者にみられるのはどれか。　選択肢：1.下肢筋収縮、2.バビンスキー徴候、3.ミオクローヌス、4.膝腱反射亢進、5.アキレス腱反射減弱。　答え：アキレス腱反射減弱。　脊柱管狭窄症による脊髄圧迫により、膝蓋腱反射やアキレス腱反射が消失する。下位運動ニューロンの障害による症状を選ぶ。',
                 },{
                     detailInfo: '21.',
                     questionImg: [],
@@ -570,7 +570,7 @@ export const useQuestionList = () => {
                     choices: ['It is rare in the family', 'It is more common in the first child', 'It is more common in pelvic delivery', 'The incidence has been increasing in recent years', 'The skin groove of the affected hip joint is deeper and more numerous than the healthy side'],
                     answerImg: [],
                     answer: 'It is rare in the family',
-                    commentary: 'In the past, dislocation associated with childbirth was common, but in recent years, there has been an increase in hereditary cases.',
+                    commentary: '先天性股関節脱臼の特徴で誤っているのはどれか。　選択肢：1.家族内発生は少ない、2.第1子に多く発症する、3.骨盤位分娩に多く発症する、4.ここ数年、発生率が増加している、5.患側股関節の皮膚溝が健側に比べ深く、多くなる。　答え：家庭内発生は少ない。　かつては出産に伴う脱臼が多かったが、近年遺伝性の症例が増加している。',
                 },{
                     detailInfo: '22.',
                     questionImg: [],
@@ -578,15 +578,14 @@ export const useQuestionList = () => {
                     choices: ['Most cases of child abuse occur in children in elementary school or older', '10% of severe head injuries in infants under 1 year of age are due to abuse', 'If child abuse is suspected, there is an obligation to report it, and this does not violate the physician\'s duty of confidentiality', 'Even if multiple fractures, old and new, are seen, the possibility of abuse is low', 'The number of child abuse consultation and processing cases has been decreasing year by year for the past 10 years'],
                     answerImg: [],
                     answer: 'If child abuse is suspected, there is an obligation to report it, and this does not violate the physician\'s duty of confidentiality',
-                    commentary: '95% of severe head injuries in infants under 1 year of age are due to abuse.',
+                    commentary: '小児虐待について正しいのはどれか。　選択肢：1.児童虐待の発生はほとんどが小学生以上の児童である、2.1歳未満の重度頭部外傷の10%は虐待である、3.児童虐待を疑った場合は通告の義務があり、これは医師の守秘義務違反には当たらない、4.新旧織り交ぜた多発骨折を見た場合でも虐待の可能性は低い、5.児童虐待の相談・処理件数はここ10年で年々減っている。　答え：児童虐待を疑った場合は通告の義務があり、これは医師の守秘義務違反には当たらない。　１歳未満の重度頭部外傷はなんと95%が虐待によるものとされる。',
                 },{
                     detailInfo: '23.',
                     questionImg: [],
                     questionSentence: '88-years-old woman. She was brought in after falling indoors and becoming unable to move. She was diagnosed with a right femoral neck fracture and underwent bone union surgery the next day. She has been receiving internal treatment for Alzheimer\'s type dementia for 10 years. What complications can occur on the day of surgery?',
                     choices: ['Pressure ulcer', 'Delirium', 'Pseudarthrosis', 'Joint contracture', 'Deep vein thrombosis'],
-                    answerImg: [],
                     answer: 'Pressure ulcer, Delirium, Deep vein thrombosis',
-                    commentary: 'Complications after fractures in the elderly include pressure ulcers, delirium, and deep vein thrombosis.',
+                    commentary:'88歳の女性。室内で転倒し動けなくなり搬入された。右大腿骨転子部骨折と診断され、翌日に骨接合術を受けた。10年前からAlzheimer型認知症で内服治療を受けている。手術当日に起こりうる合併症はどれか。3つ選べ。　選択肢：1.褥瘡、2.せん妄、3.偽関節、4.関節拘縮、5.深部静脈血栓症。　答え：褥瘡、せん妄、深部静脈血栓症。　高齢者の骨折後合併症として、褥瘡、せん妄、深部静脈血栓症がある。',
                 },{
                     detailInfo: '24.',
                     questionImg: [],
@@ -594,7 +593,7 @@ export const useQuestionList = () => {
                     choices: ['Lean the trunk forward', 'Separate the right lower limb', 'Place the hand on the proximal femur of the right side', 'Spread the lower limbs to the side', 'Tilt the pelvis to the left during right stance'],
                     answerImg: [TrendelenburgSign],
                     answer: 'Tilt the pelvis to the left during right stance',
-                    commentary: 'The Trendelenburg sign due to right gluteus medius insufficiency is tilting the pelvis to the left during right stance.',
+                    commentary:'右中殿筋不全患者の歩行時にみられるのはどれか。　選択肢：1.体幹を前に傾ける、2.右下肢を分回しする、3.右大腿骨遠位に手を当てる、4.左右の下肢を側方に広げる、5.右立脚時に骨盤を左側に傾ける。　答え：右立脚時に骨盤を左側に傾ける。　右中殿筋不全によるTrendelenburg徴候は、右立脚時に骨盤を左側に傾ける。',
                 },{
                     detailInfo: '25.',
                     questionImg: [],
@@ -602,7 +601,7 @@ export const useQuestionList = () => {
                     choices: ['It occurs more frequently in men.', 'The Phalen test is positive.', 'In severe cases, opposition movement of the thumb is impaired.', 'The nerve conduction velocity of the median nerve in the carpal tunnel decreases.', 'Conservative therapy is ineffective.'],
                     answerImg: [],
                     answer: 'The Phalen test is positive., In severe cases, opposition movement of the thumb is impaired., The nerve conduction velocity of the median nerve in the carpal tunnel decreases.',
-                    commentary: 'Carpal tunnel syndrome occurs more frequently in men. First, conservative therapy is attempted, and if it is ineffective, surgery is performed.',
+                    commentary:'手根管症候群について正しいのはどれか。3つ選べ。　選択肢：1.男性に多い、2.フェイルンテストが陽性となる、3.重症例では母指の対立運動が障害される、4.手根管において正中神経の神経伝導速度が低下する、5.保存療法は無効である。　答え：フェイルンテストが陽性となる、重症例では母指の対立運動が障害される、手根管において正中神経の神経伝導速度が低下する。　手根管症候群は、女性に多い。まずは保存療法を試みて、効果がない場合に手術を行う。',
                 },{
                     detailInfo: '26.',
                     questionImg: [],
@@ -610,7 +609,7 @@ export const useQuestionList = () => {
                     choices: ['Progresses to eagle claw deformity', 'Dorsiflexion of the wrist is impaired and becomes a drop hand', 'One of the complications that is likely to occur during the supine position surgery', 'There is numbness on the palmar side of the thumb and index finger', 'The Froment sign is positive'],
                     answerImg: [],
                     answer: 'Progresses to eagle claw deformity, The Froment sign is positive',
-                    commentary: 'The drop hand is seen in radial nerve palsy. One of the complications that is likely to occur during supine position surgery is peroneal nerve palsy. Numbness on the palmar side of the thumb and index finger is seen in median nerve palsy.',
+                    commentary:'尺骨神経麻痺について正しいのはどれか。2つ選べ。　選択肢：1.進行すると鷲手変形と呼ばれる手指の変形が見られる、2.手関節の背屈が障害され下垂手となる、3.砕石位の手術の際に起こりやすい合併症のひとつである、4.母指と示指の掌側 (てのひら側) に痺れがある、5.フロマン (Froment) 徴候が陽性となる。　答え：進行すると鷲手変形と呼ばれる手指の変形が見られる、フロマン (Froment) 徴候が陽性となる。　尺骨神経麻痺は、手関節背屈が障害され下垂手となる。母指と示指の掌側に痺れがある。フロマン徴候は、尺骨神経麻痺の診断に用いられる。',
                 },{
                     detailInfo: '27.',
                     questionImg: [],
@@ -618,15 +617,7 @@ export const useQuestionList = () => {
                     choices: ['Total joint replacement surgery is not indicated for the elderly with osteoporosis.', 'The purpose of total joint replacement surgery is to improve pain relief, range of motion, deformity correction, etc., to improve ADL.', 'In Japan, the number of total knee arthroplasties is the highest.', 'Total joint replacement surgery is not indicated for functional reconstruction after bone tumor resection.', 'Complications after total joint replacement surgery include infection, which can be controlled by antibiotic administration without the need for surgical treatment.'],
                     answerImg: [],
                     answer: 'The purpose of total joint replacement surgery is to improve pain relief, range of motion, deformity correction, etc., to improve ADL., In Japan, the number of total knee arthroplasties is the highest.',
-                    commentary: 'In total joint replacement surgery, if osteoporosis is present, attention should be paid to the sinking phenomenon, but it can be prevented by maintaining bone density with PTH preparations. The main purpose of total joint replacement surgery is pain relief, and although ADL (activity of daily living) is not completely restored, it is certain that ADL is improved before and after surgery. Total joint replacement surgery is also indicated for functional reconstruction after bone tumor resection. Complications after total joint replacement surgery include infection, with an incidence of 1-3%. Late-onset infections that cause secondary bacterial infections from bacteria such as surgical invasion during surgery, postoperative, intractable hemorrhoids, and skin wounds are called late-onset infections. Reoperation may be necessary.',
-
-                    // detailInfo: '27.',
-                    // questionImg: [],
-                    // questionSentence: '人工関節置換術全般に関する記述で正しいのはどれか。2つ選べ。',
-                    // choices: ['人工関節置換術は骨粗鬆症があるため高齢者には適応はない', '人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである', '本邦では膝関節に対する人工関節置換術の件数が最も多い', '骨腫瘍切除後の機能再建には人工関節置換術の適応はない', '人工関節置換術後の合併症として感染があるが、抗菌薬投与で鎮静化し手術治療は不要である'],
-                    // answerImg: [],
-                    // answer: '本邦では膝関節に対する人工関節置換術の件数が最も多い,人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである',
-                    // commentary: '人工関節置換術は骨粗鬆症の場合である場合は沈み込み現象に注意が必要であるが、PTH製剤の投与などで骨密度を保つことで予防することができる。人工関節置換術の最大の目的は除痛であり、正座や激しい運動などは行えないためADL(activity of daily living)が完全に回復するわけではないが、術前術後でADLが改善されることは間違いない。骨腫瘍切除後にも人工関節が適応される。人工関節置換術後の合併症として感染があり、その発生率は1-3%とされる。手術中の細菌侵入や、術後、歯槽膿漏・難治性の痔・皮膚の傷などから二次的に細菌感染を起こす遅発感染症がある。再手術が必要となることがある。',
+                    commentary: '人工関節置換術全般に関する記述で正しいのはどれか。2つ選べ。 選択肢：1.人工関節置換術は骨粗鬆症があるため高齢者には適応はない 2.人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである 3.本邦では膝関節に対する人工関節置換術の件数が最も多い 4.骨腫瘍切除後の機能再建には人工関節置換術の適応はない 5.人工関節置換術後の合併症として感染があるが、抗菌薬投与で鎮静化し手術治療は不要である 答え：本邦では膝関節に対する人工関節置換術の件数が最も多い,人工関節置換術の目的は除痛、可動域改善、変形矯正などより ADL を改善することである',
                 },{
                     detailInfo: '28.',
                     questionImg: [],
@@ -634,7 +625,7 @@ export const useQuestionList = () => {
                     choices: ['The cause of loosening after total hip arthroplasty is bone resorption due to polyethylene wear.', 'The implant survival rate of cemented total hip arthroplasty is generally less than 50% at 10 years.', 'Total hip arthroplasty is not indicated for deformity after trauma.', 'Dislocation is one of the complications after total hip arthroplasty.', 'Ceramic is not used as a material for total hip arthroplasty.'],
                     answerImg: [],
                     answer: 'The cause of loosening after total hip arthroplasty is bone resorption due to polyethylene wear., Dislocation is one of the complications after total hip arthroplasty.',
-                    commentary: 'The implant survival rate of cemented total hip arthroplasty is generally more than 90% at 10 years. Total hip arthroplasty is indicated for deformity after trauma. Ceramic is used as a material for total hip arthroplasty.',
+                    commentary:'人工股関節置換術について正しいのはどれか。2つ選べ。　選択肢：1.人工股関節置換術後の緩みの原因はポリエチレン摩耗による骨吸収である、2.セメント固定型人工股関節置換術のインプラント生存率は一般的に10年で50%未満である、3.外傷後の変形に対して人工股関節置換術は適応でない、4.人工股関節置換術後の合併症のひとつに脱臼がある、5.セラミックは人工股関節置換術の材料として用いられない。　答え：人工股関節置換術後の緩みの原因はポリエチレン摩耗による骨吸収である、人工股関節置換術後の合併症のひとつに脱臼がある。　人工股関節置換術後の緩みの原因は、摩耗によるポリエチレンの粉塵が骨吸収を引き起こすことが多い。人工股関節置換術後の脱臼は、最も多い合併症のひとつである。'
                 },{
                     detailInfo: '29.',
                     questionImg: [],
@@ -642,7 +633,7 @@ export const useQuestionList = () => {
                     choices: ['Antinuclear antibody', 'Anti-CCP antibody', 'CRP', 'Disease duration', 'Swelling joint'],
                     answerImg: [],
                     answer: 'Antinuclear antibody',
-                    commentary: 'Antinuclear antibody is a finding of SLE (differential diagnosis).',
+                    commentary:'2010年 ACR/EULAR 関節リウマチ分類基準について正しいのはどれか。　選択肢：1.抗核抗体、2.抗 CCP 抗体、3.CRP、4.病期、5.腫脹関節。　答え：抗核抗体。　2010年 ACR/EULAR 関節リウマチ分類基準では、抗 CCP 抗体が重要な指標となっている。'
                 },{
                     detailInfo: '30.',
                     questionImg: [],
@@ -650,7 +641,7 @@ export const useQuestionList = () => {
                     choices: ['Hemolytic anemia', 'Interstitial pneumonia', 'Weight loss', 'Amyloidosis', 'Photosensitivity'],
                     answerImg: [],
                     answer: 'Photosensitivity',
-                    commentary: 'Photosensitivity is a finding of SLE (differential diagnosis). Chronic inflammation leads to iron deficiency anemia, which causes anemia.',
+                    commentary:'関節リウマチについて誤っているのはどれか。　選択肢：1.溶血性貧血、2.間質性肺炎、3.体重減少、4.アミロイドーシス、5.光線過敏。　答え：光線過敏。　関節リウマチは、関節痛、関節腫脹、関節の変形を特徴とする自己免疫疾患である。'
                 }],
         },
         {
@@ -1313,7 +1304,7 @@ export const useQuestionList = () => {
     },]},{
         groupTag: '眼疾患 2023本試験in English',
         groupContents: [{
-                    detailInfo: '1.',
+                    detailInfo: '1. ##Translated with ChatGPT-4 based Github Copilot',
                     questionSentence: 'Choose the visual angle when the visual acuity is 0.5.',
                     choices: ['1 minute','2 minutes', '3 minutes', '5 minutes', '10 minutes'],
                     commentary:'視力が0.5のときの視角を選べ。 選択肢:1. 1分 2. 2分 3. 3分 4. 5分 5. 10分 答え:2分',
