@@ -1803,7 +1803,7 @@ export const useQuestionList = () => {
             choices:['炎症性サイトカインの産生','オプソニン化','補体の活性化','ミオグロビン尿','低血圧'],
             answerImg: [],
             answer: 'ミオグロビン尿',
-            commentary: '急性溶血性輸血副作用の特徴として、ミオグロビン尿は不適切です。'
+            commentary: '免疫反応によるショック状態となるため、低血圧となる。',
         },{
             detailInfo: '10.',
             questionImg: [],
