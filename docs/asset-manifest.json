@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.8417c76b.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.e4d58e2a.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/causeOfVisualImpairment.png": "/anywhere-orthopedics/static/media/causeOfVisualImpairment.66a777cfd3a9234e3696.png",
@@ -172,6 +172,7 @@
     "static/media/osteoChondrosisName.png": "/anywhere-orthopedics/static/media/osteoChondrosisName.ee3f88636f099670621c.png",
     "static/media/geneTypeALL4.png": "/anywhere-orthopedics/static/media/geneTypeALL4.2917dbd5f40fa80f6590.png",
     "static/media/autosomalDominantOpticAtrophy2.png": "/anywhere-orthopedics/static/media/autosomalDominantOpticAtrophy2.14a41d77738063b2bf3a.png",
+    "static/media/skinFlapType.png": "/anywhere-orthopedics/static/media/skinFlapType.181a9667879105a513af.png",
     "static/media/innervationLowerLimb.png": "/anywhere-orthopedics/static/media/innervationLowerLimb.84b2e22c2ada16c0add5.png",
     "static/media/coagulationPathway.png": "/anywhere-orthopedics/static/media/coagulationPathway.486110a0088e2a25bc07.png",
     "static/media/otorhinolalyngology2307.png": "/anywhere-orthopedics/static/media/otorhinolalyngology2307.6c9f11e660ff617c5b9f.png",
@@ -193,10 +194,10 @@
     "static/media/coagulationFactors.png": "/anywhere-orthopedics/static/media/coagulationFactors.66d2a2d93491ec8f1f40.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.8417c76b.js.map": "/anywhere-orthopedics/static/js/main.8417c76b.js.map"
+    "main.e4d58e2a.js.map": "/anywhere-orthopedics/static/js/main.e4d58e2a.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.8417c76b.js"
+    "static/js/main.e4d58e2a.js"
   ]
 }

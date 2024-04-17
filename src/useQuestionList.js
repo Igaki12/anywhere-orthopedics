@@ -1,3 +1,4 @@
+import skinFlapType from './img/answer/skinFlapType.png';
 import liverTransplantation from './img/answer/liverTransplantation.png';
 import skinTransplantation from './img/answer/skinTransplantation.png';
 import carcineurin from './img/answer/carcineurin.png';
@@ -461,26 +462,26 @@ export const useQuestionList = () => {
                 },{
                     detailInfo: '5.',
                     questionImg: [],
-                    questionSentence: 'Which of the following is correct about the treatment of a scaphoid fracture? Choose three.',
-                    choices: ['The most common site of fracture is the waist', 'The most common site of nonunion is the proximal pole', 'The most common site of avascular necrosis is the distal pole', 'The most common site of fracture is the proximal pole', 'The most common site of nonunion is the waist'],
+                    questionSentence: 'Which of the following is correct about the treatment of a scaphoid fracture in children? Choose three.',
+                    choices: ['The most common site of fracture is the supracondylar humerus fracture.','The supracondylar humerus fracture is most common in 3-year-olds.','The lateral condyle fracture of the humerus is the second most common.','The lateral condyle fracture of the humerus causes rotational displacement.','The lateral condyle fracture of the humerus causes a false joint, resulting in an inward elbow.'],
                     answerImg: [],
-                    answer: 'The most common site of fracture is the waist, The most common site of nonunion is the proximal pole, The most common site of avascular necrosis is the distal pole',
+                    answer: '1, 3, 4',
                     commentary: '小児の肘周囲骨折についての記載で正しいのはどれか。3つ選べ。　選択肢：1.上腕骨顆上骨折が最も高頻度で生じる、2.上腕骨顆上骨折の好発年齢は3歳である、3.上腕骨外側顆骨折は2番目の高頻度で生じる、4.上腕骨外側顆骨折は回旋転位を生じる、5.上腕骨外側顆骨折の偽関節により内反肘を生じる。　答え：上腕骨顆上骨折が最も高頻度で生じる、上腕骨外側顆骨折は2番目の高頻度で生じる、上腕骨外側顆骨折は回旋転位を生じる。上腕骨課上骨折の好発年齢は4-7歳とされている。上腕骨外側顆骨折では偽関節が生じやすいが、外反肘を生じる。',
                 },{
                     detailInfo: '6.',
                     questionImg: [],
-                    questionSentence: 'Which of the following is correct about the treatment of a scaphoid fracture? Choose three.',
-                    choices: ['The most common site of fracture is the waist', 'The most common site of nonunion is the proximal pole', 'The most common site of avascular necrosis is the distal pole', 'The most common site of fracture is the proximal pole', 'The most common site of nonunion is the waist'],
+                    questionSentence: 'Which of the following is correct about the imaging diagnosis of bone tumors? Choose one.',
+                    choices: ['CT and MRI are sufficient for imaging diagnosis of bone tumors.', 'Angiography is essential for distinguishing between benign and malignant tumors.', 'MRI is very important in planning surgery.', 'All metastases of malignant bone tumors can be detected by PET scans.', 'Bone scintigraphy is very useful for distinguishing between benign and malignant tumors.'],
                     answerImg: [],
-                    answer: 'The most common site of fracture is the waist, The most common site of nonunion is the proximal pole, The most common site of avascular necrosis is the distal pole',
-                    commentary: '骨腫瘍の画像診断について正しいものはどれか。　選択肢：1.CT と MRI があれば単純X線は不要である、2.血管造影検査は良・悪性の鑑別に必須である、3.手術計画を立てる上でMRI は非常に重要である、4.悪性骨腫瘍の転移は PET検査ですべて発見できる、5.骨シンチグラフィは良/悪性の鑑別に非常に有用である。　答え：手術計画を立てる上でMRI は非常に重要である。　骨腫瘍の画像診断においては、単純X線、CT、MRI、骨シンチグラフィ、血管造影検査などが用いられる。MRIは軟部組織の評価に優れており、手術計画を立てる上で非常に重要である。',
+                    answer: 'MRI is very important in planning surgery.',
+                    commentary: '骨腫瘍の画像診断について正しいものはどれか。3つ選べ　選択肢：1.CT と MRI があれば単純X線は不要である、2.血管造影検査は良・悪性の鑑別に必須である、3.手術計画を立てる上でMRI は非常に重要である、4.悪性骨腫瘍の転移は PET検査ですべて発見できる、5.骨シンチグラフィは良/悪性の鑑別に非常に有用である。　答え：手術計画を立てる上でMRI は非常に重要である。　骨腫瘍の画像診断においては、単純X線、CT、MRI、骨シンチグラフィ、血管造影検査などが用いられる。MRIは軟部組織の評価に優れており、手術計画を立てる上で非常に重要である。',
                 },{
                     detailInfo: '7.',
                     questionImg: [],
-                    questionSentence: 'Which of the following is correct about the treatment of a scaphoid fracture? Choose three.',
-                    choices: ['The most common site of fracture is the waist', 'The most common site of nonunion is the proximal pole', 'The most common site of avascular necrosis is the distal pole', 'The most common site of fracture is the proximal pole', 'The most common site of nonunion is the waist'],
+                    questionSentence: 'Which of the following is incorrect about bone and soft tissue tumors? Choose one.',
+                    choices: ['The proportion of primary bone and soft tissue malignant tumors in malignant tumors is about 1-2%.', 'The treatment of malignant soft tissue tumors is generally wide excision surgery.', 'The main complaint of malignant soft tissue tumors is a painful tumor.', 'The frequency of metastatic bone tumors is higher than that of primary bone tumors.', 'A biopsy is required for a definitive diagnosis.'],
                     answerImg: [],
-                    answer: 'The most common site of fracture is the waist, The most common site of nonunion is the proximal pole, The most common site of avascular necrosis is the distal pole',
+                    answer: 'The main complaint of malignant soft tissue tumors is a painful tumor.',
                     commentary: '骨・軟部腫瘍について誤っているのはどれか。　選択肢：1.悪性腫瘍に占める原発性骨軟部悪性腫瘍の割合は、約 1-2%である、2.悪性軟部腫瘍の治療は、広汎切除術が原則である、3.悪性軟部腫瘍の主訴は、疼痛を伴う腫瘤である、4.転移性骨腫瘍の頻度は原発性骨腫瘍より多い、5.確定診断のためには、生検を要する。　答え：悪性軟部腫瘍の主訴は、疼痛を伴う腫瘤である。　悪性軟部腫瘍は無痛性であり、疼痛を伴う腫瘤は良性腫瘍に多い。悪性軟部腫瘍の治療は、広汎切除術が原則である。転移性骨腫瘍の頻度は原発性骨腫瘍より少ない。確定診断のためには、生検を要する。',
                 },{
                     detailInfo: '8.',
@@ -542,9 +543,9 @@ export const useQuestionList = () => {
                     detailInfo: '15.',
                     questionImg: [],
                     questionSentence: 'Which is correct about osteochondrosis? Choose two.',
-                    choices: ['Panner\'s disease occurs more frequently in women', 'Kienbock\'s disease occurs more frequently in men who use their hands frequently', 'Kohler\'s disease occurs in the metatarsal bone', 'Osgood-Schlatter disease does not occur bilaterally', 'Panner\'s disease can be expected to heal naturally with local rest'],
+                    choices: ['Perthes disease occurs more frequently in girls', 'Kienbock\'s disease occurs more frequently in men who use their hands frequently', 'Köhler\'s disease occurs in the metatarsal bone', 'Osgood-Schlatter disease is not bilateral', 'Panner\'s disease can be expected to heal naturally with local rest'],
                     answerImg: [],
-                    answer: 'Kienbock\'s disease occurs more frequently in men who use their hands frequently, Panner\'s disease can be expected to heal naturally with local rest',
+                    answer: '2, 5',
                     commentary: '骨端症について正しいものを2つ選べ。　選択肢：1.ペルテス病は女児に多い、2.キーンベック病は手をよく使用する男性に多い、3.第1ケーラー病は中足骨に発症する、4.オスグッド・シュラッター病の両側発症はみられない、5.パンナー病は局所安静で自然治癒が期待できる。　答え：キーンベック病は手をよく使用する男性に多い、パンナー病は局所安静で自然治癒が期待できる。　第1ケーラー病は足の舟状骨に発症する。ペルテス病は男児に多い。オスグッド・シュラッター病は両側発症が多い。パンナー病は局所安静で自然治癒が期待でき、基本的に後遺症は残らない。',
                 },{
                     detailInfo: '16.',
@@ -605,7 +606,7 @@ export const useQuestionList = () => {
                 },{
                     detailInfo: '23.',
                     questionImg: [],
-                    questionSentence: '88-years-old woman. She was brought in after falling indoors and becoming unable to move. She was diagnosed with a right femoral neck fracture and underwent bone union surgery the next day. She has been receiving internal treatment for Alzheimer\'s type dementia for 10 years. What complications can occur on the day of surgery?',
+                    questionSentence: '88-years-old woman. She was brought in after falling indoors and becoming unable to move. She was diagnosed with a right femoral neck fracture and underwent bone union surgery the next day. She has been receiving internal treatment for Alzheimer\'s type dementia for 10 years. What complications can occur on the day of surgery? Choose three.',
                     choices: ['Pressure ulcer', 'Delirium', 'Pseudarthrosis', 'Joint contracture', 'Deep vein thrombosis'],
                     answer: 'Pressure ulcer, Delirium, Deep vein thrombosis',
                     commentary:'88歳の女性。室内で転倒し動けなくなり搬入された。右大腿骨転子部骨折と診断され、翌日に骨接合術を受けた。10年前からAlzheimer型認知症で内服治療を受けている。手術当日に起こりうる合併症はどれか。3つ選べ。　選択肢：1.褥瘡、2.せん妄、3.偽関節、4.関節拘縮、5.深部静脈血栓症。　答え：褥瘡、せん妄、深部静脈血栓症。　高齢者の骨折後合併症として、褥瘡、せん妄、深部静脈血栓症がある。',
@@ -1994,8 +1995,8 @@ export const useQuestionList = () => {
             questionSentence: '褥瘡について誤っているのはどれか。 一つ選べ。',
             choices:['発症直後は感染に注意する。','好発部位は仙骨部・腸骨稜・ 大転子部などである。','体液漏出により低タンパク血症となりやすい。','坐骨部の褥瘡は対麻痺より四肢麻痺の患者に発生しやすい。','肉芽組織の中にも褥瘡ができうる'],
             answerImg: [bedsore],
-            answer: '体液漏出により低タンパク血症となりやすい。',
-            commentary: '褥瘡とは、体と支持面との接触部位で皮膚が圧迫されて起こる血行障害が一定期間持続し組織壊死に至ったものである。後発部位は皮下組織が薄く外力が集中しやすい骨突出部で、仰臥位では仙骨部、側臥位では腸骨部、大転子部で多い。褥瘡は感染しやすいので、発症直後から感染に注意する。坐骨部の褥瘡は坐位や車いす坐位が続く場合に発症しやすく、広い麻痺であるほど発症しやすい。褥瘡創面から出る滲出液はタンパク質を多量に含んでいるので、不良肉芽組織で滲出液が多いと低タンパク血症になりやすい'
+            answer: '坐骨部の褥瘡は対麻痺より四肢麻痺の患者に発生しやすい。',
+            commentary: '褥瘡とは、体と支持面との接触部位で皮膚が圧迫されて起こる血行障害が一定期間持続し組織壊死に至ったものである。好発部位は皮下組織が薄く外力が集中しやすい骨突出部で、仰臥位では仙骨部、側臥位では腸骨部、大転子部で多い。一般的には麻痺による行動制限が大きいほど褥瘡は起こりやすいが、坐位では文字通り坐骨が圧迫されやすいので、坐骨部の褥瘡については車椅子の利用が多くなるであろう対麻痺の方が寝たきりになる四肢麻痺より起こりやすい。褥瘡は感染しやすいので、発症直後から感染に注意する。坐骨部の褥瘡は坐位や車いす坐位が続く場合に発症しやすく、広い麻痺であるほど発症しやすい。褥瘡創面から出る滲出液はタンパク質を多量に含んでいるので、不良肉芽組織で滲出液が多いと低タンパク血症になりやすい'
         },{
             detailInfo: '33.',
             questionImg: [],
@@ -2113,120 +2114,120 @@ export const useQuestionList = () => {
             answerImg: [carcineurin],
             answer: 'NFAT',
             commentary: 'NFAT: Nuclear Factor of Activated T cells(活性化T細胞内因子)。NFATはIL-2の転写を促進するので、これを阻害することで免疫抑制が可能。'
+        },
+{
+            detailInfo: '13.',
+            questionImg: [],
+            questionSentence: '骨組織と細胞について間違っているのはどれか。',
+            choices:['骨を構成する主要なコラーゲンは2型である。','骨代謝により骨組織の若返りと血中カルシウム濃度の維持がされる。','骨芽細胞は間葉系幹細胞由来である。','破骨細胞の分化には、骨細胞が影響する。','骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植すると骨ができる。'],
+            answerImg: [],
+            answer: '骨を構成する主要なコラーゲンは2型である。',
+            commentary: '骨を構成する主要なコラーゲンは1型で、軟骨を構成する主要なコラーゲンが2型である。骨細胞のRANKLが破骨細胞の分化を促進する。'
+        },{
+            detailInfo: '14.',
+            questionImg: [],
+            questionSentence: '骨髄間葉系細胞の培養について正しいのはどれか。',
+            choices:['約1週間の培養期間で体内へ移植すると最も効率がよい。','無菌操作は不要である。','デキサメサゾンは骨芽細胞への分化を抑制する働きがある。','骨髄の採取は四肢末梢が最も適している。','牛胎児由来の血清でも使用できる。'],
+            answerImg: [],
+            answer: 'デキサメサゾンは骨芽細胞への分化を抑制する働きがある。',
+            commentary: '骨髄間葉系細胞の培養に関して、デキサメサゾンは骨芽細胞への分化を抑制する働きがある。'
+        },{
+            detailInfo: '15.',
+            questionImg: [],
+            questionSentence: '創傷治癒過程の炎症期について誤っているのはどれか。',
+            choices:['毛細血管壁に停滞している多形核白血球が血管外へ出る。','リンパ球は早期に遊走してくる。','創内へ侵入すると単球の多くはマクロファージとなる。','リンパ球はサイトカインを遊離する。','創内にフィブロネクチンが集積する。'],
+            answerImg: [],
+            answer: 'リンパ球は早期に遊走してくる。',
+            commentary: 'フィブロネクチンの主な機能は、創傷治癒と発達における細胞遊走、細胞増殖と分化の制御、および止血／血栓形成と考えられています。早期に遊走してくるのは好中球で、リンパ球は遅れる。'
+        },{
+            detailInfo: '16.',
+            questionImg: [],
+            questionSentence: '以下の手技から、一般的に皮膚の欠損を修復する手技として考慮してゆく順番に並べよ。',
+            choices:['遊離皮弁','縫縮','有茎皮弁','植皮','局所皮弁'],
+            answerImg: [skinFlapType],
+            answer: '2-4-5-3-1',
+            commentary: '縫縮→植皮→局所皮弁→有茎皮弁→遊離皮弁の順番。皮弁は植皮に比べて厚い組織を移植することができる。皮弁のドナー部位の位置により、局所皮弁・遠隔皮弁・遊離皮弁に分類される。植皮が生着しない血流の乏しい、腱・骨・軟骨が露出していても皮弁自身の血流があるため生着する。',
+        },{
+            detailInfo: '17.',
+            questionImg: [],
+            questionSentence: '局所皮弁が遊離植皮術より劣っている点はどれか。',
+            choices:['加重部の再建','肌の色、質感','Volumeの再建','骨、腱上の再建','広範囲の皮膚欠損の再建'],
+            answerImg: [],
+            answer: '広範囲の皮膚欠損の再建',
+            commentary: '局所皮弁の利点として、植皮が生着しない血流の乏しい、腱・骨・軟骨が露出していても皮弁自身の血流があるため生着する点がある。また植皮の色素沈着や拘縮が起こりにくく、近辺の場所から採取されるため色や質がマッチしやすいこともメリットとして挙げられる。一方で欠損部に隣接している部位から皮弁を持ってくるため、あまり広い範囲の再建には向かない。'
+        },{
+            detailInfo: '18.',
+            questionImg: [],
+            questionSentence: '次のうち正しいのはどれか。',
+            choices:['頚部では創の方向は縦にすべきである。','顔面では瘢痕はきれいになるので、創の方向は気にしなくてよい。','子供の顔はしわがないのでどの方向に瘢痕を残しても問題にならない。','胸骨部の創はケロイドになりやすい。','関節部は瘢痕を残しにくい。'],
+            answerImg: [],
+            answer: '胸骨部の創はケロイドになりやすい。',
+            commentary: '胸、肩、耳たぶ（ピアス後）、下腹有毛部（帝王切開後）などがケロイドの好発部位として知られています。 逆に顔・頭・手足・下腿などでは、ケロイドの発症頻度は低いとされています。'
+        },{
+            detailInfo: '19.',
+            questionImg: [],
+            questionSentence: '肺移植のうち本邦 (日本) で行われたことがないものはどれか。一つ選べ。',
+            choices:['脳死両肺移植','脳死両側片肺移植','脳死片肺移植','生体肺移植','心肺移植'],
+            answerImg: [],
+            answer: '脳死両肺移植',
+            commentary: '両方の肺を同時に移植する方法では人工心肺が必要となるため、両側片肺移植が行われる。'
+        },{
+            detailInfo: '20.',
+            questionImg: [],
+            questionSentence: '人工心肺が必ず必要な肺移植を2つ選べ。',
+            choices:['脳死両肺移植','脳死両側片肺移植','脳死片肺移植','生体肺移植','心肺移植'],
+            answerImg: [],
+            answer: '脳死両肺移植,心肺移植',
+            commentary: '両方の肺を同時に移植する場合は循環が完全に遮られてしまうため、人工心肺が必要となる。'
+        },{
+            detailInfo: '21.',
+            questionImg: [],
+            questionSentence: '次のうち本邦の心臓移植後の免疫抑制療法で、現在最も多く用いられている組み合わせはどれか。',
+            choices:['タクロリムス+ミコフェノールモフェチル+プレドニゾン','シクロスポリン+アザチオプリン+プレドニゾン','タクロリムス+ラパマイシン+プレドニゾン','シクロスポリン+サイクロフォスファマイド+プレドニゾン','タクロリムス+アザチオプリン+プレドニゾン'],
+            answerImg: [],
+            answer: 'タクロリムス+ミコフェノールモフェチル+プレドニゾン',
+            commentary: 'カルシニューリン阻害薬としてタクロリムス、拡散合成阻害剤(代謝拮抗薬)としてミコフェノールモフェチル、ステロイドとしてプレドニゾンが用いられる。'
+        },{
+            detailInfo: '22.',
+            questionImg: [],
+            questionSentence: '本邦における心臓移植の適応疾患で多いものを3つ選べ。',
+            choices:['虚血性心筋症','拘束型心筋症','心筋炎後心筋症','拡張相肥大型心筋症','拡張型心筋症'],
+            answerImg: [],
+            answer: '虚血性心筋症,拡張相肥大型心筋症,拡張型心筋症',
+            commentary: '過半数が拡張型心筋症、ついで拡張相肥大型心筋症、虚血性心筋症が多い。'
+        },{
+            detailInfo: '23.',
+            questionImg: [],
+            questionSentence: '間葉系幹細胞について、最も適切な記述を一つ選べ。',
+            choices:['体外培養すると、事実上回数制限なく増殖する。','骨髄において造血幹細胞が損傷を受けると、間葉系幹細胞が機能を代替する。','発生学的には主に咽頭嚢に由来する。','現在までに知られているニッチは、骨髄と歯髄の「二つの髄」である。','上記に適切な記述はない。'],
+            answerImg: [],
+            answer: '上記に適切な記述はない。',
+            commentary: '全能性幹細胞ではないので老化があるし、咽頭嚢由来でなく中胚葉または神経堤由来である。ほとんどの組織幹細胞は造血幹細胞や神経幹細胞のように限定された分化能力のみ持つが、間葉系幹細胞などの一部の幹細胞は非常に幅広う細胞腫に分化する能力を持つ(multipotency)ので、間葉系幹細胞は骨芽細胞や骨細胞、脂肪細胞など幅広い組織に分化するが、造血幹細胞の機能を代替するものではない。'
+        },{
+            detailInfo: '24.',
+            questionImg: [],
+            questionSentence: '造血幹細胞が肝臓を主要な造血の場とする時期について、最も適切な記述を一つ選べ。',
+            choices:['発生第2週','発生第4週','発生第16週','発生第32週','上記に適切な記述はない。'],
+            answerImg: [],
+            answer: '発生第4週',
+            commentary: '肝臓・脾臓で妊娠第７週程度まで造血が行われ、その後は骨髄で造血が行われる。'
+        },{
+            detailInfo: '25.',
+            questionImg: [],
+            questionSentence: '腎代替療法の腎移植の長所として誤っているものを2つ選べ。',
+            choices:['生命予後改善','悪性腫瘍の発症抑制','QOL改善','COVID-19 の重症化が少ない','医療費軽減'],
+            answerImg: [],
+            answer: 'COVID-19 の重症化が少ない,悪性腫瘍の発症抑制',
+            commentary: '免疫抑制が必要になるので感染症の合併が非常に多く、腫瘍免疫も損なわれる。一方で莫大な血液透析の費用を節約できる。血液透析10年の方が腎移植後20年生存したと考えても、腎移植の方が医療費が安い。'
+        },{
+            detailInfo: '26.',
+            questionImg: [],
+            questionSentence: '腎移植術について正しいものを3つ選べ。',
+            choices:['生体腎移植ドナーの腎採取術では通常、静脈が長い左腎を採取する。','生体腎移植ドナーの腎採取術では低侵襲の内視鏡下手術が多く施行されている。','腎移植術では通常左腎を摘出してドナーの左腎を移植するが尿管が短い場合、尿管-尿管吻合を行う。','献腎移植では腎機能を温存するため、予め大動脈にカテーテルを挿入し、心停止後体内で腎臓を灌流する。','脳死下の多臓器摘出では、許容阻血時間が短い心臓、肺摘出の次に腎臓を摘出する。'],
+            answerImg: [],
+            answer: '1,2,4が正しい',
+            commentary:'左腎 88.5% 対 右腎 11.5%。生体腎移植ドナー腎再手術について、そのほとんどは腹腔鏡で行われており、開腹手術による採取は2.2%。移植される腎は腸骨窩に移植されるため、移植の際に摘出することはない。心停止下腎提供で脳死とされうる状態と診断されれば、大腿動静脈からcanulationが行われ、心停止後速やかにカテーテルで還流され腎機能が保護される。脳死下での移植順は6番目で、心臓、肺、小腸、肝臓、膵臓、腎臓の順である。'
         }
-// {
-//             detailInfo: '13.',
-//             questionImg: [],
-//             questionSentence: '骨組織と細胞について間違っているのはどれか。',
-//             choices:['骨を構成する主要なコラーゲンは2型である。','骨代謝により骨組織の若返りと血中カルシウム濃度の維持がされる。','骨芽細胞は間葉系幹細胞由来である。','破骨細胞の分化には、骨細胞が影響する。','骨髄間葉系細胞とハイドロキシアパタイト複合体をラット皮下に移植すると骨ができる。'],
-//             answerImg: [],
-//             answer: '骨を構成する主要なコラーゲンは2型である。',
-//             commentary: '骨組織と細胞に関して、骨を構成する主要なコラーゲンは2型である。'
-//         },{
-//             detailInfo: '14.',
-//             questionImg: [],
-//             questionSentence: '骨髄間葉系細胞の培養について正しいのはどれか。',
-//             choices:['約1週間の培養期間で体内へ移植すると最も効率がよい。','無菌操作は不要である。','デキサメサゾンは骨芽細胞への分化を抑制する働きがある。','骨髄の採取は四肢末梢が最も適している。','牛胎児由来の血清でも使用できる。'],
-//             answerImg: [],
-//             answer: 'デキサメサゾンは骨芽細胞への分化を抑制する働きがある。',
-//             commentary: '骨髄間葉系細胞の培養に関して、デキサメサゾンは骨芽細胞への分化を抑制する働きがある。'
-//         },{
-//             detailInfo: '15.',
-//             questionImg: [],
-//             questionSentence: '創傷治癒過程の炎症期について誤っているのはどれか。',
-//             choices:['毛細血管壁に停滞している多形核白血球が血管外へ出る。','リンパ球は早期に遊走してくる。','創内へ侵入すると単球の多くはマクロファージとなる。','リンパ球はサイトカインを遊離する。','創内にフィブロネクチンが集積する。'],
-//             answerImg: [],
-//             answer: 'リンパ球は早期に遊走してくる。',
-//             commentary: '創傷治癒過程の炎症期に関して、リンパ球は早期に遊走してくる。'
-//         },{
-//             detailInfo: '16.',
-//             questionImg: [],
-//             questionSentence: '以下の手技から、一般的に皮膚の欠損を修復する手技として考慮してゆく順番に並べよ。',
-//             choices:['遊離皮弁','縫縮','有茎皮弁','植皮','局所皮弁'],
-//             answerImg: [],
-//             answer: '2-4-5-3-1',
-//             commentary: '一般的に皮膚の欠損を修復する手技として考慮してゆく順番は、縫縮、植皮、局所皮弁、有茎皮弁、遊離皮弁です。'
-//         },{
-//             detailInfo: '17.',
-//             questionImg: [],
-//             questionSentence: '局所皮弁が遊離植皮術より劣っている点はどれか。',
-//             choices:['加重部の再建','肌の色、質感','Volumeの再建','骨、腱上の再建','広範囲の皮膚欠損の再建'],
-//             answerImg: [],
-//             answer: 'Volumeの再建',
-//             commentary: '局所皮弁が遊離植皮術より劣っている点はVolumeの再建です。'
-//         },{
-//             detailInfo: '18.',
-//             questionImg: [],
-//             questionSentence: '次のうち正しいのはどれか。',
-//             choices:['頚部では創の方向は縦にすべきである。','顔面では瘢痕はきれいになるので、創の方向は気にしなくてよい。','子供の顔はしわがないのでどの方向に瘢痕を残しても問題にならない。','胸骨部の創はケロイドになりやすい。','関節部は瘢痕を残しにくい。'],
-//             answerImg: [],
-//             answer: '胸骨部の創はケロイドになりやすい。',
-//             commentary: '胸骨部の創はケロイドになりやすいです。'
-//         },{
-//             detailInfo: '19.',
-//             questionImg: [],
-//             questionSentence: '肺移植のうち本邦 (日本) で行われたことがないものはどれか。一つ選べ。',
-//             choices:['脳死両肺移植','脳死両側片肺移植','脳死片肺移植','生体肺移植','心肺移植'],
-//             answerImg: [],
-//             answer: '脳死片肺移植',
-//             commentary: '本邦 (日本) で行われたことがない肺移植は脳死片肺移植です。'
-//         },{
-//             detailInfo: '20.',
-//             questionImg: [],
-//             questionSentence: '人工心肺が必ず必要な肺移植を2つ選べ。',
-//             choices:['脳死両肺移植','脳死両側片肺移植','脳死片肺移植','生体肺移植','心肺移植'],
-//             answerImg: [],
-//             answer: '脳死両肺移植,心肺移植',
-//             commentary: '人工心肺が必ず必要な肺移植は脳死両肺移植と心肺移植です。'
-//         },{
-//             detailInfo: '21.',
-//             questionImg: [],
-//             questionSentence: '次のうち本邦の心臓移植後の免疫抑制療法で、現在最も多く用いられている組み合わせはどれか。',
-//             choices:['タクロリムス+ミコフェノールモフェチル+プレドニゾン','シクロスポリン+アザチオプリン+プレドニゾン','タクロリムス+ラパマイシン+プレドニゾン','シクロスポリン+サイクロフォスファマイド+プレドニゾン','タクロリムス+アザチオプリン+プレドニゾン'],
-//             answerImg: [],
-//             answer: 'タクロリムス+ミコフェノールモフェチル+プレドニゾン',
-//             commentary: '本邦の心臓移植後の免疫抑制療法で、現在最も多く用いられている組み合わせはタクロリムス+ミコフェノールモフェチル+プレドニゾンです。'
-//         },{
-//             detailInfo: '22.',
-//             questionImg: [],
-//             questionSentence: '本邦における心臓移植の適応疾患で多いものを3つ選べ。',
-//             choices:['虚血性心筋症','拘束型心筋症','心筋炎後心筋症','拡張相肥大型心筋症','拡張型心筋症'],
-//             answerImg: [],
-//             answer: '虚血性心筋症,心筋炎後心筋症,拡張型心筋症',
-//             commentary: '本邦における心臓移植の適応疾患で多いものは虚血性心筋症、心筋炎後心筋症、拡張型心筋症です。'
-//         },{
-//             detailInfo: '23.',
-//             questionImg: [],
-//             questionSentence: '間葉系幹細胞について、最も適切な記述を一つ選べ。',
-//             choices:['体外培養すると、事実上回数制限なく増殖する。','骨髄において造血幹細胞が損傷を受けると、間葉系幹細胞が機能を代替する。','発生学的には主に咽頭嚢に由来する。','現在までに知られているニッチは、骨髄と歯髄の「二つの髄」である。','上記に適切な記述はない。'],
-//             answerImg: [],
-//             answer: '上記に適切な記述はない。',
-//             commentary: '間葉系幹細胞に関して、上記に適切な記述はないです。'
-//         },{
-//             detailInfo: '24.',
-//             questionImg: [],
-//             questionSentence: '造血幹細胞が肝臓を主要な造血の場とする時期について、最も適切な記述を一つ選べ。',
-//             choices:['発生第2週','発生第4週','発生第16週','発生第32週','上記に適切な記述はない。'],
-//             answerImg: [],
-//             answer: '発生第16週',
-//             commentary: '造血幹細胞が肝臓を主要な造血の場とする時期は発生第16週です。'
-//         },{
-//             detailInfo: '25.',
-//             questionImg: [],
-//             questionSentence: '腎代替療法の腎移植の長所として誤っているものを2つ選べ。',
-//             choices:['生命予後改善','QOL改善','COVID-19 の重症化が少ない','医療費軽減'],
-//             answerImg: [],
-//             answer: 'COVID-19 の重症化が少ない,医療費軽減',
-//             commentary: '腎代替療法の腎移植の長所として誤っているものはCOVID-19 の重症化が少ないと医療費軽減です。'
-//         },{
-//             detailInfo: '26.',
-//             questionImg: [],
-//             questionSentence: '腎移植術について正しいものを3つ選べ。',
-//             choices:['生体腎移植ドナーの腎採取術では通常、静脈が長い左腎を採取する。','生体腎移植ドナーの腎採取術では低侵襲の内視鏡下手術が多く施行されている。','腎移植術では通常左腎を摘出してドナーの左腎を移植するが尿管が短い場合、尿管-尿管吻合を行う。','献腎移植では腎機能を温存するため、予め大動脈にカテーテルを挿入し、心停止後体内で腎臓を灌流する。','脳死下の多臓器摘出では、許容阻血時間が短い心臓、肺摘出の次に腎臓を摘出する。'],
-//             answerImg: [],
-//             answer: '生体腎移植ドナーの腎採取術では低侵襲の内視鏡下手術が多く施行されている。,献腎移植では腎機能を温存するため、予め大動脈にカテーテルを挿入し、心停止後体内で腎臓を灌流する。,脳死下の多臓器摘出では、許容阻血時間が短い心臓、肺摘出の次に腎臓を摘出する。',
-//             commentary: '腎移植術に関して、生体腎移植ドナーの腎採取術では低侵襲の内視鏡下手術が多く施行されている。献腎移植では腎機能を温存するため、予め大動脈にカテーテルを挿入し、心停止後体内で腎臓を灌流する。脳死下の多臓器摘出では、許容阻血時間が短い心臓、肺摘出の次に腎臓を摘出する。'
-//         },{
 //             detailInfo: '27.',
 //             questionImg: [],
 //             questionSentence: '日本臓器移植ネットワークの事業を3つ選べ。',
