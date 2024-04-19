@@ -1332,6 +1332,7 @@ export const useQuestionList = () => {
                     questionSentence: 'Choose the visual angle when the visual acuity is 0.5.',
                     choices: ['1 minute','2 minutes', '3 minutes', '5 minutes', '10 minutes'],
                     commentary:'視力が0.5のときの視角を選べ。 選択肢:1. 1分 2. 2分 3. 3分 4. 5分 5. 10分 答え:2分',
+                    answer:'2 minutes'
         },{
             detailInfo: '2.',
             questionSentence: 'A person with a visual acuity of 0.7 (1.2×S+2.0D) needs a lens with a degree of',
@@ -1623,8 +1624,8 @@ export const useQuestionList = () => {
             detailInfo: '2.',
             questionSentence: '鼻副鼻腔の解剖に関して正しいのはどれか。3つ選べ。',
             choices:['上顎洞自然口は中鼻道に開口する。','蝶形洞は蜂巣状になっていることが多い。','Kiesselbach部位は鼻腔前方の鼻中隔に存在する。','前篩骨動脈は内頸動脈から分枝される。','鼻涙管は上鼻道に開口する。'],
-            answer:'上顎洞自然口は中鼻道に開口する。,Kieselbach部位は鼻腔前方の鼻中隔に存在する。,前篩骨動脈は内頸動脈から分枝される。',
-            commentary:'峰巣状になるのは蝶形骨洞と篩骨洞。鼻涙管は下鼻道に開口する。'
+            answer:'上顎洞自然口は中鼻道に開口する。,蝶形洞は蜂巣状になっていることが多い。,Kieselbach部位は鼻腔前方の鼻中隔に存在する。',
+            commentary:'峰巣状になるのは蝶形骨洞と篩骨洞。鼻涙管は下鼻道に開口する。前篩骨動脈は内頸動脈から分岐する眼動脈から分岐する。',
         },{
             detailInfo: '3.',
             questionSentence: '良性発作性頭位めまい症の特徴として誤っているものはどれか。',
@@ -1706,7 +1707,8 @@ export const useQuestionList = () => {
             questionImg: [otorhinolalyngology2315],
             questionSentence: '46歳女性。 歯周炎で近医歯科にて治療を行っていた。 1週間前から右鼻に悪臭を感じるようになり、膿性鼻汁が多くなった。 昨日より右頬部痛を認めるようになったため受診した。 既往歴は特にない。 CT の冠状断を以下に示す。 この疾患の治療として適切なものを2つ選べ。',
             choices:['抗真菌薬投与','歯科治療','内視鏡下副鼻腔手術','上顎全摘','放射線治療'],
-            commentary:'口腔から上顎洞に細菌感染が広がって、副鼻腔炎を引き起こしている所見。治療として、歯科治療・内視鏡手術・抗菌薬投与などが選択される。抗真菌薬は効果がない。'
+            commentary:'口腔から上顎洞に細菌感染が広がって、副鼻腔炎を引き起こしている所見。治療として、歯科治療・内視鏡手術・抗菌薬投与などが選択される。抗真菌薬は効果がない。',
+            answer:'歯科治療、内視鏡下副鼻腔手術'
         },{
             detailInfo: '16.',
             questionSentence: '75歳女性。 2ヶ月前に左耳閉感があり近医耳鼻科で鼓膜チューブ留置術を施行された。 1週間前に左頸部腫瘤を自覚し呂律困難が出現したので受診した。 左頸部腫瘤は固く固着しており、舌左側への偏位を認め舌下神経麻痺と考えられた。 滲出性中耳炎・舌下神経麻痺・頸部腫瘤をきたす疾患として最も考えられる疾患はどれか。1つ選べ。',
