@@ -574,7 +574,7 @@ export const useQuestionList = () => {
                 },{
                     detailInfo: '19.',
                     questionImg: [],
-                    questionSentence: 'Which of the following is correct about ossification if the posterior longitudinal ligament of the cervical spine(OPLL)?',
+                    questionSentence: 'Which of the following is correct about ossification of the posterior longitudinal ligament(OPLL) of the cervical spine?',
                     choices: ['it occurs more frequently in women', 'it is more common in young people', 'it is a designated intractable disease of the country', 'the incidence in Westerners is higher than in Japanese', 'ligament ossification in the thoracic or lumbar spine does not coexist'],
                     answerImg: [],
                     answer: 'it is a designated intractable disease of the country',
