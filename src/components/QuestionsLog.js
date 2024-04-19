@@ -759,7 +759,7 @@ export const QuestionsLog = ({
                 top: element.scrollHeight - element.clientHeight,
                 behavior: 'smooth',
               })
-            }, 100)
+            }, 700)
           }}
         >
           次の問題へ
