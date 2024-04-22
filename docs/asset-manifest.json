@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-orthopedics/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-orthopedics/static/js/main.6e431b5f.js",
+    "main.js": "/anywhere-orthopedics/static/js/main.183c60fb.js",
     "static/media/anatomyHand.png": "/anywhere-orthopedics/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-orthopedics/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/causeOfVisualImpairment.png": "/anywhere-orthopedics/static/media/causeOfVisualImpairment.66a777cfd3a9234e3696.png",
@@ -12,6 +12,7 @@
     "static/media/ITPTreatment3.png": "/anywhere-orthopedics/static/media/ITPTreatment3.6bd98429bbc31a84ccf8.png",
     "static/media/neuroMyelitisOptica.png": "/anywhere-orthopedics/static/media/neuroMyelitisOptica.39040a2587a72e99658f.png",
     "static/media/carcineurin.png": "/anywhere-orthopedics/static/media/carcineurin.22f761ec5b5c12481745.png",
+    "static/media/footAnatomy.png": "/anywhere-orthopedics/static/media/footAnatomy.2fc336601ad5fda09f50.png",
     "static/media/nicheHSC.png": "/anywhere-orthopedics/static/media/nicheHSC.7554085e1d86a7dd1733.png",
     "static/media/osteoarthritis.png": "/anywhere-orthopedics/static/media/osteoarthritis.1e1ab8e7818e52213072.png",
     "static/media/stemCellReport.png": "/anywhere-orthopedics/static/media/stemCellReport.b26d452b5e4bf4239185.png",
@@ -194,10 +195,10 @@
     "static/media/coagulationFactors.png": "/anywhere-orthopedics/static/media/coagulationFactors.66d2a2d93491ec8f1f40.png",
     "index.html": "/anywhere-orthopedics/index.html",
     "main.f6d056aa.css.map": "/anywhere-orthopedics/static/css/main.f6d056aa.css.map",
-    "main.6e431b5f.js.map": "/anywhere-orthopedics/static/js/main.6e431b5f.js.map"
+    "main.183c60fb.js.map": "/anywhere-orthopedics/static/js/main.183c60fb.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.6e431b5f.js"
+    "static/js/main.183c60fb.js"
   ]
 }

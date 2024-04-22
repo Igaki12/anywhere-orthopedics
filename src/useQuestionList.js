@@ -1,3 +1,4 @@
+import footAnatomy from './img/answer/footAnatomy.png';
 import skinFlapType from './img/answer/skinFlapType.png';
 import liverTransplantation from './img/answer/liverTransplantation.png';
 import skinTransplantation from './img/answer/skinTransplantation.png';
@@ -293,9 +294,9 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '足部において、基節骨と中足骨を連結する関節はどのように呼ばれるか。',
                     choices: ['遠位趾節(DIP)関節', '近位趾節(PIP)関節', '中足趾節(MTP)関節', 'Lisfranc関節', 'Chopart関節'],
-                    answerImg: [],
-                    answer: 'Lisfranc関節',
-                    commentary: '足部において、基節骨と中足骨を連結する関節はLisfranc関節である。',
+                    answerImg: [footAnatomy],
+                    answer: '中足趾節(MTP)関節',
+                    commentary: '足部において、基節骨と中足骨を連結する関節は中足趾節(MTP)関節である。遠位趾節(DIP)関節は趾先の関節、近位趾節(PIP)関節は趾の第2関節、Lisfranc関節は中足骨と踵骨を連結する関節、Chopart関節は踵骨と中足骨を連結する関節である。',
                 },{
                     detailInfo: '13.',
                     questionImg: [],
@@ -756,7 +757,7 @@ export const useQuestionList = () => {
                     questionSentence: '骨Paget病について正しいのはどれか。3つ選べ。',
                     choices: ['単純エックス線上、骨吸収と修復の像がみられる。','アジアに多く見られる。', 'パラミクソウイルスの関与が指摘されている。', 'アルカリフォスファターゼは増加を示す。', 'ビスフォスフォネート製剤の有効性がある。'],
                     answerImg: [pagetBone],
-                    answer: '単純エックス線上、骨吸収と修復の像がみられる,アルカリフォスファターゼは増加を示す,ビスフォスフォネート製剤の有効性がある',
+                    answer: 'パラミクソウイルスの関与が指摘されている,アルカリフォスファターゼは増加を示す,ビスフォスフォネート製剤の有効性がある',
                     commentary: '骨Paget病は単純X線では骨吸収と硬化が混在するモザイク像が見られ、白人に多くアジア人には稀の疾患。パラミクソウイルスの関与が示唆されていて、ALP(アルカリホスファターゼ)は増加を示す。治療には、鎮痛薬や骨吸収に対してビスフォスフォネート剤が用いられる。',
                 },{
                     detailInfo: '12.',
