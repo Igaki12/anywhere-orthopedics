@@ -224,7 +224,7 @@ export const useQuestionList = () => {
                     choices: ['DIP joint of little finger', 'PIP joint of ring finger', 'MCP joint of middle finger', 'CM joint of index finger', 'IP joint of thumb'],
                     answerImg: [],
                     answer: 'PIP joint of ring finger',
-                    commentary: '指の関節の中で最も大きな受動運動範囲を持つのは中指のPIP関節である。',
+                    commentary: '指の関節の中で最も大きな受動運動範囲を持つのは、薬指のPIP関節である。実際に動かすとわかりやすい。' 
                 },{
                     detailInfo: '4.',
                     questionImg: [],
@@ -285,7 +285,7 @@ export const useQuestionList = () => {
                     detailInfo: '11.',
                     questionImg: [],
                     questionSentence: '骨Paget病について正しいのはどれか。3つ選べ。',
-                    choices: ['単純エックス線上、骨吸収と修復の像がみられる', 'アジアに多く見られる。白人', 'パラミクソウイルスの関与が指摘されている', 'アルカリフォスファターゼは増加を示す', 'ビスフォスフォネート製剤の有効性がある'],
+                    choices: ['単純エックス線上、骨吸収と修復の像がみられる', 'アジアに多く見られる。', 'パラミクソウイルスの関与が指摘されている', 'アルカリフォスファターゼは増加を示す', 'ビスフォスフォネート製剤の有効性がある'],
                     answerImg: [pagetBone],
                     answer: 'パラミクソウイルスの関与が指摘されている,アルカリフォスファターゼは増加を示す,ビスフォスフォネート製剤の有効性がある',
                     commentary: 'Paget病は、骨吸収と過剰骨形成が交互に繰り返される骨疾患である。アルカリフォスファターゼが増加し、ビスフォスフォネート製剤が有効である。白人に多く、パラミクソウイルスの関与が指摘されている。',
@@ -521,10 +521,9 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: 'Which of the following is correct about the joint connecting the metacarpal bone and the proximal phalanx in the foot?',
                     choices: ['Distal interphalangeal (DIP) joint', 'Proximal interphalangeal (PIP) joint', 'Metatarsophalangeal (MTP) joint', 'Lisfranc joint', 'Chopart joint'],
-                    answerImg: [],
-                    answer: 'Lisfranc joint',
-                    commentary:'足部において、基節骨と中足骨を連結する関節はどのように呼ばれるか。　選択肢：1.遠位趾節(DIP)関節、2.近位趾節(PIP)関節、3.中足趾節(MTP)関節、4.Lisfranc関節、5.Chopart関節。　答え：Lisfranc関節。　足部において、基節骨と中足骨を連結する関節はLisfranc関節である。',
-                },{
+                    answerImg: [footAnatomy],
+                    answer: 'Metatarsophalangeal (MTP) joint',
+                    commentary:'足部において、基節骨と中足骨を連結する関節はどのように呼ばれるか。　選択肢：1.遠位趾節(DIP)関節、2.近位趾節(PIP)関節、3.中足趾節(MTP)関節、4.Lisfranc関節、5.Chopart関節。　答え：中足趾節(MTP)関節。　中足趾節(MTP)関節は、基節骨と中足骨を連結する関節である。遠位趾節(DIP)関節は趾の第2関節、近位趾節(PIP)関節は趾の第1関節、Lisfranc関節は中足骨と踵骨を連結する関節、Chopart関節は踵骨と距骨を連結する関節である。',
                     detailInfo: '13.',
                     questionImg: [],
                     questionSentence: 'Which of the following is an inappropriate internal factor for hallux valgus?',
